@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-19",
+  "dashboardCrop": {
+    "left": 0,
+    "top": 0,
+    "width": 390,
+    "height": 650,
+    "changedPixels": 0
+  },
+  "trackerMatchesGameCentre": true,
+  "final": {
+    "gameId": "espn-401859964",
+    "participants": 30,
+    "status": "completed",
+    "stale": false
+  },
+  "imageHost": "a.espncdn.com",
+  "optimizedPortraitHTTP": 200,
+  "upcoming": {
+    "gameId": "espn-401909088",
+    "participants": 35,
+    "allProvisional": true
+  },
+  "gameOverviewCrop": {
+    "left": 0,
+    "top": 0,
+    "width": 390,
+    "height": 650,
+    "changedPixels": 398,
+    "baseline": "stage-c-overview-390.png"
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "scenario": "contrast-1440-current",
+    "minimumMutedTextContrast": 6.36
+  },
+  {
+    "scenario": "contrast-1440-white-stress",
+    "minimumMutedTextContrast": 5.84
+  },
+  {
+    "scenario": "contrast-390-current",
+    "minimumMutedTextContrast": 6.38
+  },
+  {
+    "scenario": "contrast-390-white-stress",
+    "minimumMutedTextContrast": 5.85
+  }
+]

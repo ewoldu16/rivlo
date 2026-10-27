@@ -1,0 +1,18 @@
+import {array,object,text,mapStandings,mapSchedule} from './ecosystem-mapping';
+import {metricDefinitions,type ComparisonSide} from '../../domain/team-comparison';
+export function recordFromSummary(summary:unknown){if(typeof summary!=='string'||!/^\d{1,3}-\d{1,3}$/.test(summary))return null;const [wins,losses]=summary.split('-').map(Number);return {wins,losses,pct:wins+losses?100*wins/(wins+losses):null};}
+export function comparisonStandings(raw:unknown,season:number,phase:number,id:string,setting:'home'|'road'){
+ const rows=mapStandings(raw,season,phase),row=rows.find(r=>r.team.id===id);if(!row)return {standing:null,split:null,metrics:[]};
+ const entries=array(object(raw).children).flatMap(c=>array(object(object(c).standings).entries).map(object)),entry=entries.find(e=>text(object(e.team).id)===id.replace('espn-team-','')),stats=array(entry?.stats).map(object);
+ const record=row.wins!==null&&row.losses!==null?recordFromSummary(`${row.wins}-${row.losses}`):null,started=!!record&&(record.wins+record.losses)>0;
+ const metrics:ComparisonSide['metrics']=started?['avgPointsFor','avgPointsAgainst'].flatMap(key=>{const stat=stats.find(s=>s.name===key);if(!stat||typeof stat.value!=='number'||!Number.isFinite(stat.value)||stat.value<0)return [];return [{key:key==='avgPointsFor'?'avgPoints':'avgPointsAgainst',value:stat.value,display:stat.value.toFixed(1),source:'standings'}] as ComparisonSide['metrics']}):[];
+ return {standing:{conference:row.conference,rank:row.rank,record},split:recordFromSummary(stats.find(s=>s.type===setting)?.summary),metrics};
+}
+export function comparisonStatistics(raw:unknown,id:string,season:number,phase:number):ComparisonSide['metrics']{
+ const d=object(raw),s=object(d.requestedSeason||d.season);if(s.year!==season||s.type!==phase||text(object(d.team).id)!==id.replace('espn-team-',''))throw Error('Statistic team, season or competition mismatch.');
+ const stats=array(object(object(d.results).stats).categories).flatMap(c=>array(object(c).stats).map(object));
+ const played=stats.find(s=>s.name==='gamesPlayed');if(played&&(!Number.isFinite(Number(played.value))||Number(played.value)<=0))return [];
+ return metricDefinitions.flatMap(def=>{const names=def.key==='threePointPct'?['threePointPct','threePointFieldGoalPct']:def.key==='avgPoints'?['avgPoints','avgPointsFor']:[def.key];const stat=names.map(n=>stats.find(s=>s.name===n)).find(Boolean);if(!stat)return [];const display=text(stat.displayValue).trim().replace(/%$/,'');if(!/^\d+(\.\d+)?$/.test(display))return [];const value=Number(display);if(def.unit==='percent'&&value>100)return [];return [{key:def.key,value,display:display+(def.unit==='percent'?'%':''),source:'team-statistics' as const}]});
+}
+/** Keep valid published results without treating a partial schedule as a full split. */
+export function comparisonSchedule(raw:unknown,id:string,season:number,phase:number){const d=object(raw);mapSchedule({...d,events:[]},id,season,phase);let omitted=0;const games=array(d.events).flatMap(event=>{try{const e=object(event),competitions=array(e.competitions).map(raw=>{const c=object(raw);return {...c,competitors:array(c.competitors).map(raw=>{const team=object(raw);return {...team,record:undefined,records:array(team.records||team.record).flatMap(raw=>{const r=object(raw),summary=text(r.summary||r.displayValue);return /^\d+-\d+$/.test(summary)?[{type:text(r.type),summary}]:[]})}})}});const [game]=mapSchedule({...d,events:[{...e,competitions}]},id,season,phase);if(game.home!=='espn-team-'+id&&game.away!=='espn-team-'+id)throw Error('Unrelated team');return [game]}catch{omitted++;return []}});return {games,omitted};}

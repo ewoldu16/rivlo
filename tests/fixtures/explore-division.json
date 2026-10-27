@@ -1,0 +1,647 @@
+{
+  "meta": {
+    "id": "9",
+    "name": "Southeast",
+    "isConference": false
+  },
+  "standings": {
+    "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/types/2/groups/9/standings/0?lang=en&region=us",
+    "standings": [
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/1?lang=en&region=us"
+        },
+        "records": [
+          {
+            "stats": [
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/14?lang=en&region=us"
+        },
+        "records": [
+          {
+            "stats": [
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/19?lang=en&region=us"
+        },
+        "records": [
+          {
+            "stats": [
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/27?lang=en&region=us"
+        },
+        "records": [
+          {
+            "stats": [
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/30?lang=en&region=us"
+        },
+        "records": [
+          {
+            "stats": [
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          },
+          {
+            "stats": [
+              {
+                "name": "wins",
+                "displayName": "Wins",
+                "shortDisplayName": "W",
+                "description": "Wins",
+                "abbreviation": "W",
+                "type": "wins",
+                "value": 0,
+                "displayValue": "0"
+              },
+              {
+                "name": "losses",
+                "displayName": "Losses",
+                "shortDisplayName": "L",
+                "description": "Losses",
+                "abbreviation": "L",
+                "type": "losses",
+                "value": 0,
+                "displayValue": "0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

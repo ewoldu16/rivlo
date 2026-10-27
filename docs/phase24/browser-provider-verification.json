@@ -1,0 +1,35 @@
+[
+  {
+    "receivedAt": "2026-10-20T23:55:44.549Z",
+    "gameId": "espn-401909089",
+    "status": "in-progress",
+    "score": [
+      26,
+      27
+    ],
+    "events": 152,
+    "boxPlayers": 28
+  },
+  {
+    "receivedAt": "2026-10-20T23:55:55.103Z",
+    "gameId": "espn-401909089",
+    "status": "in-progress",
+    "score": [
+      26,
+      27
+    ],
+    "events": 153,
+    "boxPlayers": 28
+  },
+  {
+    "receivedAt": "2026-10-20T23:55:58.493Z",
+    "gameId": "espn-401909088",
+    "status": "completed",
+    "score": [
+      113,
+      121
+    ],
+    "events": 499,
+    "boxPlayers": 28
+  }
+]

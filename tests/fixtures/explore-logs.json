@@ -1,0 +1,123 @@
+{
+  "filters": [
+    {
+      "name": "league",
+      "value": "nba"
+    },
+    {
+      "name": "season",
+      "value": "2027"
+    }
+  ],
+  "names": [
+    "minutes",
+    "fieldGoalsMade-fieldGoalsAttempted",
+    "fieldGoalPct",
+    "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+    "threePointPct",
+    "freeThrowsMade-freeThrowsAttempted",
+    "freeThrowPct",
+    "totalRebounds",
+    "assists",
+    "blocks",
+    "steals",
+    "fouls",
+    "turnovers",
+    "points"
+  ],
+  "labels": [
+    "MIN",
+    "FG",
+    "FG%",
+    "3PT",
+    "3P%",
+    "FT",
+    "FT%",
+    "REB",
+    "AST",
+    "BLK",
+    "STL",
+    "PF",
+    "TO",
+    "PTS"
+  ],
+  "seasonTypes": [
+    {
+      "displayName": "2026-27 Preseason",
+      "categories": [
+        {
+          "displayName": "Preseason",
+          "type": "event",
+          "events": [
+            {
+              "eventId": "401898407",
+              "stats": [
+                "25",
+                "4-9",
+                "44.4",
+                "0-2",
+                "0.0",
+                "0-3",
+                "0.0",
+                "8",
+                "7",
+                "0",
+                "1",
+                "1",
+                "4",
+                "8"
+              ]
+            },
+            {
+              "eventId": "401901823",
+              "stats": [
+                "18",
+                "1-1",
+                "100.0",
+                "0-0",
+                "0.0",
+                "8-8",
+                "100.0",
+                "4",
+                "5",
+                "0",
+                "1",
+                "1",
+                "2",
+                "10"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": {
+    "401898407": {
+      "gameDate": "2026-10-16T23:00:00.000+00:00",
+      "team": {
+        "id": "20",
+        "abbreviation": "PHI"
+      },
+      "opponent": {
+        "id": "2",
+        "displayName": "Boston Celtics",
+        "abbreviation": "BOS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
+      }
+    },
+    "401901823": {
+      "gameDate": "2026-10-08T23:30:00.000+00:00",
+      "team": {
+        "id": "20",
+        "abbreviation": "PHI"
+      },
+      "opponent": {
+        "id": "17",
+        "displayName": "Brooklyn Nets",
+        "abbreviation": "BKN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"
+      }
+    }
+  }
+}

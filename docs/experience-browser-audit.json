@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-19",
+  "errors": [],
+  "audit": [
+    {
+      "width": 390,
+      "name": "scores",
+      "overflow": false,
+      "cls": 0.05321412712756124
+    },
+    {
+      "width": 390,
+      "name": "game",
+      "overflow": false,
+      "cls": 0
+    },
+    {
+      "width": 390,
+      "name": "roster",
+      "overflow": false,
+      "cls": 0.0012906614510352073
+    },
+    {
+      "width": 390,
+      "name": "viewer",
+      "animations": [
+        {
+          "class": "ui-photo-image",
+          "duration": 240,
+          "frames": [
+            {
+              "transform": "translate(-155px,123.984375px) scale(0.16774193548387098)",
+              "opacity": 0.55
+            },
+            {
+              "transform": "translate(0,0) scale(1)",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "loaded": true,
+      "bodyLocked": "hidden"
+    },
+    {
+      "width": 390,
+      "name": "profile",
+      "overflow": false,
+      "cls": 0.008006745733988829
+    },
+    {
+      "width": 390,
+      "name": "tracker",
+      "overflow": false,
+      "cls": 0.00008761632097126161
+    },
+    {
+      "width": 768,
+      "name": "scores",
+      "overflow": false,
+      "cls": 0.031031000000000003
+    },
+    {
+      "width": 768,
+      "name": "game",
+      "overflow": false,
+      "cls": 0
+    },
+    {
+      "width": 768,
+      "name": "roster",
+      "overflow": false,
+      "cls": 0.00046687500000000006
+    },
+    {
+      "width": 768,
+      "name": "profile",
+      "overflow": false,
+      "cls": 0.005642334574381511
+    },
+    {
+      "width": 768,
+      "name": "tracker",
+      "overflow": false,
+      "cls": 0.0000316937255859375
+    },
+    {
+      "width": 1024,
+      "name": "scores",
+      "overflow": false,
+      "cls": 0.023216552734375003
+    },
+    {
+      "width": 1024,
+      "name": "game",
+      "overflow": false,
+      "cls": 0
+    },
+    {
+      "width": 1024,
+      "name": "roster",
+      "overflow": false,
+      "cls": 0.000341949462890625
+    },
+    {
+      "width": 1024,
+      "name": "profile",
+      "overflow": false,
+      "cls": 0.004238984718918801
+    },
+    {
+      "width": 1024,
+      "name": "tracker",
+      "overflow": false,
+      "cls": 0.00003481976687908173
+    },
+    {
+      "width": 1440,
+      "name": "scores",
+      "overflow": false,
+      "cls": 0
+    },
+    {
+      "width": 1440,
+      "name": "game",
+      "overflow": false,
+      "cls": 0
+    },
+    {
+      "width": 1440,
+      "name": "roster",
+      "overflow": false,
+      "cls": 0.00017291666666666668
+    },
+    {
+      "width": 1440,
+      "name": "viewer",
+      "animations": [
+        {
+          "class": "ui-photo-image",
+          "duration": 240,
+          "frames": [
+            {
+              "transform": "translate(-62px,-68.1171875px) scale(0.09059233449477352)",
+              "opacity": 0.55
+            },
+            {
+              "transform": "translate(0,0) scale(1)",
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "loaded": true,
+      "bodyLocked": "hidden"
+    },
+    {
+      "width": 1440,
+      "name": "profile",
+      "overflow": false,
+      "cls": 0.003262856452847705
+    },
+    {
+      "width": 1440,
+      "name": "tracker",
+      "overflow": false,
+      "cls": 0.000017607625325520832
+    },
+    {
+      "width": 1920,
+      "name": "scores",
+      "overflow": false,
+      "cls": 0
+    },
+    {
+      "width": 1920,
+      "name": "game",
+      "overflow": false,
+      "cls": 0
+    },
+    {
+      "width": 1920,
+      "name": "roster",
+      "overflow": false,
+      "cls": 0.00009726562500000001
+    },
+    {
+      "width": 1920,
+      "name": "profile",
+      "overflow": false,
+      "cls": 0.001956433889600966
+    },
+    {
+      "width": 1920,
+      "name": "tracker",
+      "overflow": false,
+      "cls": 0.00000990428924560547
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "at": "2026-10-18T17:43:48.046Z",
+  "uniquePlayers": 539,
+  "headshotCandidates": 532,
+  "verifiedImageSeasons": 0,
+  "teams": [
+    {
+      "id": "17",
+      "rosterPhase": "Preseason",
+      "name": "Brooklyn Nets",
+      "rosterVerified": true,
+      "players": 18,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Atlantic",
+      "warnings": [
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "2",
+      "rosterPhase": "Preseason",
+      "name": "Boston Celtics",
+      "rosterVerified": true,
+      "players": 17,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Atlantic",
+      "warnings": [
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "30",
+      "rosterPhase": "Preseason",
+      "name": "Charlotte Hornets",
+      "rosterVerified": true,
+      "players": 17,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Southeast",
+      "warnings": [
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "1",
+      "rosterPhase": "Preseason",
+      "name": "Atlanta Hawks",
+      "rosterVerified": true,
+      "players": 18,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Southeast",
+      "warnings": [
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "4",
+      "rosterPhase": "Preseason",
+      "name": "Chicago Bulls",
+      "rosterVerified": true,
+      "players": 18,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Central",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "6",
+      "rosterPhase": "Preseason",
+      "name": "Dallas Mavericks",
+      "rosterVerified": true,
+      "players": 19,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Southwest",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "5",
+      "rosterPhase": "Preseason",
+      "name": "Cleveland Cavaliers",
+      "rosterVerified": true,
+      "players": 17,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Central",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "7",
+      "rosterPhase": "Preseason",
+      "name": "Denver Nuggets",
+      "rosterVerified": true,
+      "players": 17,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Northwest",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "8",
+      "rosterPhase": "Preseason",
+      "name": "Detroit Pistons",
+      "rosterVerified": true,
+      "players": 18,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Central",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "11",
+      "rosterPhase": "Preseason",
+      "name": "Indiana Pacers",
+      "rosterVerified": true,
+      "players": 17,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Central",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "9",
+      "rosterPhase": "Preseason",
+      "name": "Golden State Warriors",
+      "rosterVerified": true,
+      "players": 18,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Pacific",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "10",
+      "rosterPhase": "Preseason",
+      "name": "Houston Rockets",
+      "rosterVerified": true,
+      "players": 19,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Southwest",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "14",
+      "rosterPhase": "Preseason",
+      "name": "Miami Heat",
+      "rosterVerified": true,
+      "players": 20,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Southeast",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "29",
+      "rosterPhase": "Preseason",
+      "name": "Memphis Grizzlies",
+      "rosterVerified": true,
+      "players": 20,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Southwest",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "13",
+      "rosterPhase": "Preseason",
+      "name": "Los Angeles Lakers",
+      "rosterVerified": true,
+      "players": 19,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Pacific",
+      "warnings": [
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "12",
+      "rosterPhase": "Preseason",
+      "name": "LA Clippers",
+      "rosterVerified": true,
+      "players": 18,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Pacific",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "18",
+      "rosterPhase": "Preseason",
+      "name": "New York Knicks",
+      "rosterVerified": true,
+      "players": 17,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Atlantic",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "3",
+      "rosterPhase": "Preseason",
+      "name": "New Orleans Pelicans",
+      "rosterVerified": true,
+      "players": 19,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Southwest",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "15",
+      "rosterPhase": "Preseason",
+      "name": "Milwaukee Bucks",
+      "rosterVerified": true,
+      "players": 19,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Central",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "16",
+      "rosterPhase": "Preseason",
+      "name": "Minnesota Timberwolves",
+      "rosterVerified": true,
+      "players": 16,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Northwest",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "20",
+      "rosterPhase": "Preseason",
+      "name": "Philadelphia 76ers",
+      "rosterVerified": true,
+      "players": 17,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Atlantic",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "21",
+      "rosterPhase": "Preseason",
+      "name": "Phoenix Suns",
+      "rosterVerified": true,
+      "players": 18,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Pacific",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "19",
+      "rosterPhase": "Preseason",
+      "name": "Orlando Magic",
+      "rosterVerified": true,
+      "players": 18,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Southeast",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "25",
+      "rosterPhase": "Preseason",
+      "name": "Oklahoma City Thunder",
+      "rosterVerified": true,
+      "players": 18,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Northwest",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "22",
+      "rosterPhase": "Preseason",
+      "name": "Portland Trail Blazers",
+      "rosterVerified": true,
+      "players": 18,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Northwest",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "28",
+      "rosterPhase": "Preseason",
+      "name": "Toronto Raptors",
+      "rosterVerified": true,
+      "players": 16,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Atlantic",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "24",
+      "rosterPhase": "Preseason",
+      "name": "San Antonio Spurs",
+      "rosterVerified": true,
+      "players": 17,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Southwest",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "23",
+      "rosterPhase": "Preseason",
+      "name": "Sacramento Kings",
+      "rosterVerified": true,
+      "players": 17,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Pacific",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "26",
+      "rosterPhase": "Preseason",
+      "name": "Utah Jazz",
+      "rosterVerified": true,
+      "players": 19,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Northwest",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    },
+    {
+      "id": "27",
+      "rosterPhase": "Preseason",
+      "name": "Washington Wizards",
+      "rosterVerified": true,
+      "players": 20,
+      "schedule": 80,
+      "regularRecord": [
+        0,
+        0
+      ],
+      "division": "Southeast",
+      "warnings": [
+        "Leaders: ESPN is unavailable or returned an unreadable response. Please try again.",
+        "Team statistics: ESPN is unavailable or returned an unreadable response. Please try again."
+      ]
+    }
+  ],
+  "player": {
+    "name": "Luka Doncic",
+    "team": "espn-team-13",
+    "verified": true,
+    "logs": 3,
+    "averages": [
+      {
+        "key": "points",
+        "label": "PPG",
+        "value": "19.7"
+      },
+      {
+        "key": "totalRebounds",
+        "label": "RPG",
+        "value": "3.0"
+      },
+      {
+        "key": "assists",
+        "label": "APG",
+        "value": "2.7"
+      }
+    ]
+  }
+}

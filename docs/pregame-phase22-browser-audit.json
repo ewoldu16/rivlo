@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-20",
+  "errors": [],
+  "audit": [
+    {
+      "width": 390,
+      "overflow": false,
+      "modalOverflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "modalOverflow": false
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "modalOverflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "modalOverflow": false
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "modalOverflow": false
+    }
+  ],
+  "source": "Actual production app; Europe/London browser timezone; no request interception"
+}

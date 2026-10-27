@@ -1,0 +1,1011 @@
+{
+  "date": "2026-10-20",
+  "source": "Actual production responses, existing ESPN services. Historical comparison response is an API audit, not a reconstructed historical pregame screen.",
+  "sources": [
+    {
+      "status": 200,
+      "data": {
+        "gameId": "espn-401909088",
+        "source": "ESPN",
+        "season": 2027,
+        "phase": 2,
+        "asOf": "2026-10-19T23:46:54.978Z",
+        "cutoff": "2026-10-20T19:00:00.000Z",
+        "stale": false,
+        "warnings": [
+          "Home statistics unavailable or not verified for this competition.",
+          "Away statistics unavailable or not verified for this competition."
+        ],
+        "away": {
+          "team": {
+            "id": "espn-team-2",
+            "city": "Boston",
+            "name": "Celtics",
+            "short": "BOS",
+            "color": "#008348",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+          },
+          "metrics": [],
+          "standing": {
+            "conference": "Eastern Conference",
+            "rank": null,
+            "record": {
+              "wins": 0,
+              "losses": 0,
+              "pct": null
+            }
+          },
+          "split": {
+            "wins": 0,
+            "losses": 0,
+            "pct": null
+          },
+          "recent": [],
+          "notes": [
+            "No completed games are recorded for this competition yet."
+          ]
+        },
+        "home": {
+          "team": {
+            "id": "espn-team-8",
+            "city": "Detroit",
+            "name": "Pistons",
+            "short": "DET",
+            "color": "#1d428a",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png"
+          },
+          "metrics": [],
+          "standing": {
+            "conference": "Eastern Conference",
+            "rank": null,
+            "record": {
+              "wins": 0,
+              "losses": 0,
+              "pct": null
+            }
+          },
+          "split": {
+            "wins": 0,
+            "losses": 0,
+            "pct": null
+          },
+          "recent": [],
+          "notes": [
+            "No completed games are recorded for this competition yet."
+          ]
+        },
+        "meetings": [
+          {
+            "id": "espn-401809250",
+            "start": "2026-01-20T01:00:00.000Z",
+            "season": 2026,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-8",
+              "city": "Detroit",
+              "name": "DET",
+              "short": "DET",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png"
+            },
+            "away": {
+              "id": "espn-team-2",
+              "city": "Boston",
+              "name": "BOS",
+              "short": "BOS",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+            },
+            "homeScore": 104,
+            "awayScore": 103
+          },
+          {
+            "id": "espn-401836803",
+            "start": "2025-12-16T00:00:00.000Z",
+            "season": 2026,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-2",
+              "city": "Boston",
+              "name": "BOS",
+              "short": "BOS",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+            },
+            "away": {
+              "id": "espn-team-8",
+              "city": "Detroit",
+              "name": "DET",
+              "short": "DET",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png"
+            },
+            "homeScore": 105,
+            "awayScore": 112
+          },
+          {
+            "id": "espn-401809802",
+            "start": "2025-11-26T22:00:00.000Z",
+            "season": 2026,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-2",
+              "city": "Boston",
+              "name": "BOS",
+              "short": "BOS",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+            },
+            "away": {
+              "id": "espn-team-8",
+              "city": "Detroit",
+              "name": "DET",
+              "short": "DET",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png"
+            },
+            "homeScore": 117,
+            "awayScore": 114
+          },
+          {
+            "id": "espn-401809961",
+            "start": "2025-10-26T19:30:00.000Z",
+            "season": 2026,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-8",
+              "city": "Detroit",
+              "name": "DET",
+              "short": "DET",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png"
+            },
+            "away": {
+              "id": "espn-team-2",
+              "city": "Boston",
+              "name": "BOS",
+              "short": "BOS",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+            },
+            "homeScore": 119,
+            "awayScore": 113
+          }
+        ],
+        "historySeasons": [
+          2027,
+          2026
+        ],
+        "broadcasts": [
+          "NBC"
+        ]
+      }
+    },
+    {
+      "status": 200,
+      "data": {
+        "gameId": "espn-401909089",
+        "source": "ESPN",
+        "season": 2027,
+        "phase": 2,
+        "asOf": "2026-10-19T23:46:54.822Z",
+        "cutoff": "2026-10-20T23:00:00.000Z",
+        "stale": false,
+        "warnings": [
+          "Away statistics unavailable or not verified for this competition.",
+          "Home statistics unavailable or not verified for this competition."
+        ],
+        "away": {
+          "team": {
+            "id": "espn-team-20",
+            "city": "Philadelphia",
+            "name": "76ers",
+            "short": "PHI",
+            "color": "#1d428a",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png"
+          },
+          "metrics": [],
+          "standing": {
+            "conference": "Eastern Conference",
+            "rank": null,
+            "record": {
+              "wins": 0,
+              "losses": 0,
+              "pct": null
+            }
+          },
+          "split": {
+            "wins": 0,
+            "losses": 0,
+            "pct": null
+          },
+          "recent": [],
+          "notes": [
+            "No completed games are recorded for this competition yet."
+          ]
+        },
+        "home": {
+          "team": {
+            "id": "espn-team-18",
+            "city": "New York",
+            "name": "Knicks",
+            "short": "NY",
+            "color": "#1d428a",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png"
+          },
+          "metrics": [],
+          "standing": {
+            "conference": "Eastern Conference",
+            "rank": null,
+            "record": {
+              "wins": 0,
+              "losses": 0,
+              "pct": null
+            }
+          },
+          "split": {
+            "wins": 0,
+            "losses": 0,
+            "pct": null
+          },
+          "recent": [],
+          "notes": [
+            "No completed games are recorded for this competition yet."
+          ]
+        },
+        "meetings": [
+          {
+            "id": "espn-401810635",
+            "start": "2026-02-12T00:30:00.000Z",
+            "season": 2026,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-20",
+              "city": "Philadelphia",
+              "name": "PHI",
+              "short": "PHI",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png"
+            },
+            "away": {
+              "id": "espn-team-18",
+              "city": "New York",
+              "name": "NY",
+              "short": "NY",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png"
+            },
+            "homeScore": 89,
+            "awayScore": 138
+          },
+          {
+            "id": "espn-401810498",
+            "start": "2026-01-24T20:00:00.000Z",
+            "season": 2026,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-20",
+              "city": "Philadelphia",
+              "name": "PHI",
+              "short": "PHI",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png"
+            },
+            "away": {
+              "id": "espn-team-18",
+              "city": "New York",
+              "name": "NY",
+              "short": "NY",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png"
+            },
+            "homeScore": 109,
+            "awayScore": 112
+          },
+          {
+            "id": "espn-401810342",
+            "start": "2026-01-04T00:30:00.000Z",
+            "season": 2026,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-18",
+              "city": "New York",
+              "name": "NY",
+              "short": "NY",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png"
+            },
+            "away": {
+              "id": "espn-team-20",
+              "city": "Philadelphia",
+              "name": "PHI",
+              "short": "PHI",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png"
+            },
+            "homeScore": 119,
+            "awayScore": 130
+          },
+          {
+            "id": "espn-401810237",
+            "start": "2025-12-20T00:00:00.000Z",
+            "season": 2026,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-18",
+              "city": "New York",
+              "name": "NY",
+              "short": "NY",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png"
+            },
+            "away": {
+              "id": "espn-team-20",
+              "city": "Philadelphia",
+              "name": "PHI",
+              "short": "PHI",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png"
+            },
+            "homeScore": 107,
+            "awayScore": 116
+          }
+        ],
+        "historySeasons": [
+          2027,
+          2026
+        ],
+        "broadcasts": [
+          "NBC",
+          "ERADM"
+        ]
+      }
+    },
+    {
+      "status": 200,
+      "data": {
+        "gameId": "espn-401810987",
+        "source": "ESPN",
+        "season": 2026,
+        "phase": 2,
+        "asOf": "2026-10-19T23:46:58.147Z",
+        "cutoff": "2026-04-05T19:30:00.000Z",
+        "stale": false,
+        "warnings": [],
+        "away": {
+          "team": {
+            "id": "espn-team-28",
+            "city": "Toronto",
+            "name": "Raptors",
+            "short": "TOR",
+            "color": "#d91244",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png"
+          },
+          "metrics": [
+            {
+              "key": "avgPoints",
+              "value": 114.6,
+              "display": "114.6",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgPointsAgainst",
+              "value": 111.80488,
+              "display": "111.8",
+              "source": "standings"
+            },
+            {
+              "key": "fieldGoalPct",
+              "value": 48.2,
+              "display": "48.2%",
+              "source": "team-statistics"
+            },
+            {
+              "key": "threePointPct",
+              "value": 35.4,
+              "display": "35.4%",
+              "source": "team-statistics"
+            },
+            {
+              "key": "freeThrowPct",
+              "value": 76.9,
+              "display": "76.9%",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgRebounds",
+              "value": 42.1,
+              "display": "42.1",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgAssists",
+              "value": 29.5,
+              "display": "29.5",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgTurnovers",
+              "value": 12.9,
+              "display": "12.9",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgSteals",
+              "value": 8.8,
+              "display": "8.8",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgBlocks",
+              "value": 4.8,
+              "display": "4.8",
+              "source": "team-statistics"
+            },
+            {
+              "key": "assistTurnoverRatio",
+              "value": 2.3,
+              "display": "2.3",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgOffensiveRebounds",
+              "value": 10.9,
+              "display": "10.9",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgDefensiveRebounds",
+              "value": 31.2,
+              "display": "31.2",
+              "source": "team-statistics"
+            }
+          ],
+          "standing": {
+            "conference": "Eastern Conference",
+            "rank": 6,
+            "record": {
+              "wins": 46,
+              "losses": 36,
+              "pct": 56.09756097560975
+            }
+          },
+          "split": {
+            "wins": 22,
+            "losses": 19,
+            "pct": 53.65853658536585
+          },
+          "recent": [
+            {
+              "id": "espn-401810980",
+              "start": "2026-04-04T00:00:00.000Z",
+              "season": 2026,
+              "phase": 2,
+              "home": {
+                "id": "espn-team-29",
+                "city": "Memphis",
+                "name": "MEM",
+                "short": "MEM",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/mem.png"
+              },
+              "away": {
+                "id": "espn-team-28",
+                "city": "Toronto",
+                "name": "TOR",
+                "short": "TOR",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png"
+              },
+              "homeScore": 96,
+              "awayScore": 128
+            },
+            {
+              "id": "espn-401810963",
+              "start": "2026-04-02T00:00:00.000Z",
+              "season": 2026,
+              "phase": 2,
+              "home": {
+                "id": "espn-team-28",
+                "city": "Toronto",
+                "name": "TOR",
+                "short": "TOR",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png"
+              },
+              "away": {
+                "id": "espn-team-23",
+                "city": "Sacramento",
+                "name": "SAC",
+                "short": "SAC",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sac.png"
+              },
+              "homeScore": 115,
+              "awayScore": 123
+            },
+            {
+              "id": "espn-401810956",
+              "start": "2026-04-01T00:00:00.000Z",
+              "season": 2026,
+              "phase": 2,
+              "home": {
+                "id": "espn-team-8",
+                "city": "Detroit",
+                "name": "DET",
+                "short": "DET",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png"
+              },
+              "away": {
+                "id": "espn-team-28",
+                "city": "Toronto",
+                "name": "TOR",
+                "short": "TOR",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png"
+              },
+              "homeScore": 127,
+              "awayScore": 116
+            },
+            {
+              "id": "espn-401810941",
+              "start": "2026-03-29T22:00:00.000Z",
+              "season": 2026,
+              "phase": 2,
+              "home": {
+                "id": "espn-team-28",
+                "city": "Toronto",
+                "name": "TOR",
+                "short": "TOR",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png"
+              },
+              "away": {
+                "id": "espn-team-19",
+                "city": "Orlando",
+                "name": "ORL",
+                "short": "ORL",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/orl.png"
+              },
+              "homeScore": 139,
+              "awayScore": 87
+            },
+            {
+              "id": "espn-401810926",
+              "start": "2026-03-28T00:30:00.000Z",
+              "season": 2026,
+              "phase": 2,
+              "home": {
+                "id": "espn-team-28",
+                "city": "Toronto",
+                "name": "TOR",
+                "short": "TOR",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png"
+              },
+              "away": {
+                "id": "espn-team-3",
+                "city": "New Orleans",
+                "name": "NO",
+                "short": "NO",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/no.png"
+              },
+              "homeScore": 119,
+              "awayScore": 106
+            }
+          ],
+          "notes": []
+        },
+        "home": {
+          "team": {
+            "id": "espn-team-2",
+            "city": "Boston",
+            "name": "Celtics",
+            "short": "BOS",
+            "color": "#008348",
+            "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+          },
+          "metrics": [
+            {
+              "key": "avgPoints",
+              "value": 114.9,
+              "display": "114.9",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgPointsAgainst",
+              "value": 107.15854,
+              "display": "107.2",
+              "source": "standings"
+            },
+            {
+              "key": "fieldGoalPct",
+              "value": 46.7,
+              "display": "46.7%",
+              "source": "team-statistics"
+            },
+            {
+              "key": "threePointPct",
+              "value": 36.7,
+              "display": "36.7%",
+              "source": "team-statistics"
+            },
+            {
+              "key": "freeThrowPct",
+              "value": 80.7,
+              "display": "80.7%",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgRebounds",
+              "value": 46.4,
+              "display": "46.4",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgAssists",
+              "value": 24.6,
+              "display": "24.6",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgTurnovers",
+              "value": 11.5,
+              "display": "11.5",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgSteals",
+              "value": 7.1,
+              "display": "7.1",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgBlocks",
+              "value": 5,
+              "display": "5.0",
+              "source": "team-statistics"
+            },
+            {
+              "key": "assistTurnoverRatio",
+              "value": 2.1,
+              "display": "2.1",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgOffensiveRebounds",
+              "value": 12.5,
+              "display": "12.5",
+              "source": "team-statistics"
+            },
+            {
+              "key": "avgDefensiveRebounds",
+              "value": 33.9,
+              "display": "33.9",
+              "source": "team-statistics"
+            }
+          ],
+          "standing": {
+            "conference": "Eastern Conference",
+            "rank": 3,
+            "record": {
+              "wins": 56,
+              "losses": 26,
+              "pct": 68.29268292682927
+            }
+          },
+          "split": {
+            "wins": 30,
+            "losses": 11,
+            "pct": 73.17073170731707
+          },
+          "recent": [
+            {
+              "id": "espn-401810981",
+              "start": "2026-04-04T00:00:00.000Z",
+              "season": 2026,
+              "phase": 2,
+              "home": {
+                "id": "espn-team-15",
+                "city": "Milwaukee",
+                "name": "MIL",
+                "short": "MIL",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/mil.png"
+              },
+              "away": {
+                "id": "espn-team-2",
+                "city": "Boston",
+                "name": "BOS",
+                "short": "BOS",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+              },
+              "homeScore": 101,
+              "awayScore": 133
+            },
+            {
+              "id": "espn-401810961",
+              "start": "2026-04-01T23:30:00.000Z",
+              "season": 2026,
+              "phase": 2,
+              "home": {
+                "id": "espn-team-14",
+                "city": "Miami",
+                "name": "MIA",
+                "short": "MIA",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/mia.png"
+              },
+              "away": {
+                "id": "espn-team-2",
+                "city": "Boston",
+                "name": "BOS",
+                "short": "BOS",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+              },
+              "homeScore": 129,
+              "awayScore": 147
+            },
+            {
+              "id": "espn-401810947",
+              "start": "2026-03-30T23:30:00.000Z",
+              "season": 2026,
+              "phase": 2,
+              "home": {
+                "id": "espn-team-1",
+                "city": "Atlanta",
+                "name": "ATL",
+                "short": "ATL",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/atl.png"
+              },
+              "away": {
+                "id": "espn-team-2",
+                "city": "Boston",
+                "name": "BOS",
+                "short": "BOS",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+              },
+              "homeScore": 112,
+              "awayScore": 102
+            },
+            {
+              "id": "espn-401810940",
+              "start": "2026-03-29T22:00:00.000Z",
+              "season": 2026,
+              "phase": 2,
+              "home": {
+                "id": "espn-team-30",
+                "city": "Charlotte",
+                "name": "CHA",
+                "short": "CHA",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/cha.png"
+              },
+              "away": {
+                "id": "espn-team-2",
+                "city": "Boston",
+                "name": "BOS",
+                "short": "BOS",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+              },
+              "homeScore": 99,
+              "awayScore": 114
+            },
+            {
+              "id": "espn-401810922",
+              "start": "2026-03-27T23:30:00.000Z",
+              "season": 2026,
+              "phase": 2,
+              "home": {
+                "id": "espn-team-2",
+                "city": "Boston",
+                "name": "BOS",
+                "short": "BOS",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+              },
+              "away": {
+                "id": "espn-team-1",
+                "city": "Atlanta",
+                "name": "ATL",
+                "short": "ATL",
+                "color": "#99ADB2",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/atl.png"
+              },
+              "homeScore": 109,
+              "awayScore": 102
+            }
+          ],
+          "notes": []
+        },
+        "meetings": [
+          {
+            "id": "espn-401810387",
+            "start": "2026-01-10T00:00:00.000Z",
+            "season": 2026,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-2",
+              "city": "Boston",
+              "name": "BOS",
+              "short": "BOS",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+            },
+            "away": {
+              "id": "espn-team-28",
+              "city": "Toronto",
+              "name": "TOR",
+              "short": "TOR",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png"
+            },
+            "homeScore": 125,
+            "awayScore": 117
+          },
+          {
+            "id": "espn-401810243",
+            "start": "2025-12-21T00:00:00.000Z",
+            "season": 2026,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-28",
+              "city": "Toronto",
+              "name": "TOR",
+              "short": "TOR",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png"
+            },
+            "away": {
+              "id": "espn-team-2",
+              "city": "Boston",
+              "name": "BOS",
+              "short": "BOS",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+            },
+            "homeScore": 96,
+            "awayScore": 112
+          },
+          {
+            "id": "espn-401810213",
+            "start": "2025-12-07T20:30:00.000Z",
+            "season": 2026,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-28",
+              "city": "Toronto",
+              "name": "TOR",
+              "short": "TOR",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png"
+            },
+            "away": {
+              "id": "espn-team-2",
+              "city": "Boston",
+              "name": "BOS",
+              "short": "BOS",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+            },
+            "homeScore": 113,
+            "awayScore": 121
+          },
+          {
+            "id": "espn-401705395",
+            "start": "2025-02-26T00:00:00.000Z",
+            "season": 2025,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-28",
+              "city": "Toronto",
+              "name": "TOR",
+              "short": "TOR",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png"
+            },
+            "away": {
+              "id": "espn-team-2",
+              "city": "Boston",
+              "name": "BOS",
+              "short": "BOS",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+            },
+            "homeScore": 101,
+            "awayScore": 111
+          },
+          {
+            "id": "espn-401705128",
+            "start": "2025-01-16T00:30:00.000Z",
+            "season": 2025,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-28",
+              "city": "Toronto",
+              "name": "TOR",
+              "short": "TOR",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png"
+            },
+            "away": {
+              "id": "espn-team-2",
+              "city": "Boston",
+              "name": "BOS",
+              "short": "BOS",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+            },
+            "homeScore": 110,
+            "awayScore": 97
+          },
+          {
+            "id": "espn-401705015",
+            "start": "2024-12-31T20:00:00.000Z",
+            "season": 2025,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-2",
+              "city": "Boston",
+              "name": "BOS",
+              "short": "BOS",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+            },
+            "away": {
+              "id": "espn-team-28",
+              "city": "Toronto",
+              "name": "TOR",
+              "short": "TOR",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png"
+            },
+            "homeScore": 125,
+            "awayScore": 71
+          },
+          {
+            "id": "espn-401704796",
+            "start": "2024-11-17T01:00:00.000Z",
+            "season": 2025,
+            "phase": 2,
+            "home": {
+              "id": "espn-team-2",
+              "city": "Boston",
+              "name": "BOS",
+              "short": "BOS",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+            },
+            "away": {
+              "id": "espn-team-28",
+              "city": "Toronto",
+              "name": "TOR",
+              "short": "TOR",
+              "color": "#99ADB2",
+              "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/tor.png"
+            },
+            "homeScore": 126,
+            "awayScore": 123
+          }
+        ],
+        "historySeasons": [
+          2026,
+          2025
+        ],
+        "broadcasts": [
+          "NBC Sports BO",
+          "Sportsnet",
+          "NBA TV"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+/* Focused global refinement: existing components retain their layout ownership. */
+.app {
+ --canvas: var(--rv-semantic-canvas);
+ --surface: var(--rv-semantic-surface);
+ --border: var(--rv-semantic-divider);
+ --accent: var(--rv-semantic-interactive);
+ --accent-hover: var(--rv-semantic-interactiveHover);
+ --rv-component-gutter: 16px;
+ --type-section: 18px;
+}
+
+/* One wrapper contract, including header content and existing sidebar routes. */
+.app.app :is(.shell, .explore-shell, .tracker-shell, .scores-header, .account-header) {
+ box-sizing: border-box;
+ width: 100%;
+ max-width: var(--rv-component-contentMax);
+ margin-inline: auto;
+ padding-inline: max(var(--rv-component-gutter), env(safe-area-inset-left, 0px)) max(var(--rv-component-gutter), env(safe-area-inset-right, 0px));
+}
+.app.app :is(.settings-row-panel, .tracker-summary, .tracker-collection, .explore-table-scroll) {
+ background-image: none;
+ box-shadow: none;
+}
+.app.app .tracker-summary { background-color: transparent; }
+.app.app :is(.explore-player-row, .game-surface, .pregame-comparison, .pregame-side-sections, .pregame-bottom-grid > section) {
+ --scores-home-team-color: var(--rv-primitive-slate);
+ --scores-away-team-color: var(--rv-primitive-slate);
+}
+.app.app table .rv-surface { background: transparent; box-shadow: none; border-radius: 0; }
+.app.app :is(.account-header h1, .explore-title h1, .tracker-heading h1) {
+ font-size: 26px;
+ font-weight: 700;
+ letter-spacing: -.7px;
+}
+.app.app .account-header h1 { font-size: 22px; }
+.app.app :is(.tracker-eyebrow, .game-eyebrow) {
+ font-size: 11px;
+ line-height: 1.4;
+ font-weight: 600;
+ letter-spacing: .02em;
+ text-transform: none;
+ color: var(--muted);
+}
+.app.app :is(.explore-controls select, .tracker-app select, .tracker-app input:not([type=radio])) { min-height: 44px; }
+
+/* Panels are layout containers, not another full-width painted layer. */
+.app.app .game-centre { --game-gap: var(--rv-semantic-sectionGap); --game-radius: var(--rv-component-cardRadius); --game-card: var(--rv-semantic-surface); --game-line: var(--rv-semantic-divider); }
+.app.app .game-centre .game-panel {
+ width: 100%;
+ max-width: none;
+ min-width: 0;
+ min-height: 0;
+ margin-inline: 0;
+ padding: 0;
+ border: 0;
+ border-radius: 0;
+ background: transparent;
+ box-shadow: none;
+}
+.app.app .game-centre :is(.game-panel-stats, .game-panel:has(> .game-overview-teams)) {
+ padding: 16px;
+ border: 1px solid var(--border);
+ border-radius: var(--rv-component-cardRadius);
+ background: var(--rv-semantic-neutralSurface);
+}
+.app.app .game-centre .game-detail-tabs { margin-inline: 0; padding-inline: 0; }
+.app.app .game-centre .game-overview-teams { margin-top: 0; }
+.app.app .game-centre .real-boxscore { border: 0; padding-inline: 0; border-radius: 0; }
+.app.app .game-feed-layout { gap: var(--game-gap); align-items: start; }
+.app.app .game-context { align-content: start; align-self: start; }
+.app.app .game-surface-heading {
+ min-height: 76px;
+ padding: 14px 16px;
+ border-bottom-color: var(--border);
+ background: transparent;
+}
+.app.app .game-surface-heading h2 { font-size: 18px; line-height: 1.3; margin-top: 3px; }
+.app.app .game-centre .live-period-filters { padding: 12px 16px 8px; gap: 8px; }
+.app.app .game-centre .live-period-filters button { min-height: 44px; height: auto; }
+.app.app .game-centre .live-period-filters button[aria-pressed=true] {
+ color: var(--accent);
+ border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+ background: color-mix(in srgb, var(--accent) 9%, var(--surface));
+}
+.app.app .game-centre .live-plays > .game-content-note { padding-inline: 16px; font-size: 12px; line-height: 1.5; }
+.app.app .game-centre .live-plays > .game-content-note + .game-content-note { font-size: 11px; margin-bottom: 12px; }
+.app.app .game-centre .live-plays .game-events { padding-inline: 16px; }
+.app.app .game-centre .live-plays .game-events li { min-height: 82px; padding-block: 12px; border-bottom-color: var(--border); }
+.app.app .game-centre .live-plays .game-events p { line-height: 1.55; }
+.app.app .play-kind { text-transform: none; letter-spacing: 0; font-size: 11px; line-height: 1.4; margin-bottom: 3px; }
+.app.app .game-centre .game-events time small { font-size: 11px; }
+.app.app .context-table-scroll { padding: 2px 12px 0; }
+.app.app .context-table-scroll :is(td, th) { padding-block: 10px; }
+.app.app .context-table-scroll thead th { font-size: 11px; }
+.app.app .context-scoring-list { padding-inline: 16px; }
+.app.app .context-scoring-list li { padding-block: 13px; gap: 10px; }
+.app.app .context-play-clock { font-size: 11px; }
+
+/* Compact scoreboard; records, venue and status retain their existing slots. */
+.app.app .game-centre .match-header { padding: 10px 16px 8px; margin: 12px 0 16px; }
+.app.app .game-centre .match-dateline { margin-bottom: 4px; font-size: 12px; }
+.app.app .game-centre .match-team-profile { min-height: 84px; gap: 8px; }
+.app.app .game-centre .match-team-profile .game-team-logo { width: 44px; height: 44px; }
+.app.app .game-centre .match-game-state { padding-bottom: 16px; }
+.app.app .game-centre .match-source { margin-top: 4px; padding-top: 4px; }
+.app.app .game-centre .match-tipoff { font-size: clamp(26px, 4vw, 36px); line-height: 1.15; }
+.app.app .game-centre .match-score strong { font-size: 34px; }
+.app.app .game-centre .match-score.hero-score { margin-block: 6px 4px; }
+.app.app .game-centre .match-game-state p { margin-top: 4px; }
+.app.app .game-centre .match-state-label { padding-block: 3px; }
+
+/* One interactive accent; gold remains on scores and statistical highlights. */
+.app.app .game-centre .game-primary-tabs button[aria-selected=true],
+.app.app .game-centre .game-detail-tabs button[aria-pressed=true],
+.app.app :is(.context-stats-link, .game-targets a, .player-targets button) { color: var(--accent); }
+.app.app .game-centre .game-primary-tabs button[aria-selected=true] i,
+.app.app .game-centre .game-detail-tabs button[aria-pressed=true]::after { background: var(--accent); }
+.app.app .game-centre .game-team-selector button[aria-pressed=true] { color: var(--accent); border-color: var(--accent); background: color-mix(in srgb, var(--accent) 9%, var(--surface)); }
+.app.app .game-detail-dialog { --accent: inherit; }
+.app.app .game-targets {
+ margin: 12px 0 16px;
+ padding: 12px 16px;
+ border-color: var(--border);
+ border-radius: var(--rv-component-cardRadius);
+ background: var(--rv-semantic-neutralSurface);
+ box-shadow: none;
+}
+.app.app .game-targets[data-empty=true] { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; align-items: center; padding-block: 10px; border-left-color: color-mix(in srgb, var(--accent) 45%, var(--border)); }
+.app.app .game-targets[data-empty=true] .game-target-heading { display: contents; }
+.app.app .game-targets[data-empty=true] h2 { grid-column: 1; grid-row: 1; }
+.app.app .game-targets[data-empty=true] .game-target-heading > a { grid-column: 2; grid-row: 1 / span 2; }
+.app.app .game-targets[data-empty=true] > p { grid-column: 1; grid-row: 2; }
+.app.app .game-targets .game-target-heading { min-height: 28px; }
+.app.app .game-targets .game-target-heading > a { min-height: 44px; display: inline-flex; align-items: center; padding-block: 4px; }
+.app.app .game-targets li > button { padding: 10px; border: 0; background: var(--rv-semantic-subtleHighlight); }
+.app.app .game-targets li > button:hover { background: color-mix(in srgb, var(--accent) 5%, var(--surface)); }
+
+/* Roster density is tightened while both row actions remain 44px targets. */
+.app.app .team-roster { max-width: none; }
+.app.app .roster-heading { padding-bottom: 14px; }
+.app.app .roster-controls { gap: 8px; padding: 12px 0 6px; }
+.app.app .roster-controls label { gap: 5px; }
+.app.app .roster-controls :is(select, .roster-reset) { min-height: 44px; padding: 8px 10px; }
+.app.app .roster-column-head { padding-top: 12px; font-size: 11px; text-transform: none; letter-spacing: 0; }
+.app.app .roster-player { min-height: 84px; padding-block: 6px; background: transparent; border-top-color: var(--border); }
+.app.app .roster-player:hover { background: var(--rv-semantic-subtleHighlight); }
+.app.app .roster-identity { gap: 10px; }
+.app.app .team-roster .player-headshot { flex-basis: 60px; width: 60px; height: 60px; }
+.app.app .roster-actions :is(button, a):active { transform: scale(.97); }
+.app.app .roster-actions button[aria-pressed=true] { background: color-mix(in srgb, var(--accent) 9%, var(--surface)); }
+.app.app .explore-player-row { padding-block: 8px; box-shadow: none; border-radius: 0; border-bottom: 1px solid var(--border); }
+
+@media(min-width:760px) {
+ .app { --rv-component-gutter: 24px; }
+}
+@media(min-width:1024px) {
+ .app.app .game-feed-layout { grid-template-columns: minmax(0, 1.85fr) minmax(0, 1fr); }
+ .app.app .game-centre .match-header { padding-inline: 24px; }
+ .app.app .game-centre .match-team-profile { min-height: 64px; gap: 12px; }
+ .app.app .game-centre .match-team-profile .game-team-logo { width: 52px; height: 52px; }
+ .app.app .game-centre .match-team-profile strong { font-size: 23px; }
+ .app.app .game-centre .match-score strong { font-size: 48px; }
+ .app.app .game-centre .match-game-state { padding-bottom: 0; }
+ .app.app .game-centre .match-team-actions { margin: 0; }
+}
+@media(max-width:700px) {
+ .app.app .game-centre .match-header { padding-inline: 10px; }
+ .app.app .game-centre .match-dateline { gap: 2px; font-size: 11px; }
+ .app.app .game-centre .match-team-profile { padding: 0; gap: 6px; }
+ .app.app .game-centre .match-team-profile .game-team-logo { width: 36px; height: 36px; }
+ .app.app .game-centre .match-team-profile em { margin-top: 2px; }
+ .app.app .game-centre .match-team-actions { margin-top: 0; }
+ .app.app .game-centre .match-team-profile strong { font-size: 16px; }
+ .app.app .game-centre .live-plays .game-events li { min-height: 96px; }
+ .app.app .roster-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+ .app.app .roster-controls label { min-width: 0; }
+ .app.app .roster-player { min-height: 100px; }
+ .app.app .team-roster .player-headshot { flex-basis: 54px; width: 54px; height: 58px; }
+}
+@media(prefers-reduced-motion:reduce) { .app.app .roster-actions :is(button, a):active { transform: none; } }
+.app.app.reduce-motion .roster-actions :is(button, a):active { transform: none; }

@@ -1,0 +1,18 @@
+[
+  {
+    "scenario": "team-blend-contrast-1440-current",
+    "minimumMutedTextContrast": 7.9
+  },
+  {
+    "scenario": "team-blend-contrast-1440-white-stress",
+    "minimumMutedTextContrast": 4.72
+  },
+  {
+    "scenario": "team-blend-contrast-390-current",
+    "minimumMutedTextContrast": 5.93
+  },
+  {
+    "scenario": "team-blend-contrast-390-white-stress",
+    "minimumMutedTextContrast": 4.79
+  }
+]

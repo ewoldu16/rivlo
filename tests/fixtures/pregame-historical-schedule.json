@@ -1,0 +1,335 @@
+{
+  "season": {
+    "year": 2027,
+    "type": 2,
+    "name": "Regular Season",
+    "displayName": "2026-27",
+    "half": 1
+  },
+  "requestedSeason": {
+    "year": 2026,
+    "type": 2,
+    "name": "Regular Season",
+    "displayName": "2025-26"
+  },
+  "team": {
+    "id": "18"
+  },
+  "events": [
+    {
+      "id": "401809234",
+      "date": "2025-10-22T23:00Z",
+      "name": "Cleveland Cavaliers at New York Knicks",
+      "shortName": "CLE @ NY",
+      "season": {
+        "year": 2026,
+        "displayName": "2025-26"
+      },
+      "seasonType": {
+        "id": "2",
+        "type": 2,
+        "name": "Regular Season",
+        "abbreviation": "reg"
+      },
+      "timeValid": true,
+      "competitions": [
+        {
+          "date": "2025-10-22T23:00Z",
+          "status": {
+            "clock": 0,
+            "displayClock": "0.0",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            }
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": {
+                "value": 119,
+                "displayValue": "119"
+              },
+              "team": {
+                "id": "18",
+                "location": "New York",
+                "displayName": "New York Knicks",
+                "abbreviation": "NY"
+              },
+              "record": [
+                {
+                  "id": "900",
+                  "abbreviation": "Game",
+                  "displayName": "Record Year To Date",
+                  "shortDisplayName": "YTD",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "displayValue": "1-0"
+                },
+                {
+                  "id": "61",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "displayValue": "0-0"
+                }
+              ]
+            },
+            {
+              "homeAway": "away",
+              "score": {
+                "value": 111,
+                "displayValue": "111"
+              },
+              "team": {
+                "id": "5",
+                "location": "Cleveland",
+                "displayName": "Cleveland Cavaliers",
+                "abbreviation": "CLE"
+              },
+              "record": [
+                {
+                  "id": "900",
+                  "abbreviation": "Game",
+                  "displayName": "Record Year To Date",
+                  "shortDisplayName": "YTD",
+                  "description": "Overall Record",
+                  "type": "total",
+                  "displayValue": "0-1"
+                },
+                {
+                  "id": "61",
+                  "displayName": "CONF",
+                  "shortDisplayName": "CONF",
+                  "description": "Conference Record",
+                  "type": "vsconf",
+                  "displayValue": "0-0"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nba/game/_/gameId/401809234/cavaliers-knicks",
+          "text": "Gamecast",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401809234",
+          "text": "Gamecast",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "now",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nba/game/_/gameId/401809234",
+          "text": "Now",
+          "shortText": "Now",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "teamstats",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nba/matchup?gameId=401809234",
+          "text": "Team Stats",
+          "shortText": "Team Stats",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nba/boxscore/_/gameId/401809234",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401809234",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "gamecast",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nba/game/_/gameId/401809234",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "gamecast",
+            "mobile",
+            "event"
+          ],
+          "href": "http://m.espn.com/nba/gamecast?gameId=401809234&action=summary",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "gamecast",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401809234",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nba/recap?gameId=401809234",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nba/playbyplay/_/gameId/401809234",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "videos",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nba/video?gameId=401809234",
+          "text": "Videos",
+          "shortText": "Videos",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "watchespn",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/watchespn/index?gameId=401809234&sourceLang=en",
+          "text": "WatchESPN",
+          "shortText": "WatchESPN",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "watchespn",
+            "app",
+            "event"
+          ],
+          "href": "watchespn://showEvent?gameId=401809234&sourceLang=en",
+          "text": "WatchESPN",
+          "shortText": "WatchESPN",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "odds",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nba/odds/_/gameId/401809234",
+          "text": "Odds",
+          "shortText": "Odds",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "odds",
+            "mobile",
+            "event"
+          ],
+          "href": "https://m.espn.com/nba/odds/_/gameId/401809234",
+          "text": "Odds",
+          "shortText": "Odds",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    }
+  ]
+}

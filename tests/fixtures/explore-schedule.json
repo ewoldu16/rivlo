@@ -1,0 +1,226 @@
+{
+  "season": {
+    "year": 2027,
+    "type": 2,
+    "name": "Regular Season",
+    "displayName": "2026-27",
+    "half": 1
+  },
+  "team": {
+    "id": "13"
+  },
+  "events": [
+    {
+      "id": "401909092",
+      "season": {
+        "year": 2027,
+        "displayName": "2026-27"
+      },
+      "seasonType": {
+        "id": "2",
+        "type": 2,
+        "name": "Regular Season",
+        "abbreviation": "reg"
+      },
+      "competitions": [
+        {
+          "date": "2026-10-22T02:00Z",
+          "status": {
+            "clock": 0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Wed, October 21st at 10:00 PM EDT",
+              "shortDetail": "10/21 - 10:00 PM EDT"
+            }
+          },
+          "competitors": [
+            {
+              "id": "13",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "team": {
+                "id": "13",
+                "location": "Los Angeles",
+                "displayName": "Los Angeles Lakers",
+                "abbreviation": "LAL",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2024-06-25T21:17Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2024-06-25T21:13Z"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "9",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "team": {
+                "id": "9",
+                "location": "Golden State",
+                "displayName": "Golden State Warriors",
+                "abbreviation": "GS",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2024-06-25T21:17Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/gs.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2024-06-25T21:13Z"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401909851",
+      "season": {
+        "year": 2027,
+        "displayName": "2026-27"
+      },
+      "seasonType": {
+        "id": "2",
+        "type": 2,
+        "name": "Regular Season",
+        "abbreviation": "reg"
+      },
+      "competitions": [
+        {
+          "date": "2026-10-24T02:00Z",
+          "status": {
+            "clock": 0,
+            "displayClock": "0.0",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, October 23rd at 10:00 PM EDT",
+              "shortDetail": "10/23 - 10:00 PM EDT"
+            }
+          },
+          "competitors": [
+            {
+              "id": "13",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "team": {
+                "id": "13",
+                "location": "Los Angeles",
+                "displayName": "Los Angeles Lakers",
+                "abbreviation": "LAL",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2024-06-25T21:17Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2024-06-25T21:13Z"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "12",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "team": {
+                "id": "12",
+                "location": "LA",
+                "displayName": "LA Clippers",
+                "abbreviation": "LAC",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2024-06-25T21:17Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/lac.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2024-06-25T21:13Z"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "receivedAt": "2026-10-20T21:31:56.458Z",
+    "renderedAt": "2026-10-20T21:31:56.665Z",
+    "latestEventId": "401909088710",
+    "wallclock": "2026-10-20T21:30:52.000Z",
+    "wallclockToRenderedSeconds": 64.665,
+    "status": "in-progress",
+    "clock": "18.2",
+    "homeScore": 117,
+    "awayScore": 110,
+    "events": 483
+  },
+  {
+    "receivedAt": "2026-10-20T21:32:07.139Z",
+    "renderedAt": "2026-10-20T21:32:07.260Z",
+    "latestEventId": "401909088710",
+    "wallclock": "2026-10-20T21:30:52.000Z",
+    "wallclockToRenderedSeconds": 75.26,
+    "status": "in-progress",
+    "clock": "18.2",
+    "homeScore": 117,
+    "awayScore": 110,
+    "events": 483
+  },
+  {
+    "receivedAt": "2026-10-20T21:32:18.357Z",
+    "renderedAt": "2026-10-20T21:32:18.479Z",
+    "latestEventId": "401909088710",
+    "wallclock": "2026-10-20T21:30:52.000Z",
+    "wallclockToRenderedSeconds": 86.479,
+    "status": "in-progress",
+    "clock": "18.2",
+    "homeScore": 117,
+    "awayScore": 110,
+    "events": 483
+  },
+  {
+    "receivedAt": "2026-10-20T21:32:29.130Z",
+    "renderedAt": "2026-10-20T21:32:29.136Z",
+    "latestEventId": "401909088710",
+    "wallclock": "2026-10-20T21:30:52.000Z",
+    "wallclockToRenderedSeconds": 97.136,
+    "status": "in-progress",
+    "clock": "18.2",
+    "homeScore": 117,
+    "awayScore": 110,
+    "events": 483
+  },
+  {
+    "receivedAt": "2026-10-20T21:32:40.190Z",
+    "renderedAt": "2026-10-20T21:32:40.201Z",
+    "latestEventId": "401909088712",
+    "wallclock": "2026-10-20T21:30:52.000Z",
+    "wallclockToRenderedSeconds": 108.201,
+    "status": "in-progress",
+    "clock": "18.2",
+    "homeScore": 117,
+    "awayScore": 110,
+    "events": 484
+  },
+  {
+    "receivedAt": "2026-10-20T21:32:50.884Z",
+    "renderedAt": "2026-10-20T21:32:50.895Z",
+    "latestEventId": "401909088713",
+    "wallclock": "2026-10-20T21:32:39.000Z",
+    "wallclockToRenderedSeconds": 11.895,
+    "status": "in-progress",
+    "clock": "11.2",
+    "homeScore": 117,
+    "awayScore": 110,
+    "events": 485
+  },
+  {
+    "receivedAt": "2026-10-20T21:33:01.455Z",
+    "renderedAt": "2026-10-20T21:33:01.587Z",
+    "latestEventId": "401909088714",
+    "wallclock": "2026-10-20T21:32:39.000Z",
+    "wallclockToRenderedSeconds": 22.587,
+    "status": "in-progress",
+    "clock": "11.2",
+    "homeScore": 117,
+    "awayScore": 110,
+    "events": 486
+  },
+  {
+    "receivedAt": "2026-10-20T21:33:12.260Z",
+    "renderedAt": "2026-10-20T21:33:12.275Z",
+    "latestEventId": "401909088715",
+    "wallclock": "2026-10-20T21:32:44.000Z",
+    "wallclockToRenderedSeconds": 28.275,
+    "status": "in-progress",
+    "clock": "7.5",
+    "homeScore": 117,
+    "awayScore": 113,
+    "events": 487
+  }
+]

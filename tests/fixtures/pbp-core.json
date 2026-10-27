@@ -1,0 +1,327 @@
+{
+  "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/plays?lang=en&region=us",
+  "count": 5,
+  "pageIndex": 1,
+  "pageSize": 1000,
+  "pageCount": 1,
+  "items": [
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/plays/4019090884?lang=en&region=us",
+      "id": "4019090884",
+      "sequenceNumber": "4",
+      "type": {
+        "id": "615",
+        "text": "Jumpball"
+      },
+      "text": "Mitchell Robinson vs. Jalen Duren (Jayson Tatum gains possession)",
+      "shortText": "Jumpball: BOSTON controls the tip.",
+      "alternativeText": "Mitchell Robinson vs. Jalen Duren (Jayson Tatum gains possession)",
+      "shortAlternativeText": "Jumpball: BOSTON controls the tip.",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 720.0,
+        "displayValue": "12:00"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T19:07Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/2?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4351852?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/competitors/2/roster/4351852/statistics/0?lang=en&region=us"
+          },
+          "order": 1
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4433621?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/competitors/8/roster/4433621/statistics/0?lang=en&region=us"
+          },
+          "order": 2
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4065648?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/competitors/2/roster/4065648/statistics/0?lang=en&region=us"
+          },
+          "order": 3
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/probabilities/4019090884?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T19:07:39Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/2?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/plays/4019090887?lang=en&region=us",
+      "id": "4019090887",
+      "sequenceNumber": "7",
+      "type": {
+        "id": "42",
+        "text": "Offensive Foul"
+      },
+      "text": "Mitchell Robinson offensive foul",
+      "shortText": "M. Robinson offensive foul",
+      "alternativeText": "Mitchell Robinson offensive foul",
+      "shortAlternativeText": "M. Robinson offensive foul",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 708.0,
+        "displayValue": "11:48"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T19:08Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/2?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4351852?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/competitors/2/roster/4351852/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "fouler"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/probabilities/4019090887?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T19:07:50Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/2?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 36,
+        "y": 23
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/plays/401909088688?lang=en&region=us",
+      "id": "401909088688",
+      "sequenceNumber": "688",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Payton Pritchard offensive rebound",
+      "shortText": "P. Pritchard offensive rebound",
+      "alternativeText": "Payton Pritchard offensive rebound",
+      "shortAlternativeText": "P. Pritchard offensive rebound",
+      "awayScore": 103,
+      "homeScore": 114,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "value": 124.0,
+        "displayValue": "2:04"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T21:25Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/2?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4066354?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/competitors/2/roster/4066354/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/probabilities/401909088688?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T21:25:18Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/2?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 12,
+        "y": 11
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/plays/401909088689?lang=en&region=us",
+      "id": "401909088689",
+      "sequenceNumber": "689",
+      "type": {
+        "id": "45",
+        "text": "Personal Foul"
+      },
+      "text": "Javonte Green personal foul",
+      "shortText": "J. Green personal foul",
+      "alternativeText": "Javonte Green personal foul",
+      "shortAlternativeText": "J. Green personal foul",
+      "awayScore": 103,
+      "homeScore": 114,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "value": 122.0,
+        "displayValue": "2:02"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T21:25Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/8?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/2596112?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/competitors/8/roster/2596112/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "fouler"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/probabilities/401909088689?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T21:25:20Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/2?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 13,
+        "y": 40
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/plays/401909088691?lang=en&region=us",
+      "id": "401909088691",
+      "sequenceNumber": "691",
+      "type": {
+        "id": "98",
+        "text": "Free Throw - 1 of 2"
+      },
+      "text": "Paul George makes free throw 1 of 2",
+      "shortText": "P. George makes free throw 1 of 2",
+      "alternativeText": "Paul George makes free throw 1 of 2",
+      "shortAlternativeText": "P. George makes free throw 1 of 2",
+      "awayScore": 104,
+      "homeScore": 114,
+      "period": {
+        "number": 4,
+        "displayValue": "4th Quarter"
+      },
+      "clock": {
+        "value": 122.0,
+        "displayValue": "2:02"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 1,
+      "modified": "2026-10-20T21:26Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/2?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4251?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/competitors/2/roster/4251/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/probabilities/401909088691?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T21:26:06Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/2?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 1
+    }
+  ]
+}

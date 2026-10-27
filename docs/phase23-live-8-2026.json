@@ -1,0 +1,445 @@
+{
+  "teamId": "espn-team-8",
+  "rosterSeason": 2027,
+  "season": 2026,
+  "standing": {
+    "team": {
+      "id": "espn-team-8",
+      "city": "Detroit",
+      "name": "Pistons",
+      "short": "DET",
+      "color": "#99ADB2",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png"
+    },
+    "conference": "Eastern Conference",
+    "wins": 0,
+    "losses": 0,
+    "pct": ".000",
+    "behind": "-",
+    "rank": null,
+    "form": "-"
+  },
+  "entries": [
+    {
+      "player": {
+        "id": "3908845",
+        "name": "John Collins",
+        "jersey": "20",
+        "position": "F",
+        "height": "6' 9\"",
+        "age": 29,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908845.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 13.514285714285714,
+        "RPG": 5.371428571428571,
+        "APG": 1,
+        "MPG": 27,
+        "SPG": 0.8857142857142857,
+        "BPG": 0.7428571428571429,
+        "FG%": 55.322338830584705,
+        "3P%": 40.54054054054054
+      },
+      "games": 70
+    },
+    {
+      "player": {
+        "id": "4432166",
+        "name": "Cade Cunningham",
+        "jersey": "2",
+        "position": "G",
+        "height": "6' 6\"",
+        "age": 25,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 23.074626865671643,
+        "RPG": 5.402985074626866,
+        "APG": 9.567164179104477,
+        "MPG": 32.83582089552239,
+        "SPG": 1.4179104477611941,
+        "BPG": 0.8507462686567164,
+        "FG%": 46.089850249584025,
+        "3P%": 34.054054054054056
+      },
+      "games": 67
+    },
+    {
+      "player": {
+        "id": "4433621",
+        "name": "Jalen Duren",
+        "jersey": "0",
+        "position": "C",
+        "height": "6' 10\"",
+        "age": 22,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433621.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 18.904109589041095,
+        "RPG": 10.246575342465754,
+        "APG": 1.9315068493150684,
+        "MPG": 27.36986301369863,
+        "SPG": 0.7808219178082192,
+        "BPG": 0.8082191780821918,
+        "FG%": 64.987714987715
+      },
+      "games": 73
+    },
+    {
+      "player": {
+        "id": "2596112",
+        "name": "Javonte Green",
+        "jersey": "31",
+        "position": "G",
+        "height": "6' 5\"",
+        "age": 33,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2596112.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 6.939024390243903,
+        "RPG": 2.8048780487804876,
+        "APG": 0.6829268292682927,
+        "MPG": 17.621951219512194,
+        "SPG": 1.2439024390243902,
+        "BPG": 0.3048780487804878,
+        "FG%": 44.68599033816425,
+        "3P%": 38.05668016194332
+      },
+      "games": 82
+    },
+    {
+      "player": {
+        "id": "4397449",
+        "name": "Elijah Harkless",
+        "jersey": "94",
+        "position": "G",
+        "height": "6' 3\"",
+        "age": 26,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397449.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 6.846153846153846,
+        "RPG": 2.0384615384615383,
+        "APG": 2.8846153846153846,
+        "MPG": 20.96153846153846,
+        "SPG": 1.1923076923076923,
+        "BPG": 0.23076923076923078,
+        "FG%": 33.54037267080745,
+        "3P%": 23.863636363636363
+      },
+      "games": 26
+    },
+    {
+      "player": {
+        "id": "4683771",
+        "name": "Ronald Holland II",
+        "jersey": "5",
+        "position": "F",
+        "height": "6' 8\"",
+        "age": 21,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683771.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 8.205128205128204,
+        "RPG": 4.038461538461538,
+        "APG": 1.2179487179487178,
+        "MPG": 19.794871794871796,
+        "SPG": 1.1794871794871795,
+        "BPG": 0.34615384615384615,
+        "FG%": 43.1985294117647,
+        "3P%": 25.252525252525253
+      },
+      "games": 78
+    },
+    {
+      "player": {
+        "id": "4066372",
+        "name": "Kevin Huerter",
+        "jersey": "27",
+        "position": "G",
+        "height": "6' 6\"",
+        "age": 28,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066372.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 10.043478260869565,
+        "RPG": 3.4782608695652173,
+        "APG": 2.579710144927536,
+        "MPG": 22.492753623188406,
+        "SPG": 0.9130434782608695,
+        "BPG": 0.4782608695652174,
+        "FG%": 45.13422818791946,
+        "3P%": 30.76923076923077
+      },
+      "games": 69
+    },
+    {
+      "player": {
+        "id": "5107199",
+        "name": "Daniss Jenkins",
+        "jersey": "24",
+        "position": "G",
+        "height": "6' 4\"",
+        "age": 25,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5107199.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 9.319444444444445,
+        "RPG": 2.3055555555555554,
+        "APG": 3.861111111111111,
+        "MPG": 20.180555555555557,
+        "SPG": 0.8888888888888888,
+        "BPG": 0.20833333333333334,
+        "FG%": 40.84507042253521,
+        "3P%": 37.43589743589744
+      },
+      "games": 72
+    },
+    {
+      "player": {
+        "id": "4395702",
+        "name": "Isaiah Joe",
+        "jersey": "17",
+        "position": "G",
+        "height": "6' 4\"",
+        "age": 27,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395702.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 11.056338028169014,
+        "RPG": 2.5492957746478875,
+        "APG": 1.323943661971831,
+        "MPG": 21.211267605633804,
+        "SPG": 0.704225352112676,
+        "BPG": 0.15492957746478872,
+        "FG%": 45.48802946593002,
+        "3P%": 42.28971962616822
+      },
+      "games": 71
+    },
+    {
+      "player": {
+        "id": "5107818",
+        "name": "Isaac Jones",
+        "jersey": "13",
+        "position": "C",
+        "height": "6' 8\"",
+        "age": 26,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5107818.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 1.2857142857142858,
+        "RPG": 0.7142857142857143,
+        "APG": 0.14285714285714285,
+        "MPG": 5.142857142857143,
+        "SPG": 0,
+        "BPG": 0.14285714285714285,
+        "FG%": 42.857142857142854,
+        "3P%": 0
+      },
+      "games": 7
+    },
+    {
+      "player": {
+        "id": "4700852",
+        "name": "Chaz Lanier",
+        "jersey": "8",
+        "position": "G",
+        "height": "6' 3\"",
+        "age": 24,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4700852.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 2.4242424242424243,
+        "RPG": 0.696969696969697,
+        "APG": 0.5151515151515151,
+        "MPG": 8,
+        "SPG": 0.21212121212121213,
+        "BPG": 0,
+        "FG%": 31.46067415730337,
+        "3P%": 28.35820895522388
+      },
+      "games": 33
+    },
+    {
+      "player": {
+        "id": "5258459",
+        "name": "Ebuka Okorie",
+        "jersey": "23",
+        "position": "G",
+        "height": "6' 2\"",
+        "age": 19,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5258459.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {},
+      "games": 0
+    },
+    {
+      "player": {
+        "id": "5037878",
+        "name": "Ugonna Onyenso",
+        "jersey": "34",
+        "position": "C",
+        "height": "7' 0\"",
+        "age": 22,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5037878.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {},
+      "games": 0
+    },
+    {
+      "player": {
+        "id": "2990962",
+        "name": "Taurean Prince",
+        "jersey": "12",
+        "position": "F",
+        "height": "6' 6\"",
+        "age": 32,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2990962.png",
+        "status": "Active"
+      },
+      "injury": {
+        "status": "Out",
+        "date": "2026-10-20T14:17Z"
+      },
+      "stats": {
+        "PPG": 9.192307692307692,
+        "RPG": 3.1153846153846154,
+        "APG": 1.7692307692307692,
+        "MPG": 23.576923076923077,
+        "SPG": 0.6153846153846154,
+        "BPG": 0.23076923076923078,
+        "FG%": 45.026178010471206,
+        "3P%": 43.57142857142857
+      },
+      "games": 26
+    },
+    {
+      "player": {
+        "id": "4278562",
+        "name": "Paul Reed",
+        "jersey": "7",
+        "position": "F",
+        "height": "6' 9\"",
+        "age": 27,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278562.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 7.753846153846154,
+        "RPG": 4.523076923076923,
+        "APG": 1.2307692307692308,
+        "MPG": 13.830769230769231,
+        "SPG": 0.8769230769230769,
+        "BPG": 0.9230769230769231,
+        "FG%": 61.65191740412979,
+        "3P%": 32.5
+      },
+      "games": 65
+    },
+    {
+      "player": {
+        "id": "3157465",
+        "name": "Duncan Robinson",
+        "jersey": "55",
+        "position": "F",
+        "height": "6' 7\"",
+        "age": 32,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3157465.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 12.194805194805195,
+        "RPG": 2.6623376623376624,
+        "APG": 2.064935064935065,
+        "MPG": 27.441558441558442,
+        "SPG": 0.5714285714285714,
+        "BPG": 0.2857142857142857,
+        "FG%": 45.55873925501432,
+        "3P%": 41.04477611940298
+      },
+      "games": 77
+    },
+    {
+      "player": {
+        "id": "4397882",
+        "name": "Tolu Smith",
+        "jersey": "35",
+        "position": "F",
+        "height": "6' 11\"",
+        "age": 26,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397882.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 3.7333333333333334,
+        "RPG": 3.2666666666666666,
+        "APG": 0.8666666666666667,
+        "MPG": 9.133333333333333,
+        "SPG": 0.13333333333333333,
+        "BPG": 0.4,
+        "FG%": 50
+      },
+      "games": 15
+    },
+    {
+      "player": {
+        "id": "4684742",
+        "name": "Ausar Thompson",
+        "jersey": "9",
+        "position": "G",
+        "height": "6' 7\"",
+        "age": 23,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4684742.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 9.876712328767123,
+        "RPG": 5.726027397260274,
+        "APG": 3.1232876712328768,
+        "MPG": 26.027397260273972,
+        "SPG": 2,
+        "BPG": 0.9452054794520548,
+        "FG%": 52.512998266897746,
+        "3P%": 25
+      },
+      "games": 73
+    }
+  ],
+  "fetchedAt": "2026-10-20T16:27:44.879Z",
+  "stale": false,
+  "warnings": [
+    "Ebuka Okorie: season statistics unavailable.",
+    "Ugonna Onyenso: season statistics unavailable."
+  ]
+}

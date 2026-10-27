@@ -1,0 +1,421 @@
+{
+  "teamId": "espn-team-2",
+  "rosterSeason": 2027,
+  "season": 2026,
+  "standing": {
+    "team": {
+      "id": "espn-team-2",
+      "city": "Boston",
+      "name": "Celtics",
+      "short": "BOS",
+      "color": "#99ADB2",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bos.png"
+    },
+    "conference": "Eastern Conference",
+    "wins": 0,
+    "losses": 0,
+    "pct": ".000",
+    "behind": "-",
+    "rank": null,
+    "form": "-"
+  },
+  "entries": [
+    {
+      "player": {
+        "id": "4433188",
+        "name": "Devin Carter",
+        "jersey": "99",
+        "position": "G",
+        "height": "6' 2\"",
+        "age": 24,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433188.png",
+        "status": "Active"
+      },
+      "injury": {
+        "status": "Out",
+        "date": "2026-10-18T14:49Z"
+      },
+      "stats": {
+        "PPG": 8.921052631578947,
+        "RPG": 3.289473684210526,
+        "APG": 2.6578947368421053,
+        "MPG": 18.44736842105263,
+        "SPG": 0.8947368421052632,
+        "BPG": 0.23684210526315788,
+        "FG%": 41.43835616438356,
+        "3P%": 26.31578947368421
+      },
+      "games": 38
+    },
+    {
+      "player": {
+        "id": "5142621",
+        "name": "Chris Cenac Jr.",
+        "jersey": "12",
+        "position": "F",
+        "height": "6' 11\"",
+        "age": 19,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5142621.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {},
+      "games": 0
+    },
+    {
+      "player": {
+        "id": "3195",
+        "name": "Mike Conley",
+        "jersey": "45",
+        "position": "G",
+        "height": "6' 1\"",
+        "age": 39,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3195.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 4.537037037037037,
+        "RPG": 1.7222222222222223,
+        "APG": 2.9074074074074074,
+        "MPG": 18.40740740740741,
+        "SPG": 0.6481481481481481,
+        "BPG": 0.25925925925925924,
+        "FG%": 33.48837209302326,
+        "3P%": 33.734939759036145
+      },
+      "games": 54
+    },
+    {
+      "player": {
+        "id": "4277951",
+        "name": "Luka Garza",
+        "jersey": "52",
+        "position": "C",
+        "height": "6' 10\"",
+        "age": 27,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277951.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 8.072463768115941,
+        "RPG": 4.072463768115942,
+        "APG": 0.9565217391304348,
+        "MPG": 16.130434782608695,
+        "SPG": 0.391304347826087,
+        "BPG": 0.4057971014492754,
+        "FG%": 57.703081232493,
+        "3P%": 43.30708661417323
+      },
+      "games": 69
+    },
+    {
+      "player": {
+        "id": "4251",
+        "name": "Paul George",
+        "jersey": "13",
+        "position": "F",
+        "height": "6' 8\"",
+        "age": 36,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4251.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 17.289473684210527,
+        "RPG": 5.2894736842105265,
+        "APG": 3.6315789473684212,
+        "MPG": 30.736842105263158,
+        "SPG": 1.6842105263157894,
+        "BPG": 0.42105263157894735,
+        "FG%": 43.667296786389414,
+        "3P%": 38.69731800766284
+      },
+      "games": 38
+    },
+    {
+      "player": {
+        "id": "5175647",
+        "name": "Hugo Gonzalez",
+        "jersey": "28",
+        "position": "G",
+        "height": "6' 6\"",
+        "age": 20,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5175647.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 3.958904109589041,
+        "RPG": 3.3698630136986303,
+        "APG": 0.547945205479452,
+        "MPG": 14.835616438356164,
+        "SPG": 0.5753424657534246,
+        "BPG": 0.2876712328767123,
+        "FG%": 47.5609756097561,
+        "3P%": 36.206896551724135
+      },
+      "games": 73
+    },
+    {
+      "player": {
+        "id": "4397251",
+        "name": "Ron Harper Jr.",
+        "jersey": "8",
+        "position": "G",
+        "height": "6' 5\"",
+        "age": 26,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397251.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 4.392857142857143,
+        "RPG": 1.7142857142857142,
+        "APG": 0.7857142857142857,
+        "MPG": 11.285714285714286,
+        "SPG": 0.35714285714285715,
+        "BPG": 0.32142857142857145,
+        "FG%": 41.81818181818182,
+        "3P%": 35
+      },
+      "games": 28
+    },
+    {
+      "player": {
+        "id": "4065804",
+        "name": "Sam Hauser",
+        "jersey": "30",
+        "position": "F",
+        "height": "6' 8\"",
+        "age": 28,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065804.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 9.217948717948717,
+        "RPG": 3.8461538461538463,
+        "APG": 1.4615384615384615,
+        "MPG": 24.78205128205128,
+        "SPG": 0.48717948717948717,
+        "BPG": 0.2948717948717949,
+        "FG%": 41.930116472545755,
+        "3P%": 39.285714285714285
+      },
+      "games": 78
+    },
+    {
+      "player": {
+        "id": "5106283",
+        "name": "Dillon Mitchell",
+        "jersey": "20",
+        "position": "F",
+        "height": "6' 8\"",
+        "age": 23,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106283.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {},
+      "games": 0
+    },
+    {
+      "player": {
+        "id": "4066354",
+        "name": "Payton Pritchard",
+        "jersey": "11",
+        "position": "G",
+        "height": "6' 2\"",
+        "age": 28,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066354.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 17.025316455696203,
+        "RPG": 3.949367088607595,
+        "APG": 5.1645569620253164,
+        "MPG": 32.41772151898734,
+        "SPG": 0.7341772151898734,
+        "BPG": 0.12658227848101267,
+        "FG%": 46.3794683776352,
+        "3P%": 37.72241992882562
+      },
+      "games": 79
+    },
+    {
+      "player": {
+        "id": "4397424",
+        "name": "Neemias Queta",
+        "jersey": "88",
+        "position": "C",
+        "height": "7' 0\"",
+        "age": 27,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397424.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 10.210526315789474,
+        "RPG": 8.368421052631579,
+        "APG": 1.6578947368421053,
+        "MPG": 25.355263157894736,
+        "SPG": 0.7894736842105263,
+        "BPG": 1.3157894736842106,
+        "FG%": 65.33066132264528,
+        "3P%": 12.5
+      },
+      "games": 76
+    },
+    {
+      "player": {
+        "id": "4351852",
+        "name": "Mitchell Robinson",
+        "jersey": "4",
+        "position": "C",
+        "height": "7' 0\"",
+        "age": 28,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4351852.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 5.639344262295082,
+        "RPG": 8.852459016393443,
+        "APG": 0.8852459016393442,
+        "MPG": 19.57377049180328,
+        "SPG": 0.9344262295081968,
+        "BPG": 1.180327868852459,
+        "FG%": 71.22641509433963
+      },
+      "games": 61
+    },
+    {
+      "player": {
+        "id": "4593841",
+        "name": "Baylor Scheierman",
+        "jersey": "55",
+        "position": "G",
+        "height": "6' 6\"",
+        "age": 26,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4593841.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 5.545454545454546,
+        "RPG": 3.4935064935064934,
+        "APG": 1.5064935064935066,
+        "MPG": 18.623376623376622,
+        "SPG": 0.5454545454545454,
+        "BPG": 0.07792207792207792,
+        "FG%": 45.34534534534534,
+        "3P%": 39.91769547325103
+      },
+      "games": 77
+    },
+    {
+      "player": {
+        "id": "4065648",
+        "name": "Jayson Tatum",
+        "jersey": "0",
+        "position": "F",
+        "height": "6' 8\"",
+        "age": 28,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065648.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 21.75,
+        "RPG": 10,
+        "APG": 5.3125,
+        "MPG": 32.625,
+        "SPG": 1.375,
+        "BPG": 0.1875,
+        "FG%": 41.11498257839721,
+        "3P%": 32.86713286713287
+      },
+      "games": 16
+    },
+    {
+      "player": {
+        "id": "4683689",
+        "name": "Jordan Walsh",
+        "jersey": "27",
+        "position": "G",
+        "height": "6' 7\"",
+        "age": 22,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683689.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 5.352941176470588,
+        "RPG": 4,
+        "APG": 0.7941176470588235,
+        "MPG": 17.852941176470587,
+        "SPG": 0.7205882352941176,
+        "BPG": 0.45588235294117646,
+        "FG%": 50.93632958801498,
+        "3P%": 38.4
+      },
+      "games": 68
+    },
+    {
+      "player": {
+        "id": "3078576",
+        "name": "Derrick White",
+        "jersey": "9",
+        "position": "G",
+        "height": "6' 4\"",
+        "age": 32,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3078576.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 16.454545454545453,
+        "RPG": 4.402597402597403,
+        "APG": 5.376623376623376,
+        "MPG": 34.064935064935064,
+        "SPG": 1.1428571428571428,
+        "BPG": 1.2727272727272727,
+        "FG%": 39.44043321299639,
+        "3P%": 32.65625
+      },
+      "games": 77
+    },
+    {
+      "player": {
+        "id": "4702745",
+        "name": "Amari Williams",
+        "jersey": "77",
+        "position": "F",
+        "height": "7' 0\"",
+        "age": 24,
+        "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4702745.png",
+        "status": "Active"
+      },
+      "injury": null,
+      "stats": {
+        "PPG": 1.3636363636363635,
+        "RPG": 1.8181818181818181,
+        "APG": 0.45454545454545453,
+        "MPG": 6.590909090909091,
+        "SPG": 0.13636363636363635,
+        "BPG": 0.45454545454545453,
+        "FG%": 50
+      },
+      "games": 22
+    }
+  ],
+  "fetchedAt": "2026-10-20T16:27:44.879Z",
+  "stale": false,
+  "warnings": [
+    "Chris Cenac Jr.: season statistics unavailable.",
+    "Dillon Mitchell: season statistics unavailable."
+  ]
+}

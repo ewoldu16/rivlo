@@ -1,0 +1,42 @@
+[
+  {
+    "api": "scoreboard + teams",
+    "status": 200,
+    "fetchedAt": "2026-10-18T12:00:51.152Z",
+    "games": [
+      {
+        "id": "espn-401859964",
+        "home": "San Antonio Spurs",
+        "away": "New York Knicks",
+        "homeTotal": 104,
+        "awayTotal": 105,
+        "start": "2026-06-06T00:30:00.000Z",
+        "scheduleDate": "2026-06-05"
+      }
+    ]
+  },
+  {
+    "font": "inter, \"inter Fallback\", sans-serif",
+    "logos": 3
+  },
+  {
+    "api": "summary",
+    "status": 200,
+    "venue": "Frost Bank Center",
+    "homePeriods": [
+      34,
+      18,
+      23,
+      29
+    ],
+    "awayPeriods": [
+      25,
+      31,
+      28,
+      21
+    ]
+  },
+  {
+    "pageErrors": []
+  }
+]

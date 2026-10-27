@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-19",
+  "errors": [],
+  "audit": [
+    {
+      "width": 390,
+      "overflow": false,
+      "fixtureCount": 11,
+      "cardHeight": 148,
+      "firstFixtureY": 372.6875,
+      "cls": 0.0008570517481954641
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "fixtureCount": 11,
+      "cardHeight": 148,
+      "firstFixtureY": 372.6875,
+      "cls": 0.0003100240071614584
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "fixtureCount": 11,
+      "cardHeight": 154,
+      "firstFixtureY": 483.09375,
+      "cls": 0.0003424023091793061
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "fixtureCount": 11,
+      "cardHeight": 154,
+      "firstFixtureY": 483.09375,
+      "cls": 0.0001731456615306713
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "fixtureCount": 11,
+      "cardHeight": 154,
+      "firstFixtureY": 483.09375,
+      "cls": 0.0000973944346110026
+    }
+  ],
+  "provider": {
+    "historic": {
+      "date": "2026-04-05",
+      "count": 11,
+      "stale": false,
+      "records": 11,
+      "broadcasts": 11
+    },
+    "upcoming": {
+      "date": "2026-10-20",
+      "count": 3,
+      "stale": false
+    }
+  }
+}

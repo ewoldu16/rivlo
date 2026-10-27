@@ -1,0 +1,14 @@
+/* Shared approved surface treatment. Geometry and interaction styles remain page-owned. */
+.app.app :is(SURFACE_SELECTORS) {
+ border-radius: var(--rv-component-cardRadius);
+ border-color: var(--rv-semantic-divider);
+ background-color: var(--rv-semantic-surface);
+ background-image: var(--menu-ambient, linear-gradient(transparent, transparent)), var(--menu-fade, var(--rv-surface-teamFadeDown)), var(--rv-surface-teamBlend);
+ box-shadow: var(--menu-edge, var(--rv-surface-edge));
+}
+.app.app :is(.rv-surface.fixture-in-progress, .match-header[data-status="in-progress"]) {
+ --menu-ambient: var(--rv-surface-liveAmbient);
+ --menu-edge: var(--rv-surface-liveEdge);
+}
+.app.app .rv-surface.fixture-upcoming { --menu-fade: var(--rv-surface-upcomingFadeDown); }
+.app.app :is(.rv-surface.fixture-completed, .match-header[data-status="completed"]) { --menu-fade: var(--rv-surface-completedFadeDown); }

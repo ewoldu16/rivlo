@@ -1,0 +1,27 @@
+import './game-targets.css';
+﻿import localFont from 'next/font/local';
+import type { Metadata,Viewport } from 'next';
+import './globals.css';
+import './design-system.css';
+import './scores-reconstruction.css';
+import './game-centre.css';
+import './account.css';
+import './community.css';
+import './onboarding.css';
+import './themes.css';
+import './explore.css';
+import './tracker.css';
+import './experience.css';
+import './home.css';
+import './game-navigation.css';
+import './pregame.css';
+import './roster.css';
+import './game-visual.css';
+import './game-details.css';
+import './sports-home.css';
+import './refinements.css';
+import {ExperienceProvider} from '@/components/experience/provider';
+const inter=localFont({src:'../../public/fonts/InterVariable.woff2',variable:'--font-inter',weight:'100 900',display:'swap'});
+export const viewport:Viewport={width:'device-width',initialScale:1,viewportFit:'cover'};
+export const metadata:Metadata={title:'PROJECT 01 — Every moment.',description:'An original NBA scores experience. Fictional demo and unofficial ESPN local preview.'};
+export default function Layout({children}:{children:React.ReactNode}){return <html lang="en" className={inter.variable}><body><ExperienceProvider>{children}</ExperienceProvider></body></html>}

@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-20",
+  "historical": {
+    "season": 2026,
+    "phase": 2,
+    "awayTeamId": "espn-team-2",
+    "homeTeamId": "espn-team-8",
+    "asOf": "2026-10-20T00:25:46.287Z",
+    "stale": false,
+    "awayMetrics": [
+      {
+        "key": "avgPoints",
+        "value": 114.9,
+        "display": "114.9",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgPointsAgainst",
+        "value": 107.15854,
+        "display": "107.2",
+        "source": "standings"
+      },
+      {
+        "key": "fieldGoalPct",
+        "value": 46.7,
+        "display": "46.7%",
+        "source": "team-statistics"
+      },
+      {
+        "key": "threePointPct",
+        "value": 36.7,
+        "display": "36.7%",
+        "source": "team-statistics"
+      },
+      {
+        "key": "freeThrowPct",
+        "value": 80.7,
+        "display": "80.7%",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgRebounds",
+        "value": 46.4,
+        "display": "46.4",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgAssists",
+        "value": 24.6,
+        "display": "24.6",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgTurnovers",
+        "value": 11.5,
+        "display": "11.5",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgSteals",
+        "value": 7.1,
+        "display": "7.1",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgBlocks",
+        "value": 5,
+        "display": "5.0",
+        "source": "team-statistics"
+      },
+      {
+        "key": "assistTurnoverRatio",
+        "value": 2.1,
+        "display": "2.1",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgOffensiveRebounds",
+        "value": 12.5,
+        "display": "12.5",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgDefensiveRebounds",
+        "value": 33.9,
+        "display": "33.9",
+        "source": "team-statistics"
+      }
+    ],
+    "homeMetrics": [
+      {
+        "key": "avgPoints",
+        "value": 117.8,
+        "display": "117.8",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgPointsAgainst",
+        "value": 109.60976,
+        "display": "109.6",
+        "source": "standings"
+      },
+      {
+        "key": "fieldGoalPct",
+        "value": 48.5,
+        "display": "48.5%",
+        "source": "team-statistics"
+      },
+      {
+        "key": "threePointPct",
+        "value": 35.6,
+        "display": "35.6%",
+        "source": "team-statistics"
+      },
+      {
+        "key": "freeThrowPct",
+        "value": 76.3,
+        "display": "76.3%",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgRebounds",
+        "value": 45.6,
+        "display": "45.6",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgAssists",
+        "value": 27.8,
+        "display": "27.8",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgTurnovers",
+        "value": 14.2,
+        "display": "14.2",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgSteals",
+        "value": 10.4,
+        "display": "10.4",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgBlocks",
+        "value": 6.4,
+        "display": "6.4",
+        "source": "team-statistics"
+      },
+      {
+        "key": "assistTurnoverRatio",
+        "value": 2,
+        "display": "2.0",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgOffensiveRebounds",
+        "value": 13.1,
+        "display": "13.1",
+        "source": "team-statistics"
+      },
+      {
+        "key": "avgDefensiveRebounds",
+        "value": 32.5,
+        "display": "32.5",
+        "source": "team-statistics"
+      }
+    ]
+  },
+  "meetings": [
+    {
+      "id": "espn-401809250",
+      "date": "2026-01-20T01:00:00.000Z",
+      "home": "espn-team-8",
+      "away": "espn-team-2",
+      "homeScore": 104,
+      "awayScore": 103,
+      "season": 2026,
+      "phase": 2,
+      "matchesSummary": true
+    },
+    {
+      "id": "espn-401836803",
+      "date": "2025-12-16T00:00:00.000Z",
+      "home": "espn-team-2",
+      "away": "espn-team-8",
+      "homeScore": 105,
+      "awayScore": 112,
+      "season": 2026,
+      "phase": 2,
+      "matchesSummary": true
+    },
+    {
+      "id": "espn-401809802",
+      "date": "2025-11-26T22:00:00.000Z",
+      "home": "espn-team-2",
+      "away": "espn-team-8",
+      "homeScore": 117,
+      "awayScore": 114,
+      "season": 2026,
+      "phase": 2,
+      "matchesSummary": true
+    },
+    {
+      "id": "espn-401809961",
+      "date": "2025-10-26T19:30:00.000Z",
+      "home": "espn-team-8",
+      "away": "espn-team-2",
+      "homeScore": 119,
+      "awayScore": 113,
+      "season": 2026,
+      "phase": 2,
+      "matchesSummary": true
+    }
+  ]
+}

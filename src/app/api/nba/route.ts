@@ -1,0 +1,4 @@
+﻿import {NextRequest,NextResponse} from 'next/server';
+import {getEspnGame,getEspnSchedule} from '@/data/espn/server';
+export const runtime='nodejs';
+export async function GET(request:NextRequest){const q=request.nextUrl.searchParams;const date=q.get('date'),game=q.get('game');if(game&&!/^espn-\d{1,15}$/.test(game))return NextResponse.json({error:'Invalid game ID.'},{status:400});if(!game&&(!date||!/^\d{4}-\d{2}-\d{2}$/.test(date)||!Number.isFinite(Date.parse(date+'T12:00:00Z'))||new Date(date+'T12:00:00Z').toISOString().slice(0,10)!==date))return NextResponse.json({error:'Choose a valid schedule date.'},{status:400});try{const data=game?await getEspnGame(game.slice(5)):await getEspnSchedule(date!);return NextResponse.json(data,{headers:{'Cache-Control':'no-store'}});}catch{return NextResponse.json({error:'ESPN is unavailable or returned unreadable data. Try again. Demo mode is still available.'},{status:502,headers:{'Cache-Control':'no-store'}});}}

@@ -1,0 +1,69 @@
+{
+  "measurements": [
+    {
+      "width": 360,
+      "grid": "165px 165px",
+      "firstCard": {
+        "x": 10,
+        "y": 270,
+        "width": 165,
+        "height": 137
+      },
+      "bottomNavigation": {
+        "x": 0,
+        "y": 678,
+        "width": 360,
+        "height": 66
+      }
+    },
+    {
+      "width": 390,
+      "grid": "178px 178px",
+      "firstCard": {
+        "x": 12,
+        "y": 270,
+        "width": 178,
+        "height": 140
+      },
+      "bottomNavigation": {
+        "x": 0,
+        "y": 678,
+        "width": 390,
+        "height": 66
+      }
+    },
+    {
+      "width": 768,
+      "grid": "241.328px 241.328px 241.328px",
+      "firstCard": {
+        "x": 12,
+        "y": 270,
+        "width": 241.328125,
+        "height": 140
+      },
+      "bottomNavigation": {
+        "x": 0,
+        "y": 934,
+        "width": 768,
+        "height": 66
+      }
+    },
+    {
+      "width": 1440,
+      "grid": "191.5px 191.5px 191.5px 191.5px",
+      "firstCard": {
+        "x": 322,
+        "y": 270,
+        "width": 191.5,
+        "height": 140
+      },
+      "bottomNavigation": {
+        "x": 310,
+        "y": 934,
+        "width": 820,
+        "height": 66
+      }
+    }
+  ],
+  "pageErrors": []
+}

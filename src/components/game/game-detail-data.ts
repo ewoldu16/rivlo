@@ -1,0 +1,7 @@
+import {boxDataSchema} from '@/domain/explore-contracts';
+import {playerSeasonSchema} from '@/domain/game-detail';
+type Entry<T>={at:number;promise:Promise<T>};
+const boxCache=new Map<string,Entry<ReturnType<typeof boxDataSchema.parse>>>();
+const seasonCache=new Map<string,Entry<ReturnType<typeof playerSeasonSchema.parse>>>();
+export function loadDetailBox(gameId:string,season:number,force=false){const saved=boxCache.get(gameId);if(!force&&saved&&Date.now()-saved.at<15000)return saved.promise;const promise=(async()=>{const r=await fetch(`/api/explore?kind=box&id=${gameId.slice(5)}&season=${season}&phase=2`,{cache:'no-store',signal:AbortSignal.timeout(30000)});if(!r.ok)throw Error('Box score unavailable.');return boxDataSchema.parse((await r.json()).data)})();boxCache.set(gameId,{at:Date.now(),promise});return promise;}
+export function loadDetailSeason(gameId:string,playerId:string,force=false){const key=gameId+':'+playerId,saved=seasonCache.get(key);if(!force&&saved&&Date.now()-saved.at<300000)return saved.promise;const promise=(async()=>{const r=await fetch(`/api/game-player?game=${gameId}&player=${playerId}`,{cache:'no-store',signal:AbortSignal.timeout(22000)});if(!r.ok)throw Error('Season averages unavailable.');const data=playerSeasonSchema.parse(await r.json());if(data.gameId!==gameId||data.playerId!==playerId)throw Error('Player identity mismatch.');return data})();seasonCache.set(key,{at:Date.now(),promise});return promise;}

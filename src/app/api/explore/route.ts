@@ -1,0 +1,4 @@
+﻿import {NextRequest,NextResponse} from 'next/server';
+import {explore} from '@/data/espn/ecosystem-server';
+export const runtime='nodejs';
+export async function GET(request:NextRequest){const q=request.nextUrl.searchParams,kind=q.get('kind')||'directory',id=q.get('id')||'',season=Number(q.get('season')||2027),phase=Number(q.get('phase')||2);if(!['directory','standings','team','player','box'].includes(kind)||!Number.isInteger(season)||season<2024||season>2027||![1,2,3].includes(phase)||(['team','player','box'].includes(kind)&&!/^\d{1,12}$/.test(id)))return NextResponse.json({error:'Invalid resource, identity, season or phase.'},{status:400});try{return NextResponse.json(await explore(kind,id,season,phase),{headers:{'Cache-Control':'no-store'}});}catch(e){return NextResponse.json({error:e instanceof Error?e.message:'Provider unavailable.'},{status:502,headers:{'Cache-Control':'no-store'}});}}

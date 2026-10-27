@@ -1,0 +1,6356 @@
+{
+  "games": [
+    {
+      "id": "espn-401909089",
+      "competition": "NBA",
+      "home": "espn-team-18",
+      "away": "espn-team-20",
+      "start": "2026-10-20T23:00:00.000Z",
+      "status": "in-progress",
+      "homePeriods": [
+        25,
+        13
+      ],
+      "awayPeriods": [
+        23,
+        5
+      ],
+      "quarter": 2,
+      "clock": "8:09",
+      "revision": 1,
+      "mode": "espn",
+      "capabilities": {
+        "periods": true,
+        "boxScore": false
+      },
+      "observedAt": "2026-10-21T00:01:36.284Z",
+      "sourceOccurredAt": null,
+      "providerId": "401909089",
+      "homeRecord": "0-0",
+      "awayRecord": "0-0",
+      "scheduleDate": "2026-10-20",
+      "homeTotal": 38,
+      "awayTotal": 28,
+      "statusText": "In progress",
+      "venue": "Madison Square Garden",
+      "broadcasts": [
+        "NBC",
+        "ERADM"
+      ],
+      "homeTeam": {
+        "id": "espn-team-18",
+        "city": "New York",
+        "name": "Knicks",
+        "short": "NY",
+        "color": "#1d428a",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png"
+      },
+      "awayTeam": {
+        "id": "espn-team-20",
+        "city": "Philadelphia",
+        "name": "76ers",
+        "short": "PHI",
+        "color": "#1d428a",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png"
+      }
+    }
+  ],
+  "teams": [
+    {
+      "id": "espn-team-18",
+      "city": "New York",
+      "name": "Knicks",
+      "short": "NY",
+      "color": "#1d428a",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png"
+    },
+    {
+      "id": "espn-team-20",
+      "city": "Philadelphia",
+      "name": "76ers",
+      "short": "PHI",
+      "color": "#1d428a",
+      "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/phi.png"
+    }
+  ],
+  "fetchedAt": "2026-10-21T00:01:36.284Z",
+  "stale": false,
+  "warnings": [],
+  "playByPlay": {
+    "gameId": "espn-401909089",
+    "source": "ESPN Core",
+    "events": [
+      {
+        "id": "4019090894",
+        "sequence": 4,
+        "period": 1,
+        "clock": "12:00",
+        "text": "Joel Embiid vs. Karl-Anthony Towns (LeBron James gains possession)",
+        "type": "Jumpball",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3059318",
+            "name": "Joel Embiid"
+          },
+          {
+            "id": "3136195",
+            "name": "Karl-Anthony Towns"
+          },
+          {
+            "id": "1966",
+            "name": "LeBron James"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 0,
+        "wallclock": "2026-10-20T23:18:00.000Z",
+        "modified": "2026-10-20T23:18:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "4019090897",
+        "sequence": 7,
+        "period": 1,
+        "clock": "11:44",
+        "text": "Tyrese Maxey makes 28-foot three point jumper (Joel Embiid assists)",
+        "type": "Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "role": "shooter"
+          },
+          {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "role": "assister"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 3,
+        "wallclock": "2026-10-20T23:18:16.000Z",
+        "modified": "2026-10-20T23:18:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 3,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 11,
+          "y": 25
+        }
+      },
+      {
+        "id": "4019090899",
+        "sequence": 9,
+        "period": 1,
+        "clock": "11:18",
+        "text": "Josh Hart misses 26-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 3,
+        "wallclock": "2026-10-20T23:18:42.000Z",
+        "modified": "2026-10-20T23:18:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 22,
+          "y": 27
+        }
+      },
+      {
+        "id": "40190908910",
+        "sequence": 10,
+        "period": 1,
+        "clock": "11:18",
+        "text": "Joel Embiid defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 3,
+        "wallclock": "2026-10-20T23:18:42.000Z",
+        "modified": "2026-10-20T23:18:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908911",
+        "sequence": 11,
+        "period": 1,
+        "clock": "11:07",
+        "text": "Karl-Anthony Towns blocks Joel Embiid 's 14-foot pullup jump shot",
+        "type": "Pullup Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "role": "shooter"
+          },
+          {
+            "id": "3136195",
+            "name": "Karl-Anthony Towns",
+            "role": "blocker"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 3,
+        "wallclock": "2026-10-20T23:18:53.000Z",
+        "modified": "2026-10-20T23:19:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 23,
+          "y": 14
+        }
+      },
+      {
+        "id": "40190908912",
+        "sequence": 12,
+        "period": 1,
+        "clock": "11:07",
+        "text": "Joel Embiid offensive rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 3,
+        "wallclock": "2026-10-20T23:18:53.000Z",
+        "modified": "2026-10-20T23:32:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908914",
+        "sequence": 14,
+        "period": 1,
+        "clock": "11:04",
+        "text": "Karl-Anthony Towns bad pass\nturnover (Tyrese Maxey steals)",
+        "type": "Bad Pass\nTurnover",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3136195",
+            "name": "Karl-Anthony Towns",
+            "role": "offense"
+          },
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "role": "defender"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 3,
+        "wallclock": "2026-10-20T23:18:56.000Z",
+        "modified": "2026-10-20T23:19:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908916",
+        "sequence": 16,
+        "period": 1,
+        "clock": "11:01",
+        "text": "Tyrese Maxey makes 26-foot running pullup jump shot",
+        "type": "Running Pullup Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:18:59.000Z",
+        "modified": "2026-10-20T23:20:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 3,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 16,
+          "y": 25
+        }
+      },
+      {
+        "id": "40190908917",
+        "sequence": 17,
+        "period": 1,
+        "clock": "10:40",
+        "text": "Jalen Brunson misses layup",
+        "type": "Cutting Layup Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:19:20.000Z",
+        "modified": "2026-10-20T23:20:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 27,
+          "y": 2
+        }
+      },
+      {
+        "id": "40190908918",
+        "sequence": 18,
+        "period": 1,
+        "clock": "10:40",
+        "text": "VJ Edgecombe defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "5124612",
+            "name": "VJ Edgecombe",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:19:20.000Z",
+        "modified": "2026-10-20T23:20:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908919",
+        "sequence": 19,
+        "period": 1,
+        "clock": "10:22",
+        "text": "Tyrese Maxey misses 25-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:19:38.000Z",
+        "modified": "2026-10-20T23:19:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 8,
+          "y": 19
+        }
+      },
+      {
+        "id": "40190908920",
+        "sequence": 20,
+        "period": 1,
+        "clock": "10:22",
+        "text": "Jalen Brunson defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:19:38.000Z",
+        "modified": "2026-10-20T23:19:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908922",
+        "sequence": 22,
+        "period": 1,
+        "clock": "10:00",
+        "text": "Jalen Brunson misses 14-foot pullup jump shot",
+        "type": "Pullup Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:20:20.000Z",
+        "modified": "2026-10-20T23:23:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 11,
+          "y": 5
+        }
+      },
+      {
+        "id": "40190908923",
+        "sequence": 23,
+        "period": 1,
+        "clock": "10:00",
+        "text": "Jaylen Brown defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:20:20.000Z",
+        "modified": "2026-10-20T23:23:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908924",
+        "sequence": 24,
+        "period": 1,
+        "clock": "9:52",
+        "text": "LeBron James lost ball turnover (Josh Hart steals)",
+        "type": "Lost Ball Turnover",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "role": "offense"
+          },
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "role": "defender"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:20:28.000Z",
+        "modified": "2026-10-20T23:20:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908926",
+        "sequence": 26,
+        "period": 1,
+        "clock": "9:47",
+        "text": "Mikal Bridges misses running pullup jump shot",
+        "type": "Running Pullup Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3147657",
+            "name": "Mikal Bridges",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:20:33.000Z",
+        "modified": "2026-10-20T23:24:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 17,
+          "y": 4
+        }
+      },
+      {
+        "id": "40190908927",
+        "sequence": 27,
+        "period": 1,
+        "clock": "9:47",
+        "text": "Mikal Bridges offensive rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3147657",
+            "name": "Mikal Bridges",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:20:33.000Z",
+        "modified": "2026-10-20T23:24:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908928",
+        "sequence": 28,
+        "period": 1,
+        "clock": "9:42",
+        "text": "Mikal Bridges makes tip shot",
+        "type": "Tip Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3147657",
+            "name": "Mikal Bridges",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 2,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:20:38.000Z",
+        "modified": "2026-10-20T23:24:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 25,
+          "y": 0
+        }
+      },
+      {
+        "id": "40190908929",
+        "sequence": 29,
+        "period": 1,
+        "clock": "9:35",
+        "text": "LeBron James misses 23-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 2,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:20:45.000Z",
+        "modified": "2026-10-20T23:20:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 49,
+          "y": 0
+        }
+      },
+      {
+        "id": "40190908930",
+        "sequence": 30,
+        "period": 1,
+        "clock": "9:35",
+        "text": "Karl-Anthony Towns defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3136195",
+            "name": "Karl-Anthony Towns",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 2,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:20:45.000Z",
+        "modified": "2026-10-20T23:20:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908931",
+        "sequence": 31,
+        "period": 1,
+        "clock": "9:21",
+        "text": "Jalen Brunson makes 25-foot three pointer",
+        "type": "Pullup Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 5,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:20:59.000Z",
+        "modified": "2026-10-20T23:21:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 3,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 11,
+          "y": 22
+        }
+      },
+      {
+        "id": "40190908932",
+        "sequence": 32,
+        "period": 1,
+        "clock": "9:09",
+        "text": "Josh Hart blocks Tyrese Maxey's layup",
+        "type": "Cutting Layup Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "role": "shooter"
+          },
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "role": "blocker"
+          }
+        ],
+        "homeScore": 5,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:21:12.000Z",
+        "modified": "2026-10-20T23:27:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 25,
+          "y": 0
+        }
+      },
+      {
+        "id": "40190908933",
+        "sequence": 33,
+        "period": 1,
+        "clock": "9:09",
+        "text": "76ers offensive team rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [],
+        "homeScore": 5,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:21:12.000Z",
+        "modified": "2026-10-20T23:27:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908936",
+        "sequence": 36,
+        "period": 1,
+        "clock": "9:06",
+        "text": "Karl-Anthony Towns personal foul",
+        "type": "Personal Foul",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3136195",
+            "name": "Karl-Anthony Towns",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 5,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:21:38.000Z",
+        "modified": "2026-10-20T23:35:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908938",
+        "sequence": 38,
+        "period": 1,
+        "clock": "8:58",
+        "text": "Jaylen Brown makes 1-foot layup (LeBron James assists)",
+        "type": "Cutting Layup Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "role": "shooter"
+          },
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "role": "assister"
+          }
+        ],
+        "homeScore": 5,
+        "awayScore": 8,
+        "wallclock": "2026-10-20T23:22:06.000Z",
+        "modified": "2026-10-20T23:47:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 26,
+          "y": 1
+        }
+      },
+      {
+        "id": "40190908942",
+        "sequence": 42,
+        "period": 1,
+        "clock": "8:46",
+        "text": "Karl-Anthony Towns offensive foul",
+        "type": "Offensive Foul",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3136195",
+            "name": "Karl-Anthony Towns",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 5,
+        "awayScore": 8,
+        "wallclock": "2026-10-20T23:22:18.000Z",
+        "modified": "2026-10-20T23:47:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908946",
+        "sequence": 46,
+        "period": 1,
+        "clock": "8:46",
+        "text": "Andre Drummond enters the game for Karl-Anthony Towns",
+        "type": "Substitution",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "subin"
+          },
+          {
+            "id": "3136195",
+            "name": "Karl-Anthony Towns",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 5,
+        "awayScore": 8,
+        "wallclock": "2026-10-20T23:22:18.000Z",
+        "modified": "2026-10-20T23:47:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908947",
+        "sequence": 47,
+        "period": 1,
+        "clock": "8:29",
+        "text": "Josh Hart shooting foul",
+        "type": "Shooting Foul",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 5,
+        "awayScore": 8,
+        "wallclock": "2026-10-20T23:23:18.000Z",
+        "modified": "2026-10-20T23:23:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908948",
+        "sequence": 48,
+        "period": 1,
+        "clock": "10:03",
+        "text": "Tyrese Maxey blocks OG Anunoby's three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "role": "shooter"
+          },
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "role": "blocker"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:19:57.000Z",
+        "modified": "2026-10-20T23:23:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 48,
+          "y": 0
+        }
+      },
+      {
+        "id": "40190908951",
+        "sequence": 51,
+        "period": 1,
+        "clock": "10:03",
+        "text": "Knicks offensive team rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [],
+        "homeScore": 0,
+        "awayScore": 6,
+        "wallclock": "2026-10-20T23:19:57.000Z",
+        "modified": "2026-10-20T23:23:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908953",
+        "sequence": 53,
+        "period": 1,
+        "clock": "8:29",
+        "text": "Joel Embiid makes free throw 1 of 2",
+        "type": "Free Throw - 1 of 2",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 5,
+        "awayScore": 9,
+        "wallclock": "2026-10-20T23:24:04.000Z",
+        "modified": "2026-10-20T23:47:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 1,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "40190908954",
+        "sequence": 54,
+        "period": 1,
+        "clock": "8:29",
+        "text": "Joel Embiid makes free throw 2 of 2",
+        "type": "Free Throw - 2 of 2",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 5,
+        "awayScore": 10,
+        "wallclock": "2026-10-20T23:24:27.000Z",
+        "modified": "2026-10-20T23:47:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 1,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "40190908958",
+        "sequence": 58,
+        "period": 1,
+        "clock": "8:18",
+        "text": "76ers Full timeout",
+        "type": "Full Timeout",
+        "teamId": "espn-team-20",
+        "players": [],
+        "homeScore": 5,
+        "awayScore": 10,
+        "wallclock": "2026-10-20T23:24:42.000Z",
+        "modified": "2026-10-20T23:28:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908960",
+        "sequence": 60,
+        "period": 1,
+        "clock": "8:18",
+        "text": "(08:18) [76ers] COACH'S CHALLENGE (CALL OVERTURNED) [76ers] retain their timeout",
+        "type": "Coach's Challenge (Overturned)",
+        "teamId": "espn-team-20",
+        "players": [],
+        "homeScore": 5,
+        "awayScore": 10,
+        "wallclock": "2026-10-20T23:25:04.000Z",
+        "modified": "2026-10-20T23:27:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908961",
+        "sequence": 61,
+        "period": 1,
+        "clock": "8:19",
+        "text": "Jaylen Brown blocks OG Anunoby 's 26-foot three point step back jumpshot",
+        "type": "Step Back Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "role": "shooter"
+          },
+          {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "role": "blocker"
+          }
+        ],
+        "homeScore": 5,
+        "awayScore": 10,
+        "wallclock": "2026-10-20T23:24:41.000Z",
+        "modified": "2026-10-20T23:36:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 32,
+          "y": 25
+        }
+      },
+      {
+        "id": "40190908962",
+        "sequence": 62,
+        "period": 1,
+        "clock": "8:19",
+        "text": "76ers defensive team rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [],
+        "homeScore": 5,
+        "awayScore": 10,
+        "wallclock": "2026-10-20T23:24:41.000Z",
+        "modified": "2026-10-20T23:36:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908964",
+        "sequence": 64,
+        "period": 1,
+        "clock": "8:04",
+        "text": "Andre Drummond blocks Joel Embiid 's 11-foot jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "role": "shooter"
+          },
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "blocker"
+          }
+        ],
+        "homeScore": 5,
+        "awayScore": 10,
+        "wallclock": "2026-10-20T23:28:49.000Z",
+        "modified": "2026-10-20T23:28:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 14,
+          "y": 3
+        }
+      },
+      {
+        "id": "40190908965",
+        "sequence": 65,
+        "period": 1,
+        "clock": "8:04",
+        "text": "76ers offensive team rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [],
+        "homeScore": 5,
+        "awayScore": 10,
+        "wallclock": "2026-10-20T23:28:49.000Z",
+        "modified": "2026-10-20T23:28:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908968",
+        "sequence": 68,
+        "period": 1,
+        "clock": "8:01",
+        "text": "Jaylen Brown misses 23-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 5,
+        "awayScore": 10,
+        "wallclock": "2026-10-20T23:29:09.000Z",
+        "modified": "2026-10-20T23:29:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3
+      },
+      {
+        "id": "40190908969",
+        "sequence": 69,
+        "period": 1,
+        "clock": "8:01",
+        "text": "Andre Drummond defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 5,
+        "awayScore": 10,
+        "wallclock": "2026-10-20T23:29:09.000Z",
+        "modified": "2026-10-20T23:29:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908970",
+        "sequence": 70,
+        "period": 1,
+        "clock": "7:47",
+        "text": "Mikal Bridges makes 1-foot layup (Josh Hart assists)",
+        "type": "Cutting Layup Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3147657",
+            "name": "Mikal Bridges",
+            "role": "shooter"
+          },
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "role": "assister"
+          }
+        ],
+        "homeScore": 7,
+        "awayScore": 10,
+        "wallclock": "2026-10-20T23:29:23.000Z",
+        "modified": "2026-10-20T23:29:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 27,
+          "y": 1
+        }
+      },
+      {
+        "id": "40190908972",
+        "sequence": 72,
+        "period": 1,
+        "clock": "7:34",
+        "text": "Tyrese Maxey makes 16-foot pullup jump shot (LeBron James assists)",
+        "type": "Pullup Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "role": "shooter"
+          },
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "role": "assister"
+          }
+        ],
+        "homeScore": 7,
+        "awayScore": 12,
+        "wallclock": "2026-10-20T23:29:35.000Z",
+        "modified": "2026-10-20T23:30:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 42,
+          "y": 1
+        }
+      },
+      {
+        "id": "40190908973",
+        "sequence": 73,
+        "period": 1,
+        "clock": "7:21",
+        "text": "OG Anunoby misses 25-foot three point step back jumpshot",
+        "type": "Step Back Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 7,
+        "awayScore": 12,
+        "wallclock": "2026-10-20T23:29:49.000Z",
+        "modified": "2026-10-20T23:29:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 6,
+          "y": 18
+        }
+      },
+      {
+        "id": "40190908974",
+        "sequence": 74,
+        "period": 1,
+        "clock": "7:21",
+        "text": "Andre Drummond offensive rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 7,
+        "awayScore": 12,
+        "wallclock": "2026-10-20T23:29:49.000Z",
+        "modified": "2026-10-20T23:29:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908975",
+        "sequence": 75,
+        "period": 1,
+        "clock": "7:15",
+        "text": "Josh Hart makes 9-foot pullup jump shot (Andre Drummond assists)",
+        "type": "Pullup Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "role": "shooter"
+          },
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "assister"
+          }
+        ],
+        "homeScore": 9,
+        "awayScore": 12,
+        "wallclock": "2026-10-20T23:30:06.000Z",
+        "modified": "2026-10-20T23:30:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 20,
+          "y": 8
+        }
+      },
+      {
+        "id": "40190908977",
+        "sequence": 77,
+        "period": 1,
+        "clock": "7:15",
+        "text": "LeBron James shooting foul",
+        "type": "Shooting Foul",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 9,
+        "awayScore": 12,
+        "wallclock": "2026-10-20T23:30:06.000Z",
+        "modified": "2026-10-20T23:30:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908979",
+        "sequence": 79,
+        "period": 1,
+        "clock": "7:15",
+        "text": "Josh Hart makes free throw 1 of 1",
+        "type": "Free Throw - 1 of 1",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 10,
+        "awayScore": 12,
+        "wallclock": "2026-10-20T23:30:06.000Z",
+        "modified": "2026-10-20T23:30:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 1,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "40190908980",
+        "sequence": 80,
+        "period": 1,
+        "clock": "7:15",
+        "text": "delay of game violation",
+        "type": "Delay of Game",
+        "teamId": null,
+        "players": [],
+        "homeScore": 10,
+        "awayScore": 12,
+        "wallclock": "2026-10-20T23:30:06.000Z",
+        "modified": "2026-10-20T23:30:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908982",
+        "sequence": 82,
+        "period": 1,
+        "clock": "7:05",
+        "text": "Joel Embiid makes 1-foot two point shot",
+        "type": "Driving Finger Roll Layup",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 10,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:30:58.000Z",
+        "modified": "2026-10-20T23:43:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 25,
+          "y": 2
+        }
+      },
+      {
+        "id": "40190908984",
+        "sequence": 84,
+        "period": 1,
+        "clock": "6:53",
+        "text": "Josh Hart misses 25-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 10,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:31:11.000Z",
+        "modified": "2026-10-20T23:31:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 23,
+          "y": 26
+        }
+      },
+      {
+        "id": "40190908985",
+        "sequence": 85,
+        "period": 1,
+        "clock": "6:53",
+        "text": "LeBron James defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 10,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:31:11.000Z",
+        "modified": "2026-10-20T23:31:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908986",
+        "sequence": 86,
+        "period": 1,
+        "clock": "6:39",
+        "text": "VJ Edgecombe misses 23-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "5124612",
+            "name": "VJ Edgecombe",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 10,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:31:25.000Z",
+        "modified": "2026-10-20T23:31:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3
+      },
+      {
+        "id": "40190908987",
+        "sequence": 87,
+        "period": 1,
+        "clock": "6:39",
+        "text": "Andre Drummond defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 10,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:31:25.000Z",
+        "modified": "2026-10-20T23:31:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908988",
+        "sequence": 88,
+        "period": 1,
+        "clock": "6:15",
+        "text": "OG Anunoby misses 25-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 10,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:31:49.000Z",
+        "modified": "2026-10-20T23:32:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 3,
+          "y": 14
+        }
+      },
+      {
+        "id": "40190908989",
+        "sequence": 89,
+        "period": 1,
+        "clock": "6:15",
+        "text": "Knicks offensive team rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [],
+        "homeScore": 10,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:31:49.000Z",
+        "modified": "2026-10-20T23:32:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908990",
+        "sequence": 90,
+        "period": 1,
+        "clock": "6:12",
+        "text": "shot clock turnover ",
+        "type": "Shot Clock Turnover",
+        "teamId": "espn-team-18",
+        "players": [],
+        "homeScore": 10,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:31:57.000Z",
+        "modified": "2026-10-20T23:32:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908993",
+        "sequence": 93,
+        "period": 1,
+        "clock": "6:12",
+        "text": "Kentavious Caldwell-Pope enters the game for Jaylen Brown",
+        "type": "Substitution",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "2581018",
+            "name": "Kentavious Caldwell-Pope",
+            "role": "subin"
+          },
+          {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 10,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:31:57.000Z",
+        "modified": "2026-10-20T23:32:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908994",
+        "sequence": 94,
+        "period": 1,
+        "clock": "6:12",
+        "text": "Anfernee Simons enters the game for Tyrese Maxey",
+        "type": "Substitution",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4351851",
+            "name": "Anfernee Simons",
+            "role": "subin"
+          },
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 10,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:31:57.000Z",
+        "modified": "2026-10-20T23:32:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908995",
+        "sequence": 95,
+        "period": 1,
+        "clock": "6:03",
+        "text": "VJ Edgecombe bad pass\nturnover (Andre Drummond steals)",
+        "type": "Bad Pass\nTurnover",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "5124612",
+            "name": "VJ Edgecombe",
+            "role": "offense"
+          },
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "defender"
+          }
+        ],
+        "homeScore": 10,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:32:35.000Z",
+        "modified": "2026-10-20T23:43:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "40190908997",
+        "sequence": 97,
+        "period": 1,
+        "clock": "5:57",
+        "text": "Andre Drummond makes running layup (Mikal Bridges assists)",
+        "type": "Running Layup Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "shooter"
+          },
+          {
+            "id": "3147657",
+            "name": "Mikal Bridges",
+            "role": "assister"
+          }
+        ],
+        "homeScore": 12,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:32:41.000Z",
+        "modified": "2026-10-20T23:43:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 25,
+          "y": 1
+        }
+      },
+      {
+        "id": "40190908998",
+        "sequence": 98,
+        "period": 1,
+        "clock": "5:42",
+        "text": "Anfernee Simons misses 24-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4351851",
+            "name": "Anfernee Simons",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 12,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:32:57.000Z",
+        "modified": "2026-10-20T23:33:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 1,
+          "y": 0
+        }
+      },
+      {
+        "id": "40190908999",
+        "sequence": 99,
+        "period": 1,
+        "clock": "5:42",
+        "text": "OG Anunoby defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 12,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:32:57.000Z",
+        "modified": "2026-10-20T23:33:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089100",
+        "sequence": 100,
+        "period": 1,
+        "clock": "11:06",
+        "text": "Joel Embiid lost ball turnover (Karl-Anthony Towns steals)",
+        "type": "Lost Ball Turnover",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "role": "offense"
+          },
+          {
+            "id": "3136195",
+            "name": "Karl-Anthony Towns",
+            "role": "defender"
+          }
+        ],
+        "homeScore": 0,
+        "awayScore": 3,
+        "wallclock": "2026-10-20T23:18:54.000Z",
+        "modified": "2026-10-20T23:33:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089102",
+        "sequence": 102,
+        "period": 1,
+        "clock": "5:27",
+        "text": "OG Anunoby misses 24-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 12,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:33:11.000Z",
+        "modified": "2026-10-20T23:33:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 11,
+          "y": 20
+        }
+      },
+      {
+        "id": "401909089103",
+        "sequence": 103,
+        "period": 1,
+        "clock": "5:27",
+        "text": "Anfernee Simons defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4351851",
+            "name": "Anfernee Simons",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 12,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:33:11.000Z",
+        "modified": "2026-10-20T23:33:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089104",
+        "sequence": 104,
+        "period": 1,
+        "clock": "5:15",
+        "text": "Joel Embiid misses 25-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 12,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:33:23.000Z",
+        "modified": "2026-10-20T23:33:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 23,
+          "y": 26
+        }
+      },
+      {
+        "id": "401909089105",
+        "sequence": 105,
+        "period": 1,
+        "clock": "5:15",
+        "text": "Mikal Bridges defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3147657",
+            "name": "Mikal Bridges",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 12,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:33:23.000Z",
+        "modified": "2026-10-20T23:33:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089106",
+        "sequence": 106,
+        "period": 1,
+        "clock": "4:54",
+        "text": "Mikal Bridges misses 11-foot two point shot",
+        "type": "Turnaround Fade Away Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3147657",
+            "name": "Mikal Bridges",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 12,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:33:44.000Z",
+        "modified": "2026-10-20T23:33:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 28,
+          "y": 11
+        }
+      },
+      {
+        "id": "401909089107",
+        "sequence": 107,
+        "period": 1,
+        "clock": "4:54",
+        "text": "OG Anunoby offensive rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 12,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:33:44.000Z",
+        "modified": "2026-10-20T23:33:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089108",
+        "sequence": 108,
+        "period": 1,
+        "clock": "4:51",
+        "text": "OG Anunoby makes dunk",
+        "type": "Putback Dunk Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 14,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:33:47.000Z",
+        "modified": "2026-10-20T23:34:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 25,
+          "y": 0
+        }
+      },
+      {
+        "id": "401909089109",
+        "sequence": 109,
+        "period": 1,
+        "clock": "4:28",
+        "text": "OG Anunoby personal foul",
+        "type": "Personal Foul",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 14,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:34:10.000Z",
+        "modified": "2026-10-20T23:34:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089116",
+        "sequence": 116,
+        "period": 1,
+        "clock": "4:28",
+        "text": "Landry Shamet enters the game for Mikal Bridges",
+        "type": "Substitution",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3914044",
+            "name": "Landry Shamet",
+            "role": "subin"
+          },
+          {
+            "id": "3147657",
+            "name": "Mikal Bridges",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 14,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:34:10.000Z",
+        "modified": "2026-10-20T23:35:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089117",
+        "sequence": 117,
+        "period": 1,
+        "clock": "4:28",
+        "text": "Miles McBride enters the game for OG Anunoby",
+        "type": "Substitution",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4431823",
+            "name": "Miles McBride",
+            "role": "subin"
+          },
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 14,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:34:10.000Z",
+        "modified": "2026-10-20T23:35:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089118",
+        "sequence": 118,
+        "period": 1,
+        "clock": "4:18",
+        "text": "Joel Embiid misses 17-foot jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 14,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:34:58.000Z",
+        "modified": "2026-10-20T23:35:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 32,
+          "y": 16
+        }
+      },
+      {
+        "id": "401909089119",
+        "sequence": 119,
+        "period": 1,
+        "clock": "4:18",
+        "text": "Josh Hart defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 14,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:34:58.000Z",
+        "modified": "2026-10-20T23:35:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089120",
+        "sequence": 120,
+        "period": 1,
+        "clock": "4:11",
+        "text": "Andre Drummond misses running dunk",
+        "type": "Running Dunk Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 14,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:35:05.000Z",
+        "modified": "2026-10-20T23:49:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 26,
+          "y": 2
+        }
+      },
+      {
+        "id": "401909089121",
+        "sequence": 121,
+        "period": 1,
+        "clock": "4:11",
+        "text": "Andre Drummond offensive rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 14,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:35:05.000Z",
+        "modified": "2026-10-20T23:49:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089123",
+        "sequence": 123,
+        "period": 1,
+        "clock": "4:06",
+        "text": "Andre Drummond makes 2-foot two point shot",
+        "type": "Turnaround Hook Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 16,
+        "awayScore": 14,
+        "wallclock": "2026-10-20T23:35:09.000Z",
+        "modified": "2026-10-20T23:45:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 25,
+          "y": 3
+        }
+      },
+      {
+        "id": "401909089124",
+        "sequence": 124,
+        "period": 1,
+        "clock": "3:52",
+        "text": "VJ Edgecombe makes 13-foot step back jumpshot",
+        "type": "Step Back Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "5124612",
+            "name": "VJ Edgecombe",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 16,
+        "awayScore": 16,
+        "wallclock": "2026-10-20T23:35:24.000Z",
+        "modified": "2026-10-20T23:46:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 16,
+          "y": 9
+        }
+      },
+      {
+        "id": "401909089125",
+        "sequence": 125,
+        "period": 1,
+        "clock": "3:43",
+        "text": "Miles McBride makes 23-foot three point jumper (Landry Shamet assists)",
+        "type": "Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4431823",
+            "name": "Miles McBride",
+            "role": "shooter"
+          },
+          {
+            "id": "3914044",
+            "name": "Landry Shamet",
+            "role": "assister"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 16,
+        "wallclock": "2026-10-20T23:35:33.000Z",
+        "modified": "2026-10-20T23:35:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 3,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 49,
+          "y": 0
+        }
+      },
+      {
+        "id": "401909089127",
+        "sequence": 127,
+        "period": 1,
+        "clock": "3:22",
+        "text": "LeBron James makes layup (Joel Embiid assists)",
+        "type": "Layup Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "role": "shooter"
+          },
+          {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "role": "assister"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 18,
+        "wallclock": "2026-10-20T23:35:54.000Z",
+        "modified": "2026-10-20T23:35:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 25,
+          "y": 1
+        }
+      },
+      {
+        "id": "401909089130",
+        "sequence": 130,
+        "period": 1,
+        "clock": "3:14",
+        "text": "Kentavious Caldwell-Pope personal foul",
+        "type": "Personal Foul",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "2581018",
+            "name": "Kentavious Caldwell-Pope",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 18,
+        "wallclock": "2026-10-20T23:36:02.000Z",
+        "modified": "2026-10-20T23:37:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089133",
+        "sequence": 133,
+        "period": 1,
+        "clock": "3:14",
+        "text": "Jose Alvarado enters the game for Josh Hart",
+        "type": "Substitution",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "role": "subin"
+          },
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 18,
+        "wallclock": "2026-10-20T23:36:02.000Z",
+        "modified": "2026-10-20T23:37:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089135",
+        "sequence": 135,
+        "period": 1,
+        "clock": "3:14",
+        "text": "Adem Bona enters the game for LeBron James",
+        "type": "Substitution",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "5105637",
+            "name": "Adem Bona",
+            "role": "subin"
+          },
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 18,
+        "wallclock": "2026-10-20T23:36:02.000Z",
+        "modified": "2026-10-20T23:37:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089136",
+        "sequence": 136,
+        "period": 1,
+        "clock": "3:04",
+        "text": "Andre Drummond misses dunk",
+        "type": "Cutting Dunk Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 18,
+        "wallclock": "2026-10-20T23:37:28.000Z",
+        "modified": "2026-10-20T23:49:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 25,
+          "y": 0
+        }
+      },
+      {
+        "id": "401909089137",
+        "sequence": 137,
+        "period": 1,
+        "clock": "3:04",
+        "text": "76ers defensive team rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [],
+        "homeScore": 19,
+        "awayScore": 18,
+        "wallclock": "2026-10-20T23:37:28.000Z",
+        "modified": "2026-10-20T23:49:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089141",
+        "sequence": 141,
+        "period": 1,
+        "clock": "3:14",
+        "text": "Jaylen Brown enters the game for Joel Embiid",
+        "type": "Substitution",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "role": "subin"
+          },
+          {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 18,
+        "wallclock": "2026-10-20T23:36:02.000Z",
+        "modified": "2026-10-20T23:37:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089142",
+        "sequence": 142,
+        "period": 1,
+        "clock": "3:14",
+        "text": "Tyrese Maxey enters the game for VJ Edgecombe",
+        "type": "Substitution",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "role": "subin"
+          },
+          {
+            "id": "5124612",
+            "name": "VJ Edgecombe",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 18,
+        "wallclock": "2026-10-20T23:36:02.000Z",
+        "modified": "2026-10-20T23:37:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089143",
+        "sequence": 143,
+        "period": 1,
+        "clock": "2:50",
+        "text": "Anfernee Simons makes 6-foot driving floating jump shot",
+        "type": "Driving Floating Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4351851",
+            "name": "Anfernee Simons",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 20,
+        "wallclock": "2026-10-20T23:37:51.000Z",
+        "modified": "2026-10-20T23:50:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 30,
+          "y": 4
+        }
+      },
+      {
+        "id": "401909089144",
+        "sequence": 144,
+        "period": 1,
+        "clock": "2:35",
+        "text": "Landry Shamet misses 25-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3914044",
+            "name": "Landry Shamet",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 20,
+        "wallclock": "2026-10-20T23:38:06.000Z",
+        "modified": "2026-10-20T23:38:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 12,
+          "y": 22
+        }
+      },
+      {
+        "id": "401909089145",
+        "sequence": 145,
+        "period": 1,
+        "clock": "2:35",
+        "text": "76ers defensive team rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [],
+        "homeScore": 19,
+        "awayScore": 20,
+        "wallclock": "2026-10-20T23:38:06.000Z",
+        "modified": "2026-10-20T23:38:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089147",
+        "sequence": 147,
+        "period": 1,
+        "clock": "2:32",
+        "text": "Knicks Full timeout",
+        "type": "Full Timeout",
+        "teamId": "espn-team-18",
+        "players": [],
+        "homeScore": 19,
+        "awayScore": 20,
+        "wallclock": "2026-10-20T23:38:09.000Z",
+        "modified": "2026-10-20T23:38:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089150",
+        "sequence": 150,
+        "period": 1,
+        "clock": "2:32",
+        "text": "OG Anunoby enters the game for Jalen Brunson",
+        "type": "Substitution",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "role": "subin"
+          },
+          {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 20,
+        "wallclock": "2026-10-20T23:38:09.000Z",
+        "modified": "2026-10-20T23:41:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089151",
+        "sequence": 151,
+        "period": 1,
+        "clock": "2:32",
+        "text": "Mikal Bridges enters the game for Landry Shamet",
+        "type": "Substitution",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3147657",
+            "name": "Mikal Bridges",
+            "role": "subin"
+          },
+          {
+            "id": "3914044",
+            "name": "Landry Shamet",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 20,
+        "wallclock": "2026-10-20T23:38:09.000Z",
+        "modified": "2026-10-20T23:41:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089152",
+        "sequence": 152,
+        "period": 1,
+        "clock": "2:18",
+        "text": "OG Anunoby personal foul",
+        "type": "Personal Foul",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 20,
+        "wallclock": "2026-10-20T23:42:03.000Z",
+        "modified": "2026-10-20T23:42:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089154",
+        "sequence": 154,
+        "period": 1,
+        "clock": "2:12",
+        "text": "Anfernee Simons makes 20-foot pullup jump shot (Adem Bona assists)",
+        "type": "Pullup Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4351851",
+            "name": "Anfernee Simons",
+            "role": "shooter"
+          },
+          {
+            "id": "5105637",
+            "name": "Adem Bona",
+            "role": "assister"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:42:37.000Z",
+        "modified": "2026-10-20T23:42:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 35,
+          "y": 18
+        }
+      },
+      {
+        "id": "401909089156",
+        "sequence": 156,
+        "period": 1,
+        "clock": "1:56",
+        "text": "Anfernee Simons shooting foul",
+        "type": "Shooting Foul",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4351851",
+            "name": "Anfernee Simons",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 19,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:42:54.000Z",
+        "modified": "2026-10-20T23:43:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089159",
+        "sequence": 159,
+        "period": 1,
+        "clock": "1:56",
+        "text": "Andre Drummond makes free throw 1 of 2",
+        "type": "Free Throw - 1 of 2",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:43:24.000Z",
+        "modified": "2026-10-20T23:43:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 1,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "401909089160",
+        "sequence": 160,
+        "period": 1,
+        "clock": "1:56",
+        "text": "Andre Drummond misses free throw 2 of 2",
+        "type": "Free Throw - 2 of 2",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:43:24.000Z",
+        "modified": "2026-10-20T23:43:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "401909089163",
+        "sequence": 163,
+        "period": 1,
+        "clock": "1:56",
+        "text": "Landry Shamet enters the game for OG Anunoby",
+        "type": "Substitution",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3914044",
+            "name": "Landry Shamet",
+            "role": "subin"
+          },
+          {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:43:24.000Z",
+        "modified": "2026-10-20T23:43:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089164",
+        "sequence": 164,
+        "period": 1,
+        "clock": "1:56",
+        "text": "Adem Bona defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "5105637",
+            "name": "Adem Bona",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:43:24.000Z",
+        "modified": "2026-10-20T23:43:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089165",
+        "sequence": 165,
+        "period": 1,
+        "clock": "1:36",
+        "text": "Jaylen Brown misses 17-foot turnaround jump shot",
+        "type": "Turnaround Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:44:04.000Z",
+        "modified": "2026-10-20T23:44:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 25,
+          "y": 18
+        }
+      },
+      {
+        "id": "401909089166",
+        "sequence": 166,
+        "period": 1,
+        "clock": "1:36",
+        "text": "Jose Alvarado defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:44:04.000Z",
+        "modified": "2026-10-20T23:44:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089167",
+        "sequence": 167,
+        "period": 1,
+        "clock": "1:23",
+        "text": "Miles McBride misses 17-foot pullup jump shot",
+        "type": "Pullup Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4431823",
+            "name": "Miles McBride",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:44:17.000Z",
+        "modified": "2026-10-20T23:52:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 13,
+          "y": 12
+        }
+      },
+      {
+        "id": "401909089168",
+        "sequence": 168,
+        "period": 1,
+        "clock": "1:23",
+        "text": "Jaylen Brown defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:44:17.000Z",
+        "modified": "2026-10-20T23:52:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089169",
+        "sequence": 169,
+        "period": 1,
+        "clock": "1:13",
+        "text": "Miles McBride blocks Jaylen Brown 's 15-foot pullup jump shot",
+        "type": "Pullup Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "role": "shooter"
+          },
+          {
+            "id": "4431823",
+            "name": "Miles McBride",
+            "role": "blocker"
+          }
+        ],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:44:26.000Z",
+        "modified": "2026-10-20T23:44:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 28,
+          "y": 15
+        }
+      },
+      {
+        "id": "401909089170",
+        "sequence": 170,
+        "period": 1,
+        "clock": "1:13",
+        "text": "Andre Drummond defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:44:26.000Z",
+        "modified": "2026-10-20T23:44:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089172",
+        "sequence": 172,
+        "period": 1,
+        "clock": "1:03",
+        "text": "Landry Shamet misses 24-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3914044",
+            "name": "Landry Shamet",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:44:36.000Z",
+        "modified": "2026-10-20T23:44:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 14,
+          "y": 22
+        }
+      },
+      {
+        "id": "401909089173",
+        "sequence": 173,
+        "period": 1,
+        "clock": "1:03",
+        "text": "Andre Drummond offensive rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:44:36.000Z",
+        "modified": "2026-10-20T23:44:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089174",
+        "sequence": 174,
+        "period": 1,
+        "clock": "1:00",
+        "text": "Andre Drummond misses tip shot",
+        "type": "Tip Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:44:39.000Z",
+        "modified": "2026-10-20T23:44:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 25,
+          "y": 0
+        }
+      },
+      {
+        "id": "401909089175",
+        "sequence": 175,
+        "period": 1,
+        "clock": "1:00",
+        "text": "Knicks offensive team rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:44:39.000Z",
+        "modified": "2026-10-20T23:44:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089176",
+        "sequence": 176,
+        "period": 1,
+        "clock": "1:00",
+        "text": "Adem Bona loose ball foul",
+        "type": "Loose Ball Foul",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "5105637",
+            "name": "Adem Bona",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 20,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:44:39.000Z",
+        "modified": "2026-10-20T23:44:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089178",
+        "sequence": 178,
+        "period": 1,
+        "clock": "1:00",
+        "text": "Andre Drummond makes free throw 1 of 2",
+        "type": "Free Throw - 1 of 2",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 21,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:45:11.000Z",
+        "modified": "2026-10-20T23:45:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 1,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "401909089179",
+        "sequence": 179,
+        "period": 1,
+        "clock": "1:00",
+        "text": "Andre Drummond misses free throw 2 of 2",
+        "type": "Free Throw - 2 of 2",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 21,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:45:11.000Z",
+        "modified": "2026-10-20T23:45:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "401909089180",
+        "sequence": 180,
+        "period": 1,
+        "clock": "1:00",
+        "text": "Adem Bona defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "5105637",
+            "name": "Adem Bona",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 21,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:45:11.000Z",
+        "modified": "2026-10-20T23:45:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089181",
+        "sequence": 181,
+        "period": 1,
+        "clock": "38.4",
+        "text": "Kentavious Caldwell-Pope misses driving floating jump shot",
+        "type": "Driving Floating Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "2581018",
+            "name": "Kentavious Caldwell-Pope",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 21,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:45:59.000Z",
+        "modified": "2026-10-20T23:46:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 33,
+          "y": 8
+        }
+      },
+      {
+        "id": "401909089182",
+        "sequence": 182,
+        "period": 1,
+        "clock": "38.4",
+        "text": "Miles McBride defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4431823",
+            "name": "Miles McBride",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 21,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:45:59.000Z",
+        "modified": "2026-10-20T23:46:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089183",
+        "sequence": 183,
+        "period": 1,
+        "clock": "29.6",
+        "text": "Jose Alvarado makes two point shot (Landry Shamet assists)",
+        "type": "Running Finger Roll Layup",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "role": "shooter"
+          },
+          {
+            "id": "3914044",
+            "name": "Landry Shamet",
+            "role": "assister"
+          }
+        ],
+        "homeScore": 23,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:46:09.000Z",
+        "modified": "2026-10-20T23:54:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 25,
+          "y": 1
+        }
+      },
+      {
+        "id": "401909089185",
+        "sequence": 185,
+        "period": 1,
+        "clock": "14.4",
+        "text": "Jose Alvarado personal foul",
+        "type": "Personal Foul",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 23,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:46:26.000Z",
+        "modified": "2026-10-20T23:46:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089187",
+        "sequence": 187,
+        "period": 1,
+        "clock": "14.4",
+        "text": "Jaylen Brown misses free throw 1 of 2",
+        "type": "Free Throw - 1 of 2",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 23,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:46:26.000Z",
+        "modified": "2026-10-20T23:47:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "401909089188",
+        "sequence": 188,
+        "period": 1,
+        "clock": "14.4",
+        "text": "76ers offensive team rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [],
+        "homeScore": 23,
+        "awayScore": 22,
+        "wallclock": "2026-10-20T23:46:26.000Z",
+        "modified": "2026-10-20T23:47:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089189",
+        "sequence": 189,
+        "period": 1,
+        "clock": "14.4",
+        "text": "Jaylen Brown makes free throw 2 of 2",
+        "type": "Free Throw - 2 of 2",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 23,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:47:36.000Z",
+        "modified": "2026-10-20T23:47:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 1,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "401909089191",
+        "sequence": 191,
+        "period": 1,
+        "clock": "14.4",
+        "text": "Jalen Brunson enters the game for Jose Alvarado",
+        "type": "Substitution",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "role": "subin"
+          },
+          {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 23,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:46:26.000Z",
+        "modified": "2026-10-20T23:47:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089193",
+        "sequence": 193,
+        "period": 1,
+        "clock": "14.4",
+        "text": "VJ Edgecombe enters the game for Kentavious Caldwell-Pope",
+        "type": "Substitution",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "5124612",
+            "name": "VJ Edgecombe",
+            "role": "subin"
+          },
+          {
+            "id": "2581018",
+            "name": "Kentavious Caldwell-Pope",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 23,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:46:26.000Z",
+        "modified": "2026-10-20T23:47:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089194",
+        "sequence": 194,
+        "period": 1,
+        "clock": "3.3",
+        "text": "Jalen Brunson makes 8-foot driving floating jump shot",
+        "type": "Driving Floating Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:47:49.000Z",
+        "modified": "2026-10-20T23:47:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 20,
+          "y": 7
+        }
+      },
+      {
+        "id": "401909089195",
+        "sequence": 195,
+        "period": 1,
+        "clock": "8:46",
+        "text": "Karl-Anthony Towns offensive foul turnover",
+        "type": "Offensive Foul Turnover",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3136195",
+            "name": "Karl-Anthony Towns",
+            "role": "offense"
+          }
+        ],
+        "homeScore": 5,
+        "awayScore": 8,
+        "wallclock": "2026-10-20T23:22:18.000Z",
+        "modified": "2026-10-20T23:47:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089196",
+        "sequence": 196,
+        "period": 1,
+        "clock": "0.2",
+        "text": "Tyrese Maxey misses heave jump shot",
+        "type": "Heave Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:47:56.000Z",
+        "modified": "2026-10-20T23:48:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 23,
+          "y": 37
+        }
+      },
+      {
+        "id": "401909089197",
+        "sequence": 197,
+        "period": 1,
+        "clock": "0.2",
+        "text": "76ers offensive team rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:47:56.000Z",
+        "modified": "2026-10-20T23:48:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089198",
+        "sequence": 198,
+        "period": 1,
+        "clock": "0.0",
+        "text": "End of the 1st Quarter",
+        "type": "End Period",
+        "teamId": null,
+        "players": [],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:47:56.000Z",
+        "modified": "2026-10-20T23:48:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089201",
+        "sequence": 201,
+        "period": 2,
+        "clock": "12:00",
+        "text": "Jordan Clarkson enters the game for Miles McBride",
+        "type": "Substitution",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "2528426",
+            "name": "Jordan Clarkson",
+            "role": "subin"
+          },
+          {
+            "id": "4431823",
+            "name": "Miles McBride",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:51:41.000Z",
+        "modified": "2026-10-20T23:51:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089202",
+        "sequence": 202,
+        "period": 2,
+        "clock": "12:00",
+        "text": "Jose Alvarado enters the game for Jalen Brunson",
+        "type": "Substitution",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "role": "subin"
+          },
+          {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:51:41.000Z",
+        "modified": "2026-10-20T23:51:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089204",
+        "sequence": 204,
+        "period": 2,
+        "clock": "12:00",
+        "text": "LeBron James enters the game for VJ Edgecombe",
+        "type": "Substitution",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "role": "subin"
+          },
+          {
+            "id": "5124612",
+            "name": "VJ Edgecombe",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:51:41.000Z",
+        "modified": "2026-10-20T23:51:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089206",
+        "sequence": 206,
+        "period": 2,
+        "clock": "11:47",
+        "text": "Jordan Clarkson misses 4-foot floating jump shot",
+        "type": "Floating Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "2528426",
+            "name": "Jordan Clarkson",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:51:53.000Z",
+        "modified": "2026-10-20T23:52:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 29,
+          "y": 1
+        }
+      },
+      {
+        "id": "401909089207",
+        "sequence": 207,
+        "period": 2,
+        "clock": "11:47",
+        "text": "Anfernee Simons defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4351851",
+            "name": "Anfernee Simons",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:51:53.000Z",
+        "modified": "2026-10-20T23:52:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089208",
+        "sequence": 208,
+        "period": 2,
+        "clock": "11:36",
+        "text": "LeBron James misses driving layup",
+        "type": "Driving Layup Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:52:04.000Z",
+        "modified": "2026-10-20T23:52:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 22,
+          "y": 2
+        }
+      },
+      {
+        "id": "401909089209",
+        "sequence": 209,
+        "period": 2,
+        "clock": "11:36",
+        "text": "Jose Alvarado defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:52:04.000Z",
+        "modified": "2026-10-20T23:52:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089210",
+        "sequence": 210,
+        "period": 2,
+        "clock": "11:26",
+        "text": "Jose Alvarado out of bounds bad pass turnover",
+        "type": "Out of Bounds - Bad Pass Turnover",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "role": "offense"
+          }
+        ],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:52:14.000Z",
+        "modified": "2026-10-20T23:52:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089211",
+        "sequence": 211,
+        "period": 2,
+        "clock": "11:13",
+        "text": "Anfernee Simons misses 26-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4351851",
+            "name": "Anfernee Simons",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:53:00.000Z",
+        "modified": "2026-10-20T23:53:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 38,
+          "y": 23
+        }
+      },
+      {
+        "id": "401909089212",
+        "sequence": 212,
+        "period": 2,
+        "clock": "11:13",
+        "text": "Andre Drummond defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:53:00.000Z",
+        "modified": "2026-10-20T23:53:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089213",
+        "sequence": 213,
+        "period": 2,
+        "clock": "10:57",
+        "text": "Jose Alvarado misses two point shot",
+        "type": "Layup Driving Reverse",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:53:16.000Z",
+        "modified": "2026-10-20T23:53:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 23,
+          "y": 2
+        }
+      },
+      {
+        "id": "401909089214",
+        "sequence": 214,
+        "period": 2,
+        "clock": "10:57",
+        "text": "Andre Drummond offensive rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 25,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:53:16.000Z",
+        "modified": "2026-10-20T23:53:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089215",
+        "sequence": 215,
+        "period": 2,
+        "clock": "10:54",
+        "text": "Andre Drummond makes tip shot",
+        "type": "Tip Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 27,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:53:18.000Z",
+        "modified": "2026-10-20T23:53:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 25,
+          "y": 0
+        }
+      },
+      {
+        "id": "401909089216",
+        "sequence": 216,
+        "period": 2,
+        "clock": "10:46",
+        "text": "Jose Alvarado personal foul",
+        "type": "Personal Foul",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 27,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:53:26.000Z",
+        "modified": "2026-10-20T23:53:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089219",
+        "sequence": 219,
+        "period": 2,
+        "clock": "10:46",
+        "text": "Jabari Walker enters the game for Adem Bona",
+        "type": "Substitution",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4432446",
+            "name": "Jabari Walker",
+            "role": "subin"
+          },
+          {
+            "id": "5105637",
+            "name": "Adem Bona",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 27,
+        "awayScore": 23,
+        "wallclock": "2026-10-20T23:53:26.000Z",
+        "modified": "2026-10-20T23:53:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089220",
+        "sequence": 220,
+        "period": 2,
+        "clock": "10:34",
+        "text": "Tyrese Maxey makes driving layup (Jabari Walker assists)",
+        "type": "Driving Layup Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "role": "shooter"
+          },
+          {
+            "id": "4432446",
+            "name": "Jabari Walker",
+            "role": "assister"
+          }
+        ],
+        "homeScore": 27,
+        "awayScore": 25,
+        "wallclock": "2026-10-20T23:54:05.000Z",
+        "modified": "2026-10-20T23:54:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 25,
+          "y": 1
+        }
+      },
+      {
+        "id": "401909089222",
+        "sequence": 222,
+        "period": 2,
+        "clock": "10:12",
+        "text": "Jordan Clarkson misses 11-foot hook shot",
+        "type": "Hook Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "2528426",
+            "name": "Jordan Clarkson",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 27,
+        "awayScore": 25,
+        "wallclock": "2026-10-20T23:54:27.000Z",
+        "modified": "2026-10-20T23:54:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 25,
+          "y": 12
+        }
+      },
+      {
+        "id": "401909089223",
+        "sequence": 223,
+        "period": 2,
+        "clock": "10:12",
+        "text": "LeBron James defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 27,
+        "awayScore": 25,
+        "wallclock": "2026-10-20T23:54:27.000Z",
+        "modified": "2026-10-20T23:54:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089224",
+        "sequence": 224,
+        "period": 2,
+        "clock": "10:02",
+        "text": "Andre Drummond shooting foul",
+        "type": "Shooting Foul",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 27,
+        "awayScore": 25,
+        "wallclock": "2026-10-20T23:54:37.000Z",
+        "modified": "2026-10-20T23:54:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089226",
+        "sequence": 226,
+        "period": 2,
+        "clock": "10:02",
+        "text": "LeBron James makes free throw 1 of 2",
+        "type": "Free Throw - 1 of 2",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 27,
+        "awayScore": 26,
+        "wallclock": "2026-10-20T23:55:12.000Z",
+        "modified": "2026-10-20T23:55:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 1,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "401909089227",
+        "sequence": 227,
+        "period": 2,
+        "clock": "10:02",
+        "text": "LeBron James misses free throw 2 of 2",
+        "type": "Free Throw - 2 of 2",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 27,
+        "awayScore": 26,
+        "wallclock": "2026-10-20T23:55:12.000Z",
+        "modified": "2026-10-20T23:55:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "401909089228",
+        "sequence": 228,
+        "period": 2,
+        "clock": "10:02",
+        "text": "Andre Drummond defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 27,
+        "awayScore": 26,
+        "wallclock": "2026-10-20T23:55:12.000Z",
+        "modified": "2026-10-20T23:55:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089229",
+        "sequence": 229,
+        "period": 2,
+        "clock": "9:50",
+        "text": "Landry Shamet misses 23-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3914044",
+            "name": "Landry Shamet",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 27,
+        "awayScore": 26,
+        "wallclock": "2026-10-20T23:55:38.000Z",
+        "modified": "2026-10-20T23:55:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "id": "401909089230",
+        "sequence": 230,
+        "period": 2,
+        "clock": "9:50",
+        "text": "Andre Drummond offensive rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 27,
+        "awayScore": 26,
+        "wallclock": "2026-10-20T23:55:38.000Z",
+        "modified": "2026-10-20T23:55:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089231",
+        "sequence": 231,
+        "period": 2,
+        "clock": "9:42",
+        "text": "Andre Drummond makes 1-foot layup (Jose Alvarado assists)",
+        "type": "Cutting Layup Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "shooter"
+          },
+          {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "role": "assister"
+          }
+        ],
+        "homeScore": 29,
+        "awayScore": 26,
+        "wallclock": "2026-10-20T23:55:47.000Z",
+        "modified": "2026-10-20T23:55:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 24,
+          "y": 0
+        }
+      },
+      {
+        "id": "401909089233",
+        "sequence": 233,
+        "period": 2,
+        "clock": "9:35",
+        "text": "Jaylen Brown lost ball turnover (Jose Alvarado steals)",
+        "type": "Lost Ball Turnover",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "role": "offense"
+          },
+          {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "role": "defender"
+          }
+        ],
+        "homeScore": 29,
+        "awayScore": 26,
+        "wallclock": "2026-10-20T23:55:53.000Z",
+        "modified": "2026-10-20T23:55:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089235",
+        "sequence": 235,
+        "period": 2,
+        "clock": "9:32",
+        "text": "Jose Alvarado makes 23-foot three pointer",
+        "type": "Pullup Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 32,
+        "awayScore": 26,
+        "wallclock": "2026-10-20T23:55:56.000Z",
+        "modified": "2026-10-20T23:59:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 3,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 5,
+          "y": 13
+        }
+      },
+      {
+        "id": "401909089236",
+        "sequence": 236,
+        "period": 2,
+        "clock": "9:17",
+        "text": "Mikal Bridges shooting foul",
+        "type": "Shooting Foul",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3147657",
+            "name": "Mikal Bridges",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 32,
+        "awayScore": 26,
+        "wallclock": "2026-10-20T23:56:12.000Z",
+        "modified": "2026-10-20T23:56:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089238",
+        "sequence": 238,
+        "period": 2,
+        "clock": "9:17",
+        "text": "Tyrese Maxey makes free throw 1 of 2",
+        "type": "Free Throw - 1 of 2",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 32,
+        "awayScore": 27,
+        "wallclock": "2026-10-20T23:56:46.000Z",
+        "modified": "2026-10-20T23:56:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 1,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "401909089239",
+        "sequence": 239,
+        "period": 2,
+        "clock": "9:17",
+        "text": "Tyrese Maxey makes free throw 2 of 2",
+        "type": "Free Throw - 2 of 2",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 32,
+        "awayScore": 28,
+        "wallclock": "2026-10-20T23:57:19.000Z",
+        "modified": "2026-10-20T23:57:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 1,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "401909089241",
+        "sequence": 241,
+        "period": 2,
+        "clock": "9:17",
+        "text": "Josh Hart enters the game for Mikal Bridges",
+        "type": "Substitution",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "role": "subin"
+          },
+          {
+            "id": "3147657",
+            "name": "Mikal Bridges",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 32,
+        "awayScore": 28,
+        "wallclock": "2026-10-20T23:56:46.000Z",
+        "modified": "2026-10-20T23:57:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089243",
+        "sequence": 243,
+        "period": 2,
+        "clock": "9:17",
+        "text": "VJ Edgecombe enters the game for Jaylen Brown",
+        "type": "Substitution",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "5124612",
+            "name": "VJ Edgecombe",
+            "role": "subin"
+          },
+          {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "role": "subout"
+          }
+        ],
+        "homeScore": 32,
+        "awayScore": 28,
+        "wallclock": "2026-10-20T23:56:46.000Z",
+        "modified": "2026-10-20T23:57:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089244",
+        "sequence": 244,
+        "period": 2,
+        "clock": "9:10",
+        "text": "Jabari Walker personal foul",
+        "type": "Personal Foul",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4432446",
+            "name": "Jabari Walker",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 32,
+        "awayScore": 28,
+        "wallclock": "2026-10-20T23:57:28.000Z",
+        "modified": "2026-10-20T23:57:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089246",
+        "sequence": 246,
+        "period": 2,
+        "clock": "9:04",
+        "text": "Landry Shamet makes 27-foot three point jumper (Andre Drummond assists)",
+        "type": "Jump Shot",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3914044",
+            "name": "Landry Shamet",
+            "role": "shooter"
+          },
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "assister"
+          }
+        ],
+        "homeScore": 35,
+        "awayScore": 28,
+        "wallclock": "2026-10-20T23:57:59.000Z",
+        "modified": "2026-10-20T23:58:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 3,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 34,
+          "y": 26
+        }
+      },
+      {
+        "id": "401909089248",
+        "sequence": 248,
+        "period": 2,
+        "clock": "8:53",
+        "text": "Jordan Clarkson personal foul",
+        "type": "Personal Foul",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "2528426",
+            "name": "Jordan Clarkson",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 35,
+        "awayScore": 28,
+        "wallclock": "2026-10-20T23:58:10.000Z",
+        "modified": "2026-10-20T23:58:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089250",
+        "sequence": 250,
+        "period": 2,
+        "clock": "8:45",
+        "text": "Andre Drummond blocks Tyrese Maxey 's 14-foot driving floating jump shot",
+        "type": "Driving Floating Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "role": "shooter"
+          },
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "blocker"
+          }
+        ],
+        "homeScore": 35,
+        "awayScore": 28,
+        "wallclock": "2026-10-20T23:58:41.000Z",
+        "modified": "2026-10-20T23:59:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 12,
+          "y": 3
+        }
+      },
+      {
+        "id": "401909089251",
+        "sequence": 251,
+        "period": 2,
+        "clock": "8:45",
+        "text": "Andre Drummond defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 35,
+        "awayScore": 28,
+        "wallclock": "2026-10-20T23:58:41.000Z",
+        "modified": "2026-10-20T23:59:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089252",
+        "sequence": 252,
+        "period": 2,
+        "clock": "8:40",
+        "text": "VJ Edgecombe shooting foul",
+        "type": "Shooting Foul",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "5124612",
+            "name": "VJ Edgecombe",
+            "role": "fouler"
+          }
+        ],
+        "homeScore": 35,
+        "awayScore": 28,
+        "wallclock": "2026-10-20T23:58:46.000Z",
+        "modified": "2026-10-20T23:59:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089255",
+        "sequence": 255,
+        "period": 2,
+        "clock": "8:40",
+        "text": "Josh Hart misses free throw 1 of 2",
+        "type": "Free Throw - 1 of 2",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 35,
+        "awayScore": 28,
+        "wallclock": "2026-10-20T23:58:46.000Z",
+        "modified": "2026-10-20T23:59:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "401909089256",
+        "sequence": 256,
+        "period": 2,
+        "clock": "8:40",
+        "text": "Knicks offensive team rebound",
+        "type": "Offensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [],
+        "homeScore": 35,
+        "awayScore": 28,
+        "wallclock": "2026-10-20T23:58:46.000Z",
+        "modified": "2026-10-20T23:59:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089257",
+        "sequence": 257,
+        "period": 2,
+        "clock": "8:40",
+        "text": "Josh Hart makes free throw 2 of 2",
+        "type": "Free Throw - 2 of 2",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 36,
+        "awayScore": 28,
+        "wallclock": "2026-10-20T23:59:57.000Z",
+        "modified": "2026-10-20T23:59:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 1,
+        "pointsAttempted": 1
+      },
+      {
+        "id": "401909089258",
+        "sequence": 258,
+        "period": 2,
+        "clock": "8:28",
+        "text": "LeBron James misses 25-foot three point jumper",
+        "type": "Jump Shot",
+        "teamId": "espn-team-20",
+        "players": [
+          {
+            "id": "1966",
+            "name": "LeBron James",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 36,
+        "awayScore": 28,
+        "wallclock": "2026-10-21T00:00:12.000Z",
+        "modified": "2026-10-21T00:00:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": true,
+        "scoreValue": 0,
+        "pointsAttempted": 3,
+        "coordinate": {
+          "x": 30,
+          "y": 26
+        }
+      },
+      {
+        "id": "401909089259",
+        "sequence": 259,
+        "period": 2,
+        "clock": "8:28",
+        "text": "Jose Alvarado defensive rebound",
+        "type": "Defensive Rebound",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "role": "rebounder"
+          }
+        ],
+        "homeScore": 36,
+        "awayScore": 28,
+        "wallclock": "2026-10-21T00:00:12.000Z",
+        "modified": "2026-10-21T00:00:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      },
+      {
+        "id": "401909089260",
+        "sequence": 260,
+        "period": 2,
+        "clock": "8:10",
+        "text": "Jordan Clarkson makes 1-foot two point shot",
+        "type": "Driving Finger Roll Layup",
+        "teamId": "espn-team-18",
+        "players": [
+          {
+            "id": "2528426",
+            "name": "Jordan Clarkson",
+            "role": "shooter"
+          }
+        ],
+        "homeScore": 38,
+        "awayScore": 28,
+        "wallclock": "2026-10-21T00:00:30.000Z",
+        "modified": "2026-10-21T00:00:00.000Z",
+        "scoringPlay": true,
+        "shootingPlay": true,
+        "scoreValue": 2,
+        "pointsAttempted": 2,
+        "coordinate": {
+          "x": 27,
+          "y": 1
+        }
+      },
+      {
+        "id": "401909089261",
+        "sequence": 261,
+        "period": 2,
+        "clock": "8:09",
+        "text": "76ers Full timeout",
+        "type": "Full Timeout",
+        "teamId": "espn-team-20",
+        "players": [],
+        "homeScore": 38,
+        "awayScore": 28,
+        "wallclock": "2026-10-21T00:00:31.000Z",
+        "modified": "2026-10-21T00:00:00.000Z",
+        "scoringPlay": false,
+        "shootingPlay": false,
+        "scoreValue": 0,
+        "pointsAttempted": 0
+      }
+    ],
+    "fetchedAt": "2026-10-21T00:01:37.090Z",
+    "sourceUpdatedAt": "2026-10-21T00:00:31.000Z",
+    "partial": false,
+    "warnings": [],
+    "boxScore": {
+      "season": 2027,
+      "phase": 2,
+      "rows": [
+        {
+          "player": {
+            "id": "1966",
+            "name": "LeBron James",
+            "jersey": "23",
+            "position": "F",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png"
+          },
+          "teamId": "espn-team-20",
+          "starter": true,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "13"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "3"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "1-4"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "0-2"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "1-2"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "2"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "2"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "1"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "0"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "0"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "2"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "1"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "-9"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "3059318",
+            "name": "Joel Embiid",
+            "jersey": "21",
+            "position": "C",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3059318.png"
+          },
+          "teamId": "espn-team-20",
+          "starter": true,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "9"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "4"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "1-5"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "0-1"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "2-2"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "2"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "2"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "1"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "0"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "0"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "1"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "1"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "0"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "-1"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "3917376",
+            "name": "Jaylen Brown",
+            "jersey": "7",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3917376.png"
+          },
+          "teamId": "espn-team-20",
+          "starter": true,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "12"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "3"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "1-4"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "0-1"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "1-2"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "2"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "0"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "1"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "0"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "1"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "2"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "0"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "+1"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "4431678",
+            "name": "Tyrese Maxey",
+            "jersey": "0",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431678.png"
+          },
+          "teamId": "espn-team-20",
+          "starter": true,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "13"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "12"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "4-7"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "2-3"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "2-2"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "0"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "0"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "0"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "1"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "1"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "0"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "0"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "-5"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "5124612",
+            "name": "VJ Edgecombe",
+            "jersey": "77",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5124612.png"
+          },
+          "teamId": "espn-team-20",
+          "starter": true,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "10"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "2"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "1-2"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "0-1"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "0-0"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "1"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "0"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "1"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "0"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "0"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "1"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "1"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "-9"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "4432446",
+            "name": "Jabari Walker",
+            "jersey": "33",
+            "position": "F",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432446.png"
+          },
+          "teamId": "espn-team-20",
+          "starter": false,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "3"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "0"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "0-0"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "0-0"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "0-0"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "0"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "1"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "0"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "0"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "0"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "0"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "1"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "-6"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "5105637",
+            "name": "Adem Bona",
+            "jersey": "30",
+            "position": "C",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105637.png"
+          },
+          "teamId": "espn-team-20",
+          "starter": false,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "4"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "0"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "0-0"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "0-0"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "0-0"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "2"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "1"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "0"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "0"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "0"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "2"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "1"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "-3"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "2581018",
+            "name": "Kentavious Caldwell-Pope",
+            "jersey": "1",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2581018.png"
+          },
+          "teamId": "espn-team-20",
+          "starter": false,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "6"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "0"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "0-1"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "0-0"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "0-0"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "0"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "0"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "0"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "0"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "0"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "0"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "1"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "-4"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "4351851",
+            "name": "Anfernee Simons",
+            "jersey": "5",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4351851.png"
+          },
+          "teamId": "espn-team-20",
+          "starter": false,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "10"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "4"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "2-4"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "0-2"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "0-0"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "2"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "0"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "0"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "0"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "0"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "2"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "1"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "-14"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "4711297",
+            "name": "Justin Edwards",
+            "jersey": "11",
+            "position": "F",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4711297.png"
+          },
+          "teamId": "espn-team-20",
+          "starter": false,
+          "didNotPlay": true,
+          "stats": []
+        },
+        {
+          "player": {
+            "id": "4433144",
+            "name": "Caleb Love",
+            "jersey": "8",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433144.png"
+          },
+          "teamId": "espn-team-20",
+          "starter": false,
+          "didNotPlay": true,
+          "stats": []
+        },
+        {
+          "player": {
+            "id": "4873090",
+            "name": "Labaron Philon Jr.",
+            "jersey": "00",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4873090.png"
+          },
+          "teamId": "espn-team-20",
+          "starter": false,
+          "didNotPlay": true,
+          "stats": []
+        },
+        {
+          "player": {
+            "id": "5099752",
+            "name": "Rayan Rupert",
+            "jersey": "12",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5099752.png"
+          },
+          "teamId": "espn-team-20",
+          "starter": false,
+          "didNotPlay": true,
+          "stats": []
+        },
+        {
+          "player": {
+            "id": "3934719",
+            "name": "OG Anunoby",
+            "jersey": "8",
+            "position": "F",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": true,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "8"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "2"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "1-6"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "0-5"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "0-0"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "2"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "0"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "0"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "0"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "0"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "1"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "1"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "2"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "-1"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "3136195",
+            "name": "Karl-Anthony Towns",
+            "jersey": "32",
+            "position": "C",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": true,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "3"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "0"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "0-0"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "0-0"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "0-0"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "1"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "0"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "2"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "1"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "1"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "1"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "2"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "-3"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "3062679",
+            "name": "Josh Hart",
+            "jersey": "3",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": true,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "10"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "4"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "1-3"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "0-2"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "2-3"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "1"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "1"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "0"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "1"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "1"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "1"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "1"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "+7"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "3147657",
+            "name": "Mikal Bridges",
+            "jersey": "25",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": true,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "13"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "4"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "2-4"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "0-0"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "0-0"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "2"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "1"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "0"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "0"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "0"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "1"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "1"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "1"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "+5"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "3934672",
+            "name": "Jalen Brunson",
+            "jersey": "11",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": true,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "10"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "5"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "2-4"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "1-1"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "0-0"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "1"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "0"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "0"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "0"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "0"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "1"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "0"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "+1"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "6585",
+            "name": "Andre Drummond",
+            "jersey": "0",
+            "position": "C",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": false,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "13"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "10"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "4-7"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "0-0"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "2-4"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "11"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "2"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "0"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "1"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "2"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "5"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "6"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "1"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "+13"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "2528426",
+            "name": "Jordan Clarkson",
+            "jersey": "00",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2528426.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": false,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "4"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "2"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "1-3"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "0-0"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "0-0"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "0"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "0"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "0"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "0"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "0"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "0"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "1"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "+8"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "3914044",
+            "name": "Landry Shamet",
+            "jersey": "44",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3914044.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": false,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "8"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "3"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "1-4"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "1-4"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "0-0"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "0"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "2"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "0"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "0"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "0"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "0"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "0"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "+11"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "4277869",
+            "name": "Jose Alvarado",
+            "jersey": "5",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277869.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": false,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "7"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "5"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "2-3"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "1-1"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "0-0"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "3"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "1"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "1"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "1"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "0"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "3"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "2"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "+7"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "4431823",
+            "name": "Miles McBride",
+            "jersey": "2",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431823.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": false,
+          "didNotPlay": false,
+          "stats": [
+            {
+              "key": "minutes",
+              "label": "MIN",
+              "value": "4"
+            },
+            {
+              "key": "points",
+              "label": "PTS",
+              "value": "3"
+            },
+            {
+              "key": "fieldGoalsMade-fieldGoalsAttempted",
+              "label": "FG",
+              "value": "1-2"
+            },
+            {
+              "key": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "label": "3PT",
+              "value": "1-1"
+            },
+            {
+              "key": "freeThrowsMade-freeThrowsAttempted",
+              "label": "FT",
+              "value": "0-0"
+            },
+            {
+              "key": "rebounds",
+              "label": "REB",
+              "value": "1"
+            },
+            {
+              "key": "assists",
+              "label": "AST",
+              "value": "0"
+            },
+            {
+              "key": "turnovers",
+              "label": "TO",
+              "value": "0"
+            },
+            {
+              "key": "steals",
+              "label": "STL",
+              "value": "0"
+            },
+            {
+              "key": "blocks",
+              "label": "BLK",
+              "value": "1"
+            },
+            {
+              "key": "offensiveRebounds",
+              "label": "OREB",
+              "value": "0"
+            },
+            {
+              "key": "defensiveRebounds",
+              "label": "DREB",
+              "value": "1"
+            },
+            {
+              "key": "fouls",
+              "label": "PF",
+              "value": "0"
+            },
+            {
+              "key": "plusMinus",
+              "label": "+/-",
+              "value": "+2"
+            }
+          ]
+        },
+        {
+          "player": {
+            "id": "5211983",
+            "name": "Pacome Dadiet",
+            "jersey": "4",
+            "position": "F",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5211983.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": false,
+          "didNotPlay": true,
+          "stats": []
+        },
+        {
+          "player": {
+            "id": "5289900",
+            "name": "Mohamed Diawara",
+            "jersey": "51",
+            "position": "F",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5289900.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": false,
+          "didNotPlay": true,
+          "stats": []
+        },
+        {
+          "player": {
+            "id": "4432808",
+            "name": "James Wiseman",
+            "jersey": "35",
+            "position": "C",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432808.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": false,
+          "didNotPlay": true,
+          "stats": []
+        },
+        {
+          "player": {
+            "id": "4411057",
+            "name": "Kevin McCullar Jr.",
+            "jersey": "9",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4411057.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": false,
+          "didNotPlay": true,
+          "stats": []
+        },
+        {
+          "player": {
+            "id": "4433225",
+            "name": "Tyler Kolek",
+            "jersey": "13",
+            "position": "G",
+            "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433225.png"
+          },
+          "teamId": "espn-team-18",
+          "starter": false,
+          "didNotPlay": true,
+          "stats": []
+        }
+      ]
+    }
+  }
+}

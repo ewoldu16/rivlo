@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-20",
+  "errors": [],
+  "audit": [
+    {
+      "width": 390,
+      "state": "upcoming",
+      "id": "espn-401909088",
+      "overflow": false,
+      "selected": "/games/espn-401909088?date=2026-10-20",
+      "neighbours": 3,
+      "headerHeight": 282.8125,
+      "headerText": "Boston Celtics at Detroit Pistons game previewTue, 20 Oct 2026Little Caesars ArenaBostonCeltics0-0AWAYDetroitPistons0-0HOMEUpcoming20:00Tip-off · Europe/LondonESPN preview · unofficial data · NBC"
+    },
+    {
+      "width": 768,
+      "state": "upcoming",
+      "id": "espn-401909088",
+      "overflow": false,
+      "selected": "/games/espn-401909088?date=2026-10-20",
+      "neighbours": 3,
+      "headerHeight": 308.859375,
+      "headerText": "Boston Celtics at Detroit Pistons game previewTue, 20 Oct 2026Little Caesars ArenaBostonCeltics0-0AWAYDetroitPistons0-0HOMEUpcoming20:00Tip-off · Europe/LondonESPN preview · unofficial data · NBC"
+    },
+    {
+      "width": 1024,
+      "state": "upcoming",
+      "id": "espn-401909088",
+      "overflow": false,
+      "selected": "/games/espn-401909088?date=2026-10-20",
+      "neighbours": 3,
+      "headerHeight": 256.578125,
+      "headerText": "Boston Celtics at Detroit Pistons game previewTue, 20 Oct 2026Little Caesars ArenaBostonCeltics0-0AWAYDetroitPistons0-0HOMEUpcoming20:00Tip-off · Europe/LondonESPN preview · unofficial data · NBC"
+    },
+    {
+      "width": 1440,
+      "state": "upcoming",
+      "id": "espn-401909088",
+      "overflow": false,
+      "selected": "/games/espn-401909088?date=2026-10-20",
+      "neighbours": 3,
+      "headerHeight": 256.578125,
+      "headerText": "Boston Celtics at Detroit Pistons game previewTue, 20 Oct 2026Little Caesars ArenaBostonCeltics0-0AWAYDetroitPistons0-0HOMEUpcoming20:00Tip-off · Europe/LondonESPN preview · unofficial data · NBC"
+    },
+    {
+      "width": 1920,
+      "state": "upcoming",
+      "id": "espn-401909088",
+      "overflow": false,
+      "selected": "/games/espn-401909088?date=2026-10-20",
+      "neighbours": 3,
+      "headerHeight": 256.578125,
+      "headerText": "Boston Celtics at Detroit Pistons game previewTue, 20 Oct 2026Little Caesars ArenaBostonCeltics0-0AWAYDetroitPistons0-0HOMEUpcoming20:00Tip-off · Europe/LondonESPN preview · unofficial data · NBC"
+    },
+    {
+      "width": 390,
+      "state": "final",
+      "id": "espn-401810987",
+      "overflow": false,
+      "selected": "/games/espn-401810987?date=2026-04-05",
+      "neighbours": 11,
+      "headerHeight": 282.8125,
+      "headerText": "Toronto Raptors at Boston Celtics game previewSun, 5 Apr 2026TD GardenTorontoRaptors43-35AWAYBostonCeltics53-25HOME · WINNERFinal101–11520:30 · Europe/LondonESPN preview · unofficial data · NBC Sports BO · Sportsnet · NBA TV"
+    },
+    {
+      "width": 768,
+      "state": "final",
+      "id": "espn-401810987",
+      "overflow": false,
+      "selected": "/games/espn-401810987?date=2026-04-05",
+      "neighbours": 11,
+      "headerHeight": 308.859375,
+      "headerText": "Toronto Raptors at Boston Celtics game previewSun, 5 Apr 2026TD GardenTorontoRaptors43-35AWAYBostonCeltics53-25HOME · WINNERFinal101–11520:30 · Europe/LondonESPN preview · unofficial data · NBC Sports BO · Sportsnet · NBA TV"
+    },
+    {
+      "width": 1024,
+      "state": "final",
+      "id": "espn-401810987",
+      "overflow": false,
+      "selected": "/games/espn-401810987?date=2026-04-05",
+      "neighbours": 11,
+      "headerHeight": 256.578125,
+      "headerText": "Toronto Raptors at Boston Celtics game previewSun, 5 Apr 2026TD GardenTorontoRaptors43-35AWAYBostonCeltics53-25HOME · WINNERFinal101–11520:30 · Europe/LondonESPN preview · unofficial data · NBC Sports BO · Sportsnet · NBA TV"
+    },
+    {
+      "width": 1440,
+      "state": "final",
+      "id": "espn-401810987",
+      "overflow": false,
+      "selected": "/games/espn-401810987?date=2026-04-05",
+      "neighbours": 11,
+      "headerHeight": 256.578125,
+      "headerText": "Toronto Raptors at Boston Celtics game previewSun, 5 Apr 2026TD GardenTorontoRaptors43-35AWAYBostonCeltics53-25HOME · WINNERFinal101–11520:30 · Europe/LondonESPN preview · unofficial data · NBC Sports BO · Sportsnet · NBA TV"
+    },
+    {
+      "width": 1920,
+      "state": "final",
+      "id": "espn-401810987",
+      "overflow": false,
+      "selected": "/games/espn-401810987?date=2026-04-05",
+      "neighbours": 11,
+      "headerHeight": 256.578125,
+      "headerText": "Toronto Raptors at Boston Celtics game previewSun, 5 Apr 2026TD GardenTorontoRaptors43-35AWAYBostonCeltics53-25HOME · WINNERFinal101–11520:30 · Europe/LondonESPN preview · unofficial data · NBC Sports BO · Sportsnet · NBA TV"
+    }
+  ],
+  "source": "Actual production app; existing ESPN provider; Europe/London browser timezone; demo/live image explicitly simulated."
+}

@@ -1,0 +1,10 @@
+﻿import {afterEach,describe,it,expect,vi} from 'vitest';
+import {emptyTracker} from '../src/domain/tracker';
+import {localTrackerRepository,subscribeTracker,trackerChanged,trackerStorageKey} from '../src/data/tracker-storage';
+afterEach(()=>vi.unstubAllGlobals());
+function environment(){const values=new Map<string,string>(),events=new EventTarget();vi.stubGlobal('window',events);vi.stubGlobal('localStorage',{getItem:(key:string)=>values.get(key)??null,setItem:(key:string,value:string)=>values.set(key,value)});return {values,events};}
+describe('shared tracker persistence',()=>{
+ it('validates and persists the original schema then publishes same-tab changes',()=>{const {values,events}=environment(),changed=vi.fn();events.addEventListener(trackerChanged,changed);localTrackerRepository.save(emptyTracker());expect(localTrackerRepository.load()).toEqual(emptyTracker());expect(values.has(trackerStorageKey)).toBe(true);expect(changed).toHaveBeenCalledTimes(1);expect(()=>localTrackerRepository.save({...emptyTracker(),version:2} as never)).toThrow();expect(changed).toHaveBeenCalledTimes(1)});
+ it('never emits a success update when persistence fails',()=>{const {events}=environment(),changed=vi.fn();events.addEventListener(trackerChanged,changed);vi.stubGlobal('localStorage',{setItem:()=>{throw Error('Storage full')}});expect(()=>localTrackerRepository.save(emptyTracker())).toThrow('Storage full');expect(changed).not.toHaveBeenCalled()});
+ it('subscribes to relevant cross-tab writes and clear, and cleans up listeners',()=>{const {events}=environment(),changed=vi.fn(),unsubscribe=subscribeTracker(changed);const storage=(key:string|null)=>{const event=new Event('storage');Object.defineProperty(event,'key',{value:key});events.dispatchEvent(event)};storage('unrelated');expect(changed).not.toHaveBeenCalled();storage(trackerStorageKey);storage(null);events.dispatchEvent(new Event(trackerChanged));expect(changed).toHaveBeenCalledTimes(3);unsubscribe();storage(trackerStorageKey);events.dispatchEvent(new Event(trackerChanged));expect(changed).toHaveBeenCalledTimes(3)});
+});

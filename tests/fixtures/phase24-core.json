@@ -1,0 +1,4946 @@
+{
+  "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays?lang=en&region=us",
+  "count": 81,
+  "pageIndex": 1,
+  "pageSize": 1000,
+  "pageCount": 1,
+  "items": [
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/4019090894?lang=en&region=us",
+      "id": "4019090894",
+      "sequenceNumber": "4",
+      "type": {
+        "id": "615",
+        "text": "Jumpball"
+      },
+      "text": "Joel Embiid vs. Karl-Anthony Towns (LeBron James gains possession)",
+      "shortText": "Jumpball: PHILADELPHIA controls the tip.",
+      "alternativeText": "Joel Embiid vs. Karl-Anthony Towns (LeBron James gains possession)",
+      "shortAlternativeText": "Jumpball: PHILADELPHIA controls the tip.",
+      "awayScore": 0,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 720.0,
+        "displayValue": "12:00"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:18Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3059318?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3059318/statistics/0?lang=en&region=us"
+          },
+          "order": 1
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3136195?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3136195/statistics/0?lang=en&region=us"
+          },
+          "order": 2
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/1966?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/1966/statistics/0?lang=en&region=us"
+          },
+          "order": 3
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/4019090894?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:18:00Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/4019090897?lang=en&region=us",
+      "id": "4019090897",
+      "sequenceNumber": "7",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Tyrese Maxey makes 28-foot three point jumper (Joel Embiid assists)",
+      "shortText": "T. Maxey makes three point jumper (J. Embiid assists)",
+      "alternativeText": "Tyrese Maxey makes 28-foot three point jumper (Joel Embiid assists)",
+      "shortAlternativeText": "T. Maxey makes three point jumper (J. Embiid assists)",
+      "awayScore": 3,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 704.0,
+        "displayValue": "11:44"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 3,
+      "modified": "2026-10-20T23:18Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4431678?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/4431678/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3059318?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3059318/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "assister"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/4019090897?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:18:16Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 11,
+        "y": 25
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/4019090899?lang=en&region=us",
+      "id": "4019090899",
+      "sequenceNumber": "9",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Josh Hart misses 26-foot three point jumper",
+      "shortText": "J. Hart misses 26-foot three point jumper",
+      "alternativeText": "Josh Hart misses 26-foot three point jumper",
+      "shortAlternativeText": "J. Hart misses 26-foot three point jumper",
+      "awayScore": 3,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 678.0,
+        "displayValue": "11:18"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:18Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3062679?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3062679/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/4019090899?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:18:42Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 22,
+        "y": 27
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908910?lang=en&region=us",
+      "id": "40190908910",
+      "sequenceNumber": "10",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Joel Embiid defensive rebound",
+      "shortText": "J. Embiid defensive rebound",
+      "alternativeText": "Joel Embiid defensive rebound",
+      "shortAlternativeText": "J. Embiid defensive rebound",
+      "awayScore": 3,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 678.0,
+        "displayValue": "11:18"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:18Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3059318?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3059318/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908910?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:18:42Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 22,
+        "y": 27
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908911?lang=en&region=us",
+      "id": "40190908911",
+      "sequenceNumber": "11",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Karl-Anthony Towns blocks Joel Embiid 's 14-foot pullup jump shot",
+      "shortText": "K. Towns blocks J. Embiid 's 14-foot pullup jump shot",
+      "alternativeText": "Karl-Anthony Towns blocks Joel Embiid 's 14-foot pullup jump shot",
+      "shortAlternativeText": "K. Towns blocks J. Embiid 's 14-foot pullup jump shot",
+      "awayScore": 3,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 667.0,
+        "displayValue": "11:07"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:19Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3059318?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3059318/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3136195?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3136195/statistics/0?lang=en&region=us"
+          },
+          "order": 3,
+          "type": "blocker"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908911?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:18:53Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 23,
+        "y": 14
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908912?lang=en&region=us",
+      "id": "40190908912",
+      "sequenceNumber": "12",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Joel Embiid offensive rebound",
+      "shortText": "J. Embiid offensive rebound",
+      "alternativeText": "Joel Embiid offensive rebound",
+      "shortAlternativeText": "J. Embiid offensive rebound",
+      "awayScore": 3,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 667.0,
+        "displayValue": "11:07"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:32Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3059318?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3059318/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908912?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:18:53Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 23,
+        "y": 14
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089100?lang=en&region=us",
+      "id": "401909089100",
+      "sequenceNumber": "100",
+      "type": {
+        "id": "63",
+        "text": "Lost Ball Turnover"
+      },
+      "text": "Joel Embiid lost ball turnover (Karl-Anthony Towns steals)",
+      "shortText": "J. Embiid turnover",
+      "alternativeText": "Joel Embiid lost ball turnover (Karl-Anthony Towns steals)",
+      "shortAlternativeText": "J. Embiid turnover",
+      "awayScore": 3,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 666.0,
+        "displayValue": "11:06"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:33Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3059318?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3059318/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "offense"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3136195?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3136195/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "defender"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089100?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:18:54Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 21,
+        "y": 15
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908914?lang=en&region=us",
+      "id": "40190908914",
+      "sequenceNumber": "14",
+      "type": {
+        "id": "62",
+        "text": "Bad Pass\nTurnover"
+      },
+      "text": "Karl-Anthony Towns bad pass\nturnover (Tyrese Maxey steals)",
+      "shortText": "K. Towns turnover",
+      "alternativeText": "Karl-Anthony Towns bad pass\nturnover (Tyrese Maxey steals)",
+      "shortAlternativeText": "K. Towns turnover",
+      "awayScore": 3,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 664.0,
+        "displayValue": "11:04"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:19Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3136195?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3136195/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "offense"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4431678?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/4431678/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "defender"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908914?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:18:56Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 23,
+        "y": 41
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908916?lang=en&region=us",
+      "id": "40190908916",
+      "sequenceNumber": "16",
+      "type": {
+        "id": "146",
+        "text": "Running Pullup Jump Shot"
+      },
+      "text": "Tyrese Maxey makes 26-foot running pullup jump shot",
+      "shortText": "T. Maxey makes running pullup jump shot",
+      "alternativeText": "Tyrese Maxey makes 26-foot running pullup jump shot",
+      "shortAlternativeText": "T. Maxey makes running pullup jump shot",
+      "awayScore": 6,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 661.0,
+        "displayValue": "11:01"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 3,
+      "modified": "2026-10-20T23:20Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4431678?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/4431678/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908916?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:18:59Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 16,
+        "y": 25
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908917?lang=en&region=us",
+      "id": "40190908917",
+      "sequenceNumber": "17",
+      "type": {
+        "id": "141",
+        "text": "Cutting Layup Shot"
+      },
+      "text": "Jalen Brunson misses layup",
+      "shortText": "J. Brunson misses layup",
+      "alternativeText": "Jalen Brunson misses layup",
+      "shortAlternativeText": "J. Brunson misses layup",
+      "awayScore": 6,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 640.0,
+        "displayValue": "10:40"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:20Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934672?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934672/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908917?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:19:20Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 27,
+        "y": 2
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908918?lang=en&region=us",
+      "id": "40190908918",
+      "sequenceNumber": "18",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "VJ Edgecombe defensive rebound",
+      "shortText": "V. Edgecombe defensive rebound",
+      "alternativeText": "VJ Edgecombe defensive rebound",
+      "shortAlternativeText": "V. Edgecombe defensive rebound",
+      "awayScore": 6,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 640.0,
+        "displayValue": "10:40"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:20Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/5124612?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/5124612/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908918?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:19:20Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 27,
+        "y": 2
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908919?lang=en&region=us",
+      "id": "40190908919",
+      "sequenceNumber": "19",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Tyrese Maxey misses 25-foot three point jumper",
+      "shortText": "T. Maxey misses 25-foot three point jumper",
+      "alternativeText": "Tyrese Maxey misses 25-foot three point jumper",
+      "shortAlternativeText": "T. Maxey misses 25-foot three point jumper",
+      "awayScore": 6,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 622.0,
+        "displayValue": "10:22"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:19Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4431678?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/4431678/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908919?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:19:38Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 8,
+        "y": 19
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908920?lang=en&region=us",
+      "id": "40190908920",
+      "sequenceNumber": "20",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Jalen Brunson defensive rebound",
+      "shortText": "J. Brunson defensive rebound",
+      "alternativeText": "Jalen Brunson defensive rebound",
+      "shortAlternativeText": "J. Brunson defensive rebound",
+      "awayScore": 6,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 622.0,
+        "displayValue": "10:22"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:19Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934672?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934672/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908920?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:19:38Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 8,
+        "y": 19
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908942?lang=en&region=us",
+      "id": "40190908942",
+      "sequenceNumber": "42",
+      "type": {
+        "id": "42",
+        "text": "Offensive Foul"
+      },
+      "text": "Karl-Anthony Towns offensive foul",
+      "shortText": "K. Towns offensive foul",
+      "alternativeText": "Karl-Anthony Towns offensive foul",
+      "shortAlternativeText": "K. Towns offensive foul",
+      "awayScore": 6,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 603.0,
+        "displayValue": "10:03"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:23Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3136195?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3136195/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "fouler"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908942?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:19:58Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 6,
+        "y": 17
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908948?lang=en&region=us",
+      "id": "40190908948",
+      "sequenceNumber": "48",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Tyrese Maxey blocks OG Anunoby's three point jumper",
+      "shortText": "T. Maxey blocks O. Anunoby's three point jumper",
+      "alternativeText": "Tyrese Maxey blocks OG Anunoby's three point jumper",
+      "shortAlternativeText": "T. Maxey blocks O. Anunoby's three point jumper",
+      "awayScore": 6,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 603.0,
+        "displayValue": "10:03"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:23Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934719?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934719/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4431678?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/4431678/statistics/0?lang=en&region=us"
+          },
+          "order": 3,
+          "type": "blocker"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908948?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:19:57Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 48,
+        "y": 0
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908950?lang=en&region=us",
+      "id": "40190908950",
+      "sequenceNumber": "50",
+      "type": {
+        "id": "84",
+        "text": "Offensive Foul Turnover"
+      },
+      "text": "Karl-Anthony Towns offensive foul turnover",
+      "shortText": "K. Towns turnover",
+      "alternativeText": "Karl-Anthony Towns offensive foul turnover",
+      "shortAlternativeText": "K. Towns turnover",
+      "awayScore": 6,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 603.0,
+        "displayValue": "10:03"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:23Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3136195?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3136195/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "offense"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908950?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:19:58Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908951?lang=en&region=us",
+      "id": "40190908951",
+      "sequenceNumber": "51",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Knicks offensive team rebound",
+      "shortText": "Knicks offensive team rebound",
+      "alternativeText": "Knicks offensive team rebound",
+      "shortAlternativeText": "Knicks offensive team rebound",
+      "awayScore": 6,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 603.0,
+        "displayValue": "10:03"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:23Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908951?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:19:57Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 48,
+        "y": 0
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908922?lang=en&region=us",
+      "id": "40190908922",
+      "sequenceNumber": "22",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Jalen Brunson misses 14-foot pullup jump shot",
+      "shortText": "J. Brunson misses 14-foot pullup jump shot",
+      "alternativeText": "Jalen Brunson misses 14-foot pullup jump shot",
+      "shortAlternativeText": "J. Brunson misses 14-foot pullup jump shot",
+      "awayScore": 6,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 600.0,
+        "displayValue": "10:00"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:23Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934672?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934672/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908922?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:20:20Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 11,
+        "y": 5
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908923?lang=en&region=us",
+      "id": "40190908923",
+      "sequenceNumber": "23",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Jaylen Brown defensive rebound",
+      "shortText": "J. Brown defensive rebound",
+      "alternativeText": "Jaylen Brown defensive rebound",
+      "shortAlternativeText": "J. Brown defensive rebound",
+      "awayScore": 6,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 600.0,
+        "displayValue": "10:00"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:23Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3917376?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3917376/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908923?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:20:20Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 11,
+        "y": 5
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908924?lang=en&region=us",
+      "id": "40190908924",
+      "sequenceNumber": "24",
+      "type": {
+        "id": "63",
+        "text": "Lost Ball Turnover"
+      },
+      "text": "LeBron James lost ball turnover (Josh Hart steals)",
+      "shortText": "L. James turnover",
+      "alternativeText": "LeBron James lost ball turnover (Josh Hart steals)",
+      "shortAlternativeText": "L. James turnover",
+      "awayScore": 6,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 592.0,
+        "displayValue": "9:52"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:20Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/1966?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/1966/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "offense"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3062679?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3062679/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "defender"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908924?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:20:28Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 26,
+        "y": 14
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908926?lang=en&region=us",
+      "id": "40190908926",
+      "sequenceNumber": "26",
+      "type": {
+        "id": "146",
+        "text": "Running Pullup Jump Shot"
+      },
+      "text": "Mikal Bridges misses running pullup jump shot",
+      "shortText": "M. Bridges misses running pullup jump shot",
+      "alternativeText": "Mikal Bridges misses running pullup jump shot",
+      "shortAlternativeText": "M. Bridges misses running pullup jump shot",
+      "awayScore": 6,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 587.0,
+        "displayValue": "9:47"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:24Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3147657?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3147657/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908926?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:20:33Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 17,
+        "y": 4
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908927?lang=en&region=us",
+      "id": "40190908927",
+      "sequenceNumber": "27",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Mikal Bridges offensive rebound",
+      "shortText": "M. Bridges offensive rebound",
+      "alternativeText": "Mikal Bridges offensive rebound",
+      "shortAlternativeText": "M. Bridges offensive rebound",
+      "awayScore": 6,
+      "homeScore": 0,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 587.0,
+        "displayValue": "9:47"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:24Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3147657?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3147657/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908927?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:20:33Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 17,
+        "y": 4
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908928?lang=en&region=us",
+      "id": "40190908928",
+      "sequenceNumber": "28",
+      "type": {
+        "id": "94",
+        "text": "Tip Shot"
+      },
+      "text": "Mikal Bridges makes tip shot",
+      "shortText": "M. Bridges makes tip shot",
+      "alternativeText": "Mikal Bridges makes tip shot",
+      "shortAlternativeText": "M. Bridges makes tip shot",
+      "awayScore": 6,
+      "homeScore": 2,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 582.0,
+        "displayValue": "9:42"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 2,
+      "modified": "2026-10-20T23:24Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3147657?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3147657/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908928?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:20:38Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 25,
+        "y": 0
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908929?lang=en&region=us",
+      "id": "40190908929",
+      "sequenceNumber": "29",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "LeBron James misses 23-foot three point jumper",
+      "shortText": "L. James misses 23-foot three point jumper",
+      "alternativeText": "LeBron James misses 23-foot three point jumper",
+      "shortAlternativeText": "L. James misses 23-foot three point jumper",
+      "awayScore": 6,
+      "homeScore": 2,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 575.0,
+        "displayValue": "9:35"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:20Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/1966?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/1966/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908929?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:20:45Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 49,
+        "y": 0
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908930?lang=en&region=us",
+      "id": "40190908930",
+      "sequenceNumber": "30",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Karl-Anthony Towns defensive rebound",
+      "shortText": "K. Towns defensive rebound",
+      "alternativeText": "Karl-Anthony Towns defensive rebound",
+      "shortAlternativeText": "K. Towns defensive rebound",
+      "awayScore": 6,
+      "homeScore": 2,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 575.0,
+        "displayValue": "9:35"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:20Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3136195?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3136195/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908930?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:20:45Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 49,
+        "y": 0
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908931?lang=en&region=us",
+      "id": "40190908931",
+      "sequenceNumber": "31",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Jalen Brunson makes 25-foot three pointer",
+      "shortText": "J. Brunson makes three pointer",
+      "alternativeText": "Jalen Brunson makes 25-foot three pointer",
+      "shortAlternativeText": "J. Brunson makes three pointer",
+      "awayScore": 6,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 561.0,
+        "displayValue": "9:21"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 3,
+      "modified": "2026-10-20T23:21Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934672?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934672/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908931?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:20:59Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 11,
+        "y": 22
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908932?lang=en&region=us",
+      "id": "40190908932",
+      "sequenceNumber": "32",
+      "type": {
+        "id": "141",
+        "text": "Cutting Layup Shot"
+      },
+      "text": "Josh Hart blocks Tyrese Maxey's layup",
+      "shortText": "J. Hart blocks T. Maxey's layup",
+      "alternativeText": "Josh Hart blocks Tyrese Maxey's layup",
+      "shortAlternativeText": "J. Hart blocks T. Maxey's layup",
+      "awayScore": 6,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 549.0,
+        "displayValue": "9:09"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:27Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4431678?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/4431678/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3062679?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3062679/statistics/0?lang=en&region=us"
+          },
+          "order": 3,
+          "type": "blocker"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908932?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:21:12Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 25,
+        "y": 0
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908933?lang=en&region=us",
+      "id": "40190908933",
+      "sequenceNumber": "33",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "76ers offensive team rebound",
+      "shortText": "76ers offensive team rebound",
+      "alternativeText": "76ers offensive team rebound",
+      "shortAlternativeText": "76ers offensive team rebound",
+      "awayScore": 6,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 549.0,
+        "displayValue": "9:09"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:27Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908933?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:21:12Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 25,
+        "y": 0
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908936?lang=en&region=us",
+      "id": "40190908936",
+      "sequenceNumber": "36",
+      "type": {
+        "id": "45",
+        "text": "Personal Foul"
+      },
+      "text": "Karl-Anthony Towns personal foul",
+      "shortText": "K. Towns personal foul",
+      "alternativeText": "Karl-Anthony Towns personal foul",
+      "shortAlternativeText": "K. Towns personal foul",
+      "awayScore": 6,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 546.0,
+        "displayValue": "9:06"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:35Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3136195?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3136195/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "fouler"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908936?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:21:38Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 3,
+        "y": 1
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908938?lang=en&region=us",
+      "id": "40190908938",
+      "sequenceNumber": "38",
+      "type": {
+        "id": "141",
+        "text": "Cutting Layup Shot"
+      },
+      "text": "Jaylen Brown makes 1-foot layup (LeBron James assists)",
+      "shortText": "J. Brown makes layup (L. James assists)",
+      "alternativeText": "Jaylen Brown makes 1-foot layup (LeBron James assists)",
+      "shortAlternativeText": "J. Brown makes layup (L. James assists)",
+      "awayScore": 8,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 538.0,
+        "displayValue": "8:58"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 2,
+      "modified": "2026-10-20T23:22Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3917376?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3917376/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/1966?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/1966/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "assister"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908938?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:22:06Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 26,
+        "y": 1
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908946?lang=en&region=us",
+      "id": "40190908946",
+      "sequenceNumber": "46",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Andre Drummond enters the game for Karl-Anthony Towns",
+      "shortText": "A. Drummond enters the game for K. Towns",
+      "alternativeText": "Andre Drummond enters the game for Karl-Anthony Towns",
+      "shortAlternativeText": "A. Drummond enters the game for K. Towns",
+      "awayScore": 8,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 526.0,
+        "displayValue": "8:46"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:35Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/6585?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/6585/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "subin"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3136195?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3136195/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "subout"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908946?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:22:18Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908947?lang=en&region=us",
+      "id": "40190908947",
+      "sequenceNumber": "47",
+      "type": {
+        "id": "44",
+        "text": "Shooting Foul"
+      },
+      "text": "Josh Hart shooting foul",
+      "shortText": "J. Hart shooting foul",
+      "alternativeText": "Josh Hart shooting foul",
+      "shortAlternativeText": "J. Hart shooting foul",
+      "awayScore": 8,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 509.0,
+        "displayValue": "8:29"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:23Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3062679?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3062679/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "fouler"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908947?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:23:18Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 27,
+        "y": 7
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908953?lang=en&region=us",
+      "id": "40190908953",
+      "sequenceNumber": "53",
+      "type": {
+        "id": "98",
+        "text": "Free Throw - 1 of 2"
+      },
+      "text": "Joel Embiid makes free throw 1 of 2",
+      "shortText": "J. Embiid makes free throw 1 of 2",
+      "alternativeText": "Joel Embiid makes free throw 1 of 2",
+      "shortAlternativeText": "J. Embiid makes free throw 1 of 2",
+      "awayScore": 9,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 509.0,
+        "displayValue": "8:29"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 1,
+      "modified": "2026-10-20T23:35Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3059318?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3059318/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908953?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:24:04Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 1
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908954?lang=en&region=us",
+      "id": "40190908954",
+      "sequenceNumber": "54",
+      "type": {
+        "id": "99",
+        "text": "Free Throw - 2 of 2"
+      },
+      "text": "Joel Embiid makes free throw 2 of 2",
+      "shortText": "J. Embiid makes free throw 2 of 2",
+      "alternativeText": "Joel Embiid makes free throw 2 of 2",
+      "shortAlternativeText": "J. Embiid makes free throw 2 of 2",
+      "awayScore": 10,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 509.0,
+        "displayValue": "8:29"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 1,
+      "modified": "2026-10-20T23:35Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3059318?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3059318/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908954?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:24:27Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 1
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908961?lang=en&region=us",
+      "id": "40190908961",
+      "sequenceNumber": "61",
+      "type": {
+        "id": "132",
+        "text": "Step Back Jump Shot"
+      },
+      "text": "OG Anunoby misses 25-foot three point step back jumpshot",
+      "shortText": "O. Anunoby misses 25-foot three point step back jumpshot",
+      "alternativeText": "OG Anunoby misses 25-foot three point step back jumpshot",
+      "shortAlternativeText": "O. Anunoby misses 25-foot three point step back jumpshot",
+      "awayScore": 10,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 499.0,
+        "displayValue": "8:19"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:27Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934719?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934719/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908961?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:24:41Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 32,
+        "y": 25
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908962?lang=en&region=us",
+      "id": "40190908962",
+      "sequenceNumber": "62",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "76ers defensive team rebound",
+      "shortText": "76ers defensive team rebound",
+      "alternativeText": "76ers defensive team rebound",
+      "shortAlternativeText": "76ers defensive team rebound",
+      "awayScore": 10,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 499.0,
+        "displayValue": "8:19"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:27Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908962?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:24:41Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 32,
+        "y": 25
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908958?lang=en&region=us",
+      "id": "40190908958",
+      "sequenceNumber": "58",
+      "type": {
+        "id": "16",
+        "text": "Full Timeout"
+      },
+      "text": "76ers Full timeout",
+      "shortText": "76ers Full timeout",
+      "alternativeText": "76ers Full timeout",
+      "shortAlternativeText": "76ers Full timeout",
+      "awayScore": 10,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 498.0,
+        "displayValue": "8:18"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:28Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908958?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:24:42Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908960?lang=en&region=us",
+      "id": "40190908960",
+      "sequenceNumber": "60",
+      "type": {
+        "id": "215",
+        "text": "Coach's Challenge (Overturned)"
+      },
+      "text": "(08:18) [76ers] COACH'S CHALLENGE (CALL OVERTURNED) [76ers] retain their timeout",
+      "shortText": "(08:18) [76ers] COACH'S CHALLENGE (CALL OVERTURNED) [76ers] reta",
+      "alternativeText": "(08:18) [76ers] COACH'S CHALLENGE (CALL OVERTURNED) [76ers] retain their timeout",
+      "shortAlternativeText": "(08:18) [76ers] COACH'S CHALLENGE (CALL OVERTURNED) [76ers] reta",
+      "awayScore": 10,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 498.0,
+        "displayValue": "8:18"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:27Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908960?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:25:04Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908964?lang=en&region=us",
+      "id": "40190908964",
+      "sequenceNumber": "64",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Andre Drummond blocks Joel Embiid 's 11-foot jumper",
+      "shortText": "A. Drummond blocks J. Embiid 's 11-foot jumper",
+      "alternativeText": "Andre Drummond blocks Joel Embiid 's 11-foot jumper",
+      "shortAlternativeText": "A. Drummond blocks J. Embiid 's 11-foot jumper",
+      "awayScore": 10,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 484.0,
+        "displayValue": "8:04"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:28Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3059318?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3059318/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/6585?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/6585/statistics/0?lang=en&region=us"
+          },
+          "order": 3,
+          "type": "blocker"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908964?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:28:49Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 14,
+        "y": 3
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908965?lang=en&region=us",
+      "id": "40190908965",
+      "sequenceNumber": "65",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "76ers offensive team rebound",
+      "shortText": "76ers offensive team rebound",
+      "alternativeText": "76ers offensive team rebound",
+      "shortAlternativeText": "76ers offensive team rebound",
+      "awayScore": 10,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 484.0,
+        "displayValue": "8:04"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:28Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908965?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:28:49Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 14,
+        "y": 3
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908968?lang=en&region=us",
+      "id": "40190908968",
+      "sequenceNumber": "68",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Jaylen Brown misses 23-foot three point jumper",
+      "shortText": "J. Brown misses 23-foot three point jumper",
+      "alternativeText": "Jaylen Brown misses 23-foot three point jumper",
+      "shortAlternativeText": "J. Brown misses 23-foot three point jumper",
+      "awayScore": 10,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 481.0,
+        "displayValue": "8:01"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:29Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3917376?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3917376/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908968?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:29:09Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 1,
+        "y": -1
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908969?lang=en&region=us",
+      "id": "40190908969",
+      "sequenceNumber": "69",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Andre Drummond defensive rebound",
+      "shortText": "A. Drummond defensive rebound",
+      "alternativeText": "Andre Drummond defensive rebound",
+      "shortAlternativeText": "A. Drummond defensive rebound",
+      "awayScore": 10,
+      "homeScore": 5,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 481.0,
+        "displayValue": "8:01"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:29Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/6585?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/6585/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908969?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:29:09Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 1,
+        "y": -1
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908970?lang=en&region=us",
+      "id": "40190908970",
+      "sequenceNumber": "70",
+      "type": {
+        "id": "141",
+        "text": "Cutting Layup Shot"
+      },
+      "text": "Mikal Bridges makes 1-foot layup (Josh Hart assists)",
+      "shortText": "M. Bridges makes layup (J. Hart assists)",
+      "alternativeText": "Mikal Bridges makes 1-foot layup (Josh Hart assists)",
+      "shortAlternativeText": "M. Bridges makes layup (J. Hart assists)",
+      "awayScore": 10,
+      "homeScore": 7,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 467.0,
+        "displayValue": "7:47"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 2,
+      "modified": "2026-10-20T23:29Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3147657?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3147657/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3062679?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3062679/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "assister"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908970?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:29:23Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 27,
+        "y": 1
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908972?lang=en&region=us",
+      "id": "40190908972",
+      "sequenceNumber": "72",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Tyrese Maxey makes 16-foot pullup jump shot (LeBron James assists)",
+      "shortText": "T. Maxey makes pullup jump shot (L. James assists)",
+      "alternativeText": "Tyrese Maxey makes 16-foot pullup jump shot (LeBron James assists)",
+      "shortAlternativeText": "T. Maxey makes pullup jump shot (L. James assists)",
+      "awayScore": 12,
+      "homeScore": 7,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 454.0,
+        "displayValue": "7:34"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 2,
+      "modified": "2026-10-20T23:30Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4431678?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/4431678/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/1966?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/1966/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "assister"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908972?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:29:35Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 42,
+        "y": 1
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908973?lang=en&region=us",
+      "id": "40190908973",
+      "sequenceNumber": "73",
+      "type": {
+        "id": "132",
+        "text": "Step Back Jump Shot"
+      },
+      "text": "OG Anunoby misses 25-foot three point step back jumpshot",
+      "shortText": "O. Anunoby misses 25-foot three point step back jumpshot",
+      "alternativeText": "OG Anunoby misses 25-foot three point step back jumpshot",
+      "shortAlternativeText": "O. Anunoby misses 25-foot three point step back jumpshot",
+      "awayScore": 12,
+      "homeScore": 7,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 441.0,
+        "displayValue": "7:21"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:29Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934719?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934719/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908973?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:29:49Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 6,
+        "y": 18
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908974?lang=en&region=us",
+      "id": "40190908974",
+      "sequenceNumber": "74",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Andre Drummond offensive rebound",
+      "shortText": "A. Drummond offensive rebound",
+      "alternativeText": "Andre Drummond offensive rebound",
+      "shortAlternativeText": "A. Drummond offensive rebound",
+      "awayScore": 12,
+      "homeScore": 7,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 441.0,
+        "displayValue": "7:21"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:29Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/6585?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/6585/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908974?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:29:49Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 6,
+        "y": 18
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908975?lang=en&region=us",
+      "id": "40190908975",
+      "sequenceNumber": "75",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "Josh Hart makes 9-foot pullup jump shot (Andre Drummond assists)",
+      "shortText": "J. Hart makes pullup jump shot (A. Drummond assists)",
+      "alternativeText": "Josh Hart makes 9-foot pullup jump shot (Andre Drummond assists)",
+      "shortAlternativeText": "J. Hart makes pullup jump shot (A. Drummond assists)",
+      "awayScore": 12,
+      "homeScore": 9,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 435.0,
+        "displayValue": "7:15"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 2,
+      "modified": "2026-10-20T23:30Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3062679?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3062679/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/6585?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/6585/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "assister"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908975?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:30:06Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 20,
+        "y": 8
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908977?lang=en&region=us",
+      "id": "40190908977",
+      "sequenceNumber": "77",
+      "type": {
+        "id": "44",
+        "text": "Shooting Foul"
+      },
+      "text": "LeBron James shooting foul",
+      "shortText": "L. James shooting foul",
+      "alternativeText": "LeBron James shooting foul",
+      "shortAlternativeText": "L. James shooting foul",
+      "awayScore": 12,
+      "homeScore": 9,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 435.0,
+        "displayValue": "7:15"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:30Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/1966?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/1966/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "fouler"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908977?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:30:06Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 20,
+        "y": 8
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908979?lang=en&region=us",
+      "id": "40190908979",
+      "sequenceNumber": "79",
+      "type": {
+        "id": "97",
+        "text": "Free Throw - 1 of 1"
+      },
+      "text": "Josh Hart makes free throw 1 of 1",
+      "shortText": "J. Hart makes free throw 1 of 1",
+      "alternativeText": "Josh Hart makes free throw 1 of 1",
+      "shortAlternativeText": "J. Hart makes free throw 1 of 1",
+      "awayScore": 12,
+      "homeScore": 10,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 435.0,
+        "displayValue": "7:15"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 1,
+      "modified": "2026-10-20T23:30Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3062679?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3062679/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908979?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:30:06Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 1
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908980?lang=en&region=us",
+      "id": "40190908980",
+      "sequenceNumber": "80",
+      "type": {
+        "id": "8",
+        "text": "Delay of Game"
+      },
+      "text": "delay of game violation",
+      "shortText": "delay of game violation",
+      "alternativeText": "delay of game violation",
+      "shortAlternativeText": "delay of game violation",
+      "awayScore": 12,
+      "homeScore": 10,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 435.0,
+        "displayValue": "7:15"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:30Z",
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908980?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:30:06Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908982?lang=en&region=us",
+      "id": "40190908982",
+      "sequenceNumber": "82",
+      "type": {
+        "id": "128",
+        "text": "Driving Finger Roll Layup"
+      },
+      "text": "Joel Embiid makes 1-foot two point shot (LeBron James assists)",
+      "shortText": "J. Embiid makes two point shot (L. James assists)",
+      "alternativeText": "Joel Embiid makes 1-foot two point shot (LeBron James assists)",
+      "shortAlternativeText": "J. Embiid makes two point shot (L. James assists)",
+      "awayScore": 14,
+      "homeScore": 10,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 425.0,
+        "displayValue": "7:05"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 2,
+      "modified": "2026-10-20T23:31Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3059318?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3059318/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/1966?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/1966/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "assister"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908982?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:30:58Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 25,
+        "y": 2
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908984?lang=en&region=us",
+      "id": "40190908984",
+      "sequenceNumber": "84",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Josh Hart misses 25-foot three point jumper",
+      "shortText": "J. Hart misses 25-foot three point jumper",
+      "alternativeText": "Josh Hart misses 25-foot three point jumper",
+      "shortAlternativeText": "J. Hart misses 25-foot three point jumper",
+      "awayScore": 14,
+      "homeScore": 10,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 413.0,
+        "displayValue": "6:53"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:31Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3062679?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3062679/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908984?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:31:11Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 23,
+        "y": 26
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908985?lang=en&region=us",
+      "id": "40190908985",
+      "sequenceNumber": "85",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "LeBron James defensive rebound",
+      "shortText": "L. James defensive rebound",
+      "alternativeText": "LeBron James defensive rebound",
+      "shortAlternativeText": "L. James defensive rebound",
+      "awayScore": 14,
+      "homeScore": 10,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 413.0,
+        "displayValue": "6:53"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:31Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/1966?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/1966/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908985?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:31:11Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 23,
+        "y": 26
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908986?lang=en&region=us",
+      "id": "40190908986",
+      "sequenceNumber": "86",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "VJ Edgecombe misses 23-foot three point jumper",
+      "shortText": "V. Edgecombe misses 23-foot three point jumper",
+      "alternativeText": "VJ Edgecombe misses 23-foot three point jumper",
+      "shortAlternativeText": "V. Edgecombe misses 23-foot three point jumper",
+      "awayScore": 14,
+      "homeScore": 10,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 399.0,
+        "displayValue": "6:39"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:31Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/5124612?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/5124612/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908986?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:31:25Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 2,
+        "y": -1
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908987?lang=en&region=us",
+      "id": "40190908987",
+      "sequenceNumber": "87",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Andre Drummond defensive rebound",
+      "shortText": "A. Drummond defensive rebound",
+      "alternativeText": "Andre Drummond defensive rebound",
+      "shortAlternativeText": "A. Drummond defensive rebound",
+      "awayScore": 14,
+      "homeScore": 10,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 399.0,
+        "displayValue": "6:39"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:31Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/6585?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/6585/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908987?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:31:25Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 2,
+        "y": -1
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908988?lang=en&region=us",
+      "id": "40190908988",
+      "sequenceNumber": "88",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "OG Anunoby misses 25-foot three point jumper",
+      "shortText": "O. Anunoby misses 25-foot three point jumper",
+      "alternativeText": "OG Anunoby misses 25-foot three point jumper",
+      "shortAlternativeText": "O. Anunoby misses 25-foot three point jumper",
+      "awayScore": 14,
+      "homeScore": 10,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 375.0,
+        "displayValue": "6:15"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:32Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934719?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934719/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908988?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:31:49Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 3,
+        "y": 14
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908989?lang=en&region=us",
+      "id": "40190908989",
+      "sequenceNumber": "89",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Knicks offensive team rebound",
+      "shortText": "Knicks offensive team rebound",
+      "alternativeText": "Knicks offensive team rebound",
+      "shortAlternativeText": "Knicks offensive team rebound",
+      "awayScore": 14,
+      "homeScore": 10,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 375.0,
+        "displayValue": "6:15"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:32Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908989?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:31:49Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 3,
+        "y": 14
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908990?lang=en&region=us",
+      "id": "40190908990",
+      "sequenceNumber": "90",
+      "type": {
+        "id": "70",
+        "text": "Shot Clock Turnover"
+      },
+      "text": "shot clock turnover ",
+      "shortText": "turnover",
+      "alternativeText": "shot clock turnover ",
+      "shortAlternativeText": "turnover",
+      "awayScore": 14,
+      "homeScore": 10,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 372.0,
+        "displayValue": "6:12"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:32Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908990?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:31:57Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 26,
+        "y": 4
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908993?lang=en&region=us",
+      "id": "40190908993",
+      "sequenceNumber": "93",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Kentavious Caldwell-Pope enters the game for Jaylen Brown",
+      "shortText": "K. Caldwell-Pope enters the game for J. Brown",
+      "alternativeText": "Kentavious Caldwell-Pope enters the game for Jaylen Brown",
+      "shortAlternativeText": "K. Caldwell-Pope enters the game for J. Brown",
+      "awayScore": 14,
+      "homeScore": 10,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 372.0,
+        "displayValue": "6:12"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:32Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/2581018?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/2581018/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "subin"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3917376?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3917376/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "subout"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908993?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:31:57Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908994?lang=en&region=us",
+      "id": "40190908994",
+      "sequenceNumber": "94",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Anfernee Simons enters the game for Tyrese Maxey",
+      "shortText": "A. Simons enters the game for T. Maxey",
+      "alternativeText": "Anfernee Simons enters the game for Tyrese Maxey",
+      "shortAlternativeText": "A. Simons enters the game for T. Maxey",
+      "awayScore": 14,
+      "homeScore": 10,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 372.0,
+        "displayValue": "6:12"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:32Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4351851?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/4351851/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "subin"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4431678?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/4431678/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "subout"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908994?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:31:57Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908995?lang=en&region=us",
+      "id": "40190908995",
+      "sequenceNumber": "95",
+      "type": {
+        "id": "62",
+        "text": "Bad Pass\nTurnover"
+      },
+      "text": "VJ Edgecombe bad pass\nturnover (Jalen Brunson steals)",
+      "shortText": "V. Edgecombe turnover",
+      "alternativeText": "VJ Edgecombe bad pass\nturnover (Jalen Brunson steals)",
+      "shortAlternativeText": "V. Edgecombe turnover",
+      "awayScore": 14,
+      "homeScore": 10,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 363.0,
+        "displayValue": "6:03"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:32Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/5124612?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/5124612/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "offense"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934672?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934672/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "defender"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908995?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:32:35Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 10,
+        "y": 13
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908997?lang=en&region=us",
+      "id": "40190908997",
+      "sequenceNumber": "97",
+      "type": {
+        "id": "109",
+        "text": "Running Layup Shot"
+      },
+      "text": "Andre Drummond makes running layup",
+      "shortText": "A. Drummond makes running layup",
+      "alternativeText": "Andre Drummond makes running layup",
+      "shortAlternativeText": "A. Drummond makes running layup",
+      "awayScore": 14,
+      "homeScore": 12,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 357.0,
+        "displayValue": "5:57"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 2,
+      "modified": "2026-10-20T23:32Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/6585?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/6585/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908997?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:32:41Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 25,
+        "y": 1
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908998?lang=en&region=us",
+      "id": "40190908998",
+      "sequenceNumber": "98",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Anfernee Simons misses 24-foot three point jumper",
+      "shortText": "A. Simons misses 24-foot three point jumper",
+      "alternativeText": "Anfernee Simons misses 24-foot three point jumper",
+      "shortAlternativeText": "A. Simons misses 24-foot three point jumper",
+      "awayScore": 14,
+      "homeScore": 12,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 342.0,
+        "displayValue": "5:42"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:33Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4351851?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/4351851/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908998?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:32:57Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 1,
+        "y": 0
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/40190908999?lang=en&region=us",
+      "id": "40190908999",
+      "sequenceNumber": "99",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "OG Anunoby defensive rebound",
+      "shortText": "O. Anunoby defensive rebound",
+      "alternativeText": "OG Anunoby defensive rebound",
+      "shortAlternativeText": "O. Anunoby defensive rebound",
+      "awayScore": 14,
+      "homeScore": 12,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 342.0,
+        "displayValue": "5:42"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:33Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934719?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934719/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/40190908999?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:32:57Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 1,
+        "y": 0
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089102?lang=en&region=us",
+      "id": "401909089102",
+      "sequenceNumber": "102",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "OG Anunoby misses 24-foot three point jumper",
+      "shortText": "O. Anunoby misses 24-foot three point jumper",
+      "alternativeText": "OG Anunoby misses 24-foot three point jumper",
+      "shortAlternativeText": "O. Anunoby misses 24-foot three point jumper",
+      "awayScore": 14,
+      "homeScore": 12,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 327.0,
+        "displayValue": "5:27"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:33Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934719?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934719/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089102?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:33:11Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 11,
+        "y": 20
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089103?lang=en&region=us",
+      "id": "401909089103",
+      "sequenceNumber": "103",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Anfernee Simons defensive rebound",
+      "shortText": "A. Simons defensive rebound",
+      "alternativeText": "Anfernee Simons defensive rebound",
+      "shortAlternativeText": "A. Simons defensive rebound",
+      "awayScore": 14,
+      "homeScore": 12,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 327.0,
+        "displayValue": "5:27"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:33Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4351851?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/4351851/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089103?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:33:11Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 11,
+        "y": 20
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089104?lang=en&region=us",
+      "id": "401909089104",
+      "sequenceNumber": "104",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Joel Embiid misses 25-foot three point jumper",
+      "shortText": "J. Embiid misses 25-foot three point jumper",
+      "alternativeText": "Joel Embiid misses 25-foot three point jumper",
+      "shortAlternativeText": "J. Embiid misses 25-foot three point jumper",
+      "awayScore": 14,
+      "homeScore": 12,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 315.0,
+        "displayValue": "5:15"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:33Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3059318?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3059318/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089104?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:33:23Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 23,
+        "y": 26
+      },
+      "pointsAttempted": 3
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089105?lang=en&region=us",
+      "id": "401909089105",
+      "sequenceNumber": "105",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Mikal Bridges defensive rebound",
+      "shortText": "M. Bridges defensive rebound",
+      "alternativeText": "Mikal Bridges defensive rebound",
+      "shortAlternativeText": "M. Bridges defensive rebound",
+      "awayScore": 14,
+      "homeScore": 12,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 315.0,
+        "displayValue": "5:15"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:33Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3147657?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3147657/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089105?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:33:23Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 23,
+        "y": 26
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089106?lang=en&region=us",
+      "id": "401909089106",
+      "sequenceNumber": "106",
+      "type": {
+        "id": "137",
+        "text": "Turnaround Fade Away Jump Shot"
+      },
+      "text": "Mikal Bridges misses 11-foot two point shot",
+      "shortText": "M. Bridges misses 11-foot two point shot",
+      "alternativeText": "Mikal Bridges misses 11-foot two point shot",
+      "shortAlternativeText": "M. Bridges misses 11-foot two point shot",
+      "awayScore": 14,
+      "homeScore": 12,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 294.0,
+        "displayValue": "4:54"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:33Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3147657?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3147657/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089106?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:33:44Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 28,
+        "y": 11
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089107?lang=en&region=us",
+      "id": "401909089107",
+      "sequenceNumber": "107",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "OG Anunoby offensive rebound",
+      "shortText": "O. Anunoby offensive rebound",
+      "alternativeText": "OG Anunoby offensive rebound",
+      "shortAlternativeText": "O. Anunoby offensive rebound",
+      "awayScore": 14,
+      "homeScore": 12,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 294.0,
+        "displayValue": "4:54"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:33Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934719?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934719/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089107?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:33:44Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 28,
+        "y": 11
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089108?lang=en&region=us",
+      "id": "401909089108",
+      "sequenceNumber": "108",
+      "type": {
+        "id": "138",
+        "text": "Putback Dunk Shot"
+      },
+      "text": "OG Anunoby makes dunk",
+      "shortText": "O. Anunoby makes dunk",
+      "alternativeText": "OG Anunoby makes dunk",
+      "shortAlternativeText": "O. Anunoby makes dunk",
+      "awayScore": 14,
+      "homeScore": 14,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 291.0,
+        "displayValue": "4:51"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 2,
+      "modified": "2026-10-20T23:34Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934719?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934719/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089108?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:33:47Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 25,
+        "y": 0
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089109?lang=en&region=us",
+      "id": "401909089109",
+      "sequenceNumber": "109",
+      "type": {
+        "id": "45",
+        "text": "Personal Foul"
+      },
+      "text": "OG Anunoby personal foul",
+      "shortText": "O. Anunoby personal foul",
+      "alternativeText": "OG Anunoby personal foul",
+      "shortAlternativeText": "O. Anunoby personal foul",
+      "awayScore": 14,
+      "homeScore": 14,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 268.0,
+        "displayValue": "4:28"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:34Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934719?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934719/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "fouler"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089109?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:34:10Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 4,
+        "y": 16
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089116?lang=en&region=us",
+      "id": "401909089116",
+      "sequenceNumber": "116",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Landry Shamet enters the game for Mikal Bridges",
+      "shortText": "L. Shamet enters the game for M. Bridges",
+      "alternativeText": "Landry Shamet enters the game for Mikal Bridges",
+      "shortAlternativeText": "L. Shamet enters the game for M. Bridges",
+      "awayScore": 14,
+      "homeScore": 14,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 268.0,
+        "displayValue": "4:28"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:35Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3914044?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3914044/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "subin"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3147657?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3147657/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "subout"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089116?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:34:10Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089117?lang=en&region=us",
+      "id": "401909089117",
+      "sequenceNumber": "117",
+      "type": {
+        "id": "584",
+        "text": "Substitution"
+      },
+      "text": "Miles McBride enters the game for OG Anunoby",
+      "shortText": "M. McBride enters the game for O. Anunoby",
+      "alternativeText": "Miles McBride enters the game for OG Anunoby",
+      "shortAlternativeText": "M. McBride enters the game for O. Anunoby",
+      "awayScore": 14,
+      "homeScore": 14,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 268.0,
+        "displayValue": "4:28"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:35Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4431823?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/4431823/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "subin"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3934719?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/7?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3934719/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "subout"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089117?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:34:10Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": -214748340,
+        "y": -214748365
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089118?lang=en&region=us",
+      "id": "401909089118",
+      "sequenceNumber": "118",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Joel Embiid misses 17-foot jumper",
+      "shortText": "J. Embiid misses 17-foot jumper",
+      "alternativeText": "Joel Embiid misses 17-foot jumper",
+      "shortAlternativeText": "J. Embiid misses 17-foot jumper",
+      "awayScore": 14,
+      "homeScore": 14,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 258.0,
+        "displayValue": "4:18"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:35Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3059318?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3059318/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089118?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:34:58Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 32,
+        "y": 16
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089119?lang=en&region=us",
+      "id": "401909089119",
+      "sequenceNumber": "119",
+      "type": {
+        "id": "155",
+        "text": "Defensive Rebound"
+      },
+      "text": "Josh Hart defensive rebound",
+      "shortText": "J. Hart defensive rebound",
+      "alternativeText": "Josh Hart defensive rebound",
+      "shortAlternativeText": "J. Hart defensive rebound",
+      "awayScore": 14,
+      "homeScore": 14,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 258.0,
+        "displayValue": "4:18"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:35Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3062679?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3062679/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089119?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:34:58Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 32,
+        "y": 16
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089120?lang=en&region=us",
+      "id": "401909089120",
+      "sequenceNumber": "120",
+      "type": {
+        "id": "116",
+        "text": "Running Dunk Shot"
+      },
+      "text": "Joel Embiid blocks Andre Drummond 's 2-foot running dunk",
+      "shortText": "J. Embiid blocks A. Drummond 's 2-foot running dunk",
+      "alternativeText": "Joel Embiid blocks Andre Drummond 's 2-foot running dunk",
+      "shortAlternativeText": "J. Embiid blocks A. Drummond 's 2-foot running dunk",
+      "awayScore": 14,
+      "homeScore": 14,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 251.0,
+        "displayValue": "4:11"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:35Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/6585?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/6585/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3059318?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/3059318/statistics/0?lang=en&region=us"
+          },
+          "order": 3,
+          "type": "blocker"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089120?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:35:05Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 26,
+        "y": 2
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089121?lang=en&region=us",
+      "id": "401909089121",
+      "sequenceNumber": "121",
+      "type": {
+        "id": "156",
+        "text": "Offensive Rebound"
+      },
+      "text": "Andre Drummond offensive rebound",
+      "shortText": "A. Drummond offensive rebound",
+      "alternativeText": "Andre Drummond offensive rebound",
+      "shortAlternativeText": "A. Drummond offensive rebound",
+      "awayScore": 14,
+      "homeScore": 14,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 251.0,
+        "displayValue": "4:11"
+      },
+      "valid": true,
+      "scoringPlay": false,
+      "priority": false,
+      "scoreValue": 0,
+      "modified": "2026-10-20T23:35Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/6585?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/6585/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "rebounder"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089121?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:35:05Z",
+      "shootingPlay": false,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 26,
+        "y": 2
+      },
+      "pointsAttempted": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089123?lang=en&region=us",
+      "id": "401909089123",
+      "sequenceNumber": "123",
+      "type": {
+        "id": "93",
+        "text": "Hook Shot"
+      },
+      "text": "Andre Drummond makes 2-foot hook shot",
+      "shortText": "A. Drummond makes hook shot",
+      "alternativeText": "Andre Drummond makes 2-foot hook shot",
+      "shortAlternativeText": "A. Drummond makes hook shot",
+      "awayScore": 14,
+      "homeScore": 16,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 246.0,
+        "displayValue": "4:06"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 2,
+      "modified": "2026-10-20T23:35Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/6585?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/9?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/6585/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089123?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:35:09Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 25,
+        "y": 3
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089124?lang=en&region=us",
+      "id": "401909089124",
+      "sequenceNumber": "124",
+      "type": {
+        "id": "131",
+        "text": "Pullup Jump Shot"
+      },
+      "text": "VJ Edgecombe makes 13-foot pullup jump shot",
+      "shortText": "V. Edgecombe makes pullup jump shot",
+      "alternativeText": "VJ Edgecombe makes 13-foot pullup jump shot",
+      "shortAlternativeText": "V. Edgecombe makes pullup jump shot",
+      "awayScore": 16,
+      "homeScore": 16,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 232.0,
+        "displayValue": "3:52"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 2,
+      "modified": "2026-10-20T23:35Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/5124612?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/20/roster/5124612/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089124?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:35:24Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/20?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 16,
+        "y": 9
+      },
+      "pointsAttempted": 2
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/plays/401909089125?lang=en&region=us",
+      "id": "401909089125",
+      "sequenceNumber": "125",
+      "type": {
+        "id": "92",
+        "text": "Jump Shot"
+      },
+      "text": "Miles McBride makes 23-foot three point jumper (Landry Shamet assists)",
+      "shortText": "M. McBride makes three point jumper (L. Shamet assists)",
+      "alternativeText": "Miles McBride makes 23-foot three point jumper (Landry Shamet assists)",
+      "shortAlternativeText": "M. McBride makes three point jumper (L. Shamet assists)",
+      "awayScore": 16,
+      "homeScore": 19,
+      "period": {
+        "number": 1,
+        "displayValue": "1st Quarter"
+      },
+      "clock": {
+        "value": 223.0,
+        "displayValue": "3:43"
+      },
+      "valid": true,
+      "scoringPlay": true,
+      "priority": false,
+      "scoreValue": 3,
+      "modified": "2026-10-20T23:35Z",
+      "team": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "participants": [
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/4431823?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/4431823/statistics/0?lang=en&region=us"
+          },
+          "order": 1,
+          "type": "shooter"
+        },
+        {
+          "athlete": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3914044?lang=en&region=us"
+          },
+          "position": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/positions/3?lang=en&region=us"
+          },
+          "statistics": {
+            "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/competitors/18/roster/3914044/statistics/0?lang=en&region=us"
+          },
+          "order": 2,
+          "type": "assister"
+        }
+      ],
+      "probability": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909089/competitions/401909089/probabilities/401909089125?lang=en&region=us"
+      },
+      "wallclock": "2026-10-20T23:35:33Z",
+      "shootingPlay": true,
+      "possessionTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/teams/18?lang=en&region=us"
+      },
+      "coordinate": {
+        "x": 49,
+        "y": 0
+      },
+      "pointsAttempted": 3
+    }
+  ]
+}

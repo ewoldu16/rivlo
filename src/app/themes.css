@@ -1,0 +1,8 @@
+/* Functional accent themes, shared across all existing routes. */
+.app.accent-blue{--accent:#249bff;--accent-hover:color-mix(in srgb,#249bff 75%,white)}
+.app.accent-violet{--accent:#a078ff;--accent-hover:color-mix(in srgb,#a078ff 75%,white)}
+.app.accent-magenta{--accent:#ed56b0;--accent-hover:color-mix(in srgb,#ed56b0 75%,white)}
+.app.accent-orange{--accent:#ff7645;--accent-hover:color-mix(in srgb,#ff7645 75%,white)}
+.app.accent-gold{--accent:#ffbe35;--accent-hover:color-mix(in srgb,#ffbe35 75%,white)}
+.app.accent-green{--accent:#00d581;--accent-hover:color-mix(in srgb,#00d581 75%,white)}
+.app.accent-pink{--accent:#ff4fa7;--accent-hover:color-mix(in srgb,#ff4fa7 75%,white)}

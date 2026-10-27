@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-20",
+  "source": "Actual production app and real ESPN responses; Europe/London browser timezone",
+  "errors": [],
+  "audit": [
+    {
+      "width": 390,
+      "currentModalHeight": 844,
+      "historicalModalHeight": 844,
+      "pageOverflow": false,
+      "modalOverflow": false
+    },
+    {
+      "check": "mobile-bottom-clearance",
+      "navTop": 778,
+      "navBottom": 844,
+      "footerBottom": 743.9375
+    },
+    {
+      "width": 768,
+      "currentModalHeight": 749.359375,
+      "historicalModalHeight": 717.765625,
+      "pageOverflow": false,
+      "modalOverflow": false
+    },
+    {
+      "width": 1024,
+      "currentModalHeight": 737.296875,
+      "historicalModalHeight": 703.90625,
+      "pageOverflow": false,
+      "modalOverflow": false
+    },
+    {
+      "width": 1440,
+      "currentModalHeight": 737.296875,
+      "historicalModalHeight": 703.90625,
+      "pageOverflow": false,
+      "modalOverflow": false
+    },
+    {
+      "width": 1920,
+      "currentModalHeight": 737.296875,
+      "historicalModalHeight": 703.90625,
+      "pageOverflow": false,
+      "modalOverflow": false
+    }
+  ],
+  "meeting": {
+    "target": "/games/espn-401809250",
+    "url": "http://127.0.0.1:3200/games/espn-401809250",
+    "awayScore": "103",
+    "homeScore": "104",
+    "date": "Tue, 20 Jan 2026Little Caesars Arena"
+  }
+}

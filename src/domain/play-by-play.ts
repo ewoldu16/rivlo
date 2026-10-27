@@ -1,0 +1,7 @@
+import {z} from 'zod';
+import {gameBoxSnapshotSchema} from './game-detail';
+export const playSchema=z.object({id:z.string().regex(/^\d+$/),sequence:z.number().int().nonnegative(),period:z.number().int().positive().nullable(),clock:z.string().nullable(),text:z.string().min(1),type:z.string().nullable(),teamId:z.string().nullable(),players:z.array(z.object({id:z.string().regex(/^\d+$/),name:z.string().optional(),role:z.string().optional()})),homeScore:z.number().int().nonnegative().nullable(),awayScore:z.number().int().nonnegative().nullable(),wallclock:z.string().datetime().nullable(),modified:z.string().datetime().nullable(),scoringPlay:z.boolean().optional(),shootingPlay:z.boolean().optional(),scoreValue:z.number().int().nonnegative().optional(),pointsAttempted:z.number().int().nonnegative().optional(),coordinate:z.object({x:z.number().min(0).max(50),y:z.number().min(0).max(50)}).optional()});
+export const playByPlaySchema=z.object({gameId:z.string(),source:z.enum(['ESPN summary','ESPN Core']),events:z.array(playSchema),fetchedAt:z.string().datetime(),sourceUpdatedAt:z.string().datetime().nullable(),partial:z.boolean(),warnings:z.array(z.string()),boxScore:gameBoxSnapshotSchema.optional()});
+export type Play=z.infer<typeof playSchema>;
+export type PlayByPlay=z.infer<typeof playByPlaySchema>;
+export function nbaPollDelay(games:{status:string}[],failures=0){const base=!games.length?15000:games.some(g=>g.status==='in-progress')?10000:games.some(g=>g.status==='upcoming')?15000:60000;return Math.min(60000,base*2**Math.min(failures,3));}

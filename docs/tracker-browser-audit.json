@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-19",
+  "errors": [],
+  "saved": {
+    "version": 1,
+    "targets": [
+      {
+        "id": "a659b549-dde5-4b6c-a9df-b1c952b4d985",
+        "gameId": "espn-401859964",
+        "player": {
+          "id": "5104157",
+          "name": "Victor Wembanyama",
+          "jersey": "1",
+          "position": "F",
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png"
+        },
+        "team": {
+          "id": "espn-team-24",
+          "city": "San Antonio",
+          "name": "Spurs",
+          "short": "SA",
+          "color": "#000000",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+        },
+        "opponent": {
+          "id": "espn-team-18",
+          "city": "New York",
+          "name": "Knicks",
+          "short": "NY",
+          "color": "#1d428a",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png"
+        },
+        "start": "2026-06-06T00:30:00.000Z",
+        "category": "PTS",
+        "operator": "at-least",
+        "threshold": 25,
+        "collectionId": "4328ee4a-f994-4bf1-9f1b-a59ab4767ccd",
+        "archived": false
+      },
+      {
+        "id": "f26f625d-cc34-40f0-8b6a-85c4eb750133",
+        "gameId": "espn-401859964",
+        "player": {
+          "id": "5104157",
+          "name": "Victor Wembanyama",
+          "jersey": "1",
+          "position": "F",
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png"
+        },
+        "team": {
+          "id": "espn-team-24",
+          "city": "San Antonio",
+          "name": "Spurs",
+          "short": "SA",
+          "color": "#000000",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+        },
+        "opponent": {
+          "id": "espn-team-18",
+          "city": "New York",
+          "name": "Knicks",
+          "short": "NY",
+          "color": "#1d428a",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png"
+        },
+        "start": "2026-06-06T00:30:00.000Z",
+        "category": "PRA",
+        "operator": "at-most",
+        "threshold": 40,
+        "collectionId": "4328ee4a-f994-4bf1-9f1b-a59ab4767ccd",
+        "archived": false
+      },
+      {
+        "id": "be825e32-2299-43a3-a0ff-5dcdce2c6ab2",
+        "gameId": "espn-401859964",
+        "player": {
+          "id": "5104157",
+          "name": "Victor Wembanyama",
+          "jersey": "1",
+          "position": "F",
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png"
+        },
+        "team": {
+          "id": "espn-team-24",
+          "city": "San Antonio",
+          "name": "Spurs",
+          "short": "SA",
+          "color": "#000000",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png"
+        },
+        "opponent": {
+          "id": "espn-team-18",
+          "city": "New York",
+          "name": "Knicks",
+          "short": "NY",
+          "color": "#1d428a",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/ny.png"
+        },
+        "start": "2026-06-06T00:30:00.000Z",
+        "category": "3PM",
+        "operator": "at-least",
+        "threshold": 2,
+        "collectionId": "4328ee4a-f994-4bf1-9f1b-a59ab4767ccd",
+        "archived": false
+      }
+    ],
+    "collections": [
+      {
+        "id": "4328ee4a-f994-4bf1-9f1b-a59ab4767ccd",
+        "name": "Finals watch"
+      }
+    ]
+  }
+}

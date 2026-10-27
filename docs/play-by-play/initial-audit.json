@@ -1,0 +1,101 @@
+[
+  {
+    "source": "summary",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909088",
+    "at": "2026-10-20T21:26:46.737204+00:00",
+    "ms": 163,
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,OPTIONS,HEAD",
+      "Access-Control-Expose-Headers": "content-length,location",
+      "Link": "<summary.json#>; rel=\"describedby\"",
+      "Vary": "Accept-Encoding",
+      "Cache-Control": "max-age=1",
+      "Date": "Tue, 20 Oct 2026 21:26:47 GMT",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close"
+    },
+    "keys": [
+      "boxscore",
+      "format",
+      "gameInfo",
+      "leaders",
+      "seasonseries",
+      "injuries",
+      "broadcasts",
+      "pickcenter",
+      "odds",
+      "againstTheSpread",
+      "news",
+      "videos",
+      "plays",
+      "winprobability",
+      "header",
+      "wallclockAvailable",
+      "meta",
+      "standings"
+    ],
+    "body": "{'boxscore': {'teams': [{'team': {'id': '2', 'uid': 's:40~l:46~t:2', 'slug': 'boston-celtics', 'location': 'Boston', 'name': 'Celtics', 'abbreviation': 'BOS', 'displayName': 'Boston Celtics', 'shortDi"
+  },
+  {
+    "source": "core",
+    "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/plays?limit=1000",
+    "at": "2026-10-20T21:26:46.737854+00:00",
+    "ms": 877,
+    "headers": {
+      "Date": "Tue, 20 Oct 2026 21:26:47 GMT",
+      "Content-Type": "application/json;charset=utf-8",
+      "Content-Length": "875158",
+      "Connection": "close",
+      "access-control-allow-origin": "*",
+      "via": "1.1 89d223e324a7 (Varnish/7.5)",
+      "accept-ranges": "bytes",
+      "Cache-Control": "max-age=7, stale-while-revalidate=7200",
+      "vary": "Accept-Encoding"
+    },
+    "keys": [
+      "$ref",
+      "count",
+      "pageIndex",
+      "pageSize",
+      "pageCount",
+      "items"
+    ],
+    "body": "{'$ref': 'http://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909088/competitions/401909088/plays?lang=en&region=us', 'count': 467, 'pageIndex': 1, 'pageSize': 1000, 'pageCount'"
+  },
+  {
+    "source": "cdn",
+    "url": "https://cdn.espn.com/core/nba/playbyplay?xhr=1&gameId=401909088",
+    "at": "2026-10-20T21:26:46.738236+00:00",
+    "ms": 384,
+    "headers": {
+      "Content-Type": "application/json;charset=utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "X-Amz-Cf-Pop": "LHR50-P5",
+      "X-Amz-Cf-Id": "htkUb_3-ajPkwFRi9iVjmPKUeIQj-IRpiCU9tqMIk1w2540IwdQv8Q==",
+      "Vary": "Accept-Encoding",
+      "Cache-Control": "max-age=300",
+      "Date": "Tue, 20 Oct 2026 21:26:47 GMT",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close"
+    },
+    "keys": [
+      "gameId",
+      "gamepackageJSON",
+      "customStyleSheet",
+      "type",
+      "content",
+      "__gamepackage__",
+      "analytics",
+      "ads",
+      "targeting",
+      "meta",
+      "nowFeedSupported",
+      "customNav",
+      "sport",
+      "tier2Nav"
+    ],
+    "body": "{'gameId': 401909088, 'gamepackageJSON': {'news': {'link': {'isExternal': False, 'shortText': 'All News', 'rel': ['index', 'desktop', 'league'], 'language': 'en-US', 'href': 'https://www.espn.com/nba/"
+  }
+]
